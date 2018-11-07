@@ -1,58 +1,62 @@
 # Econometrics by replication
 
-Stay fit and confident in your quantitative skills by replicating published 
-research findings using open source software. 
+Stay fit and confident in your quantitative skills by replicating published research findings using open source software. 
 
-# Subject areas
+I choose papers that are:
 
-I choose papers that are any of:
+- important milestones, 'seminal', widely cited, or
+- good subject area reviews, or
+- easy to understand and replicate, honest and friendly to reader, or
+- already have code and data attached,
+- or sevral things from the above. 
 
-- important milestones, 'seminal', widely cited
-- good subject area reviews
-- easy to understand and replicate, honest and friendly to reader
-- already have code and data attached
+# 1. Finance
 
-## 1. Finance
-
-### Exchange rates
+## Exchange rates
 
 - Messe/Rogoff
 - review by Barabara Rossi
 - anything by Sarno 
 
-### Interest rates
+## Interest rates
 
 - Nelson-Siegel 
 
-### Value-at-risk
+## Value-at-risk
 
 - There must be something easy and approachable
 
-### Credit risk, IFRS
+## Credit risk, IFRS
 
-- There must be something easy and approachable
+- There must be something easy and approachable 
+- For now [this](https://www.mathworks.com/campaigns/offers/ifrs-9-cecl-model-regulations-compliance.html)
 
-## 2. Macroeconometrics
+# 2. Macroeconometrics
 
-- Kalman and other time series filtering 
-- state space representation
+- Kalman and other time series filtering, state space representation
+- something on probability of recession from G Perez-Quiros
+- stationarity of macro time series
+- does Taylor rule work?
+- Lucas critique (?)
 - anything friendlier than Smets/Vouters for DSGE
 
+# 3. Power sector
 
-## 3. Everything else
+## Electricity prices
 
+- Nektaria's and Derek's paper
 
-### Electricity prices
+# 4. Everything else
 
-- Nektaria's paper
+I know there are great replicable things throughout the JEL classification. I just do not know too much about them. 
 
-### Policy evaluation
+## Policy evaluation
 
-Anything that 
+Anything they teach at [irvapp](https://irvapp.fbk.eu/trainings/detail/14117/irvapp-winter-school-2019-fundamentals-and-methods-for-impact-evaluation-of-public-policies-2019/), *a variety of statistical tools for counterfactual analysis (including Matching methods, Instrumental Variables, Regression Discontinuity Designs, Difference-in-Differences, and Synthetic Control Methods)*
 
-### 
+# Bits of wisdom and good clues
 
-## Good entry points
+# Some entry points I (probably should) often look 
 
 Code and articles in econometrics is surprisingly rare,
 econometricians seem not to like github. 
@@ -62,6 +66,7 @@ econometricians seem not to like github.
 - uni-replication 
 - stackoverflow
 - gretl examples
+- journals, journals, journals
 
 # Project notes 
 
