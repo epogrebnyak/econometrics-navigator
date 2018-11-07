@@ -57,6 +57,21 @@ Anything they teach at [irvapp](https://irvapp.fbk.eu/trainings/detail/14117/irv
 
 # Bits of wisdom and good clues
 
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Very cool teaching tool here to help introduce students to OLS regression: <a href="https://t.co/eQV4rAQt7O">https://t.co/eQV4rAQt7O</a></p>&mdash; Nicholas Hillman (@n_hillman) <a href="https://twitter.com/n_hillman/status/1039216997727436803?ref_src=twsrc%5Etfw">10 сентября 2018 г.</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+What Have Economists Learned About the International Economy? https://youtu.be/RpAF8Px-E_A 
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">You might take a look at our Guide to R, which we use, along with tutorial scripts, to teach intro econometrics.  <a href="https://t.co/G5zPoL9Iyj">https://t.co/G5zPoL9Iyj</a> 1/2</p>&mdash; Michael Kevane (@mkevane) <a href="https://twitter.com/mkevane/status/1040653571627184128?ref_src=twsrc%5Etfw">14 сентября 2018 г.</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 # Some entry points I (probably should) often look 
 
 Code and articles in econometrics is surprisingly rare,
@@ -67,6 +82,7 @@ econometricians seem not to like github.
 - uni-replication 
 - stackoverflow
 - gretl examples
+- [ARPM for risk](https://www.mathworks.com/videos/the-prayer-ten-step-checklist-for-advanced-risk-and-portfolio-management-with-attilio-meucci-81834.html)
 - journals, journals, journals
 
 # Project notes 
