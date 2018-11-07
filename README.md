@@ -39,6 +39,7 @@ I choose papers that are:
 - does Taylor rule work?
 - Lucas critique (?)
 - anything friendlier than Smets/Vouters for DSGE
+- [matlab-and-macroeconomic-stress-testing](https://www.mathworks.com/videos/matlab-and-macroeconomic-stress-testing-118689.html)
 
 # 3. Power sector
 
