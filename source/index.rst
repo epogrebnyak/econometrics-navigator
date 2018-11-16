@@ -8,11 +8,10 @@ Welcome to Econometrics Navigator!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
 
    intro.md  
    notes.md 
-   articles.md
+   references.md
    history.md
    data.md
 
