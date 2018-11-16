@@ -13,12 +13,11 @@ List of lists
 Key texts
 ---------
 
-General:  Greene? Stock and Watson? Hayashi? McKinnon*? Verbeek? 
+General:  Greene? Stock and Watson? Hayashi? Kennedy? Verbeek? 
 
-Time series:  Hamilton + https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf
-+ https://www.sciencedirect.com/science/article/pii/S1573441284020092 
+Time series:  Hamilton + [Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf) + [Granger/Watson Time series and spectral methods in econometrics in Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S1573441284020092 ) 
 
-Machine learning:  An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani + Andrew Ng course 
+Machine learning:  An Introduction to Statistical Learning. Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani + Andrew Ng course 
 Deep learning:  Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville + fast.ai 
 
 
