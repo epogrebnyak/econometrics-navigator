@@ -1,4 +1,4 @@
-# Intro
+# Developpers notes
 
 **Goal**: refresh econometrics by reviewing and replicating 
           some working papers and connect the dots on a mindmap 

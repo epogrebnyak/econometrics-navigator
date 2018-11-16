@@ -1,3 +1,14 @@
+Contents in brief  
+=================
+
+```
+Introduction 
+1. Interviews
+2. Methods and concepts reference
+3. Usecases - replication work
+Appendices
+```
+
 Notes
 =====
 
@@ -17,7 +28,7 @@ Introduction
 
 1. Interview with EL + other short interviews
 
-2. Reference of concepts and techniques
+2. Reference of concepts and methods
   - Estimation 
      - OLS
      - Max Likelihood
@@ -26,7 +37,8 @@ Introduction
   - Panel data
   - Classification
 
-3. Usecases (macro, finance, risk and microeconomics)
+3. Usecases - replication of articles 
+   (macro, finance, risk and microeconomics)
 
 Appendix:
     - Appendix 1: Econometrix mindmap
@@ -59,7 +71,7 @@ Math: Y = BX + e
 Assumptions:
    e is normally distributed
 
-Usual steps:
+Common steps:
    0. think of what may explain what
    1. specify model: select regressors, transform variables
    2. estimate coefficients
@@ -162,9 +174,4 @@ History of econometrics
 -----------------------
 
    <history.md>
-
-
-Seminal papers and references
------------------------------
-
-   <multiple_takes_on_econometrics.md>
+   
