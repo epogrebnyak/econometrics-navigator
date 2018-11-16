@@ -10,16 +10,18 @@ List of lists
 - https://davegiles.blogspot.com/2012/06/highly-cited-statistical-papers-for.html
 
 
-Main references
----------------
+Key texts
+---------
 
-     Area          |     'Bible' + Complements   |    
--------------------|----------------|
-General            |  Greene? Stock and Watson? Hayashi? McKinnon*? Verbeek?
+Area               |     'Bible' + Complements  | 
+-------------------|----------------------------|
+General            |  Greene? Stock and Watson? Hayashi? McKinnon*? Verbeek? |
+
+
 Time series        |  Hamilton + https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf
-+ https://www.sciencedirect.com/science/article/pii/S1573441284020092 
-Machine learning   |  An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani + Andrew Ng course
-Deep learning      |  Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville + fast.ai
++ https://www.sciencedirect.com/science/article/pii/S1573441284020092 |
+Machine learning   |  An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani + Andrew Ng course |
+Deep learning      |  Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville + fast.ai |
 
 
 Seminal papers:
