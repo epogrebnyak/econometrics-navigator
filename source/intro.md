@@ -1,4 +1,5 @@
-# Developpers notes
+Developpers notes
+=================
 
 **Goal**: refresh econometrics by reviewing and replicating 
           some working papers and connect the dots on a mindmap 
@@ -30,7 +31,8 @@
 - get other people to review
 
 
-## Observations
+Observations
+------------
 
 - 'data science' became more appealing than econometrics
 - panel vs time series data
