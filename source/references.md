@@ -1,6 +1,15 @@
 References
 ==========
 
+List of lists
+-------------
+
+- https://andrewgelman.com/2014/03/31/cited-statistics-papers-ever/ 
+- https://core.ac.uk/download/pdf/6237204.pdf
+- See JEL section C in https://hal.archives-ouvertes.fr/hal-01634432/document
+- https://davegiles.blogspot.com/2012/06/highly-cited-statistical-papers-for.html
+
+
 Main references
 ---------------
 
@@ -12,10 +21,9 @@ Time series        |  Hamilton + https://www.sas.upenn.edu/~fdiebold/Teaching706
 Machine learning   |  An Introduction to Statistical Learning - Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani + Andrew Ng course
 Deep learning      |  Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville + fast.ai
 
-References
-----------
 
 Seminal papers:
+---------------
 
 - Marquardt, Donald W. “An algorithm for least-squares estimation of nonlinear parameters.” Journal of the Society for Industrial & Applied Mathematics 11.2 (1963): 431-441.
 
@@ -27,27 +35,21 @@ Seminal papers:
 
 - Engle, Robert F., and Clive WJ Granger. “Co-integration and error correction: representation, estimation, and testing.” Econometrica: journal of the Econometric Society (1987): 251-276.
 
-Popular papers:
+Other papers
+-------------
+
+Popular:
 
 - [A PANIC ATTACK ON UNIT ROOTS AND COINTEGRATION Econometrica , Vol. 72, No. 4 (July, 2004), 1127–1177](http://www.columbia.edu/~jb3064/papers/2004_A_panic_attack_on_unit_roots_and_cointegration.pdf)
 
 
 - [EFFICIENT TESTS FOR AN AUTOREGRESSIVE UNIT ROOT Econometrica, Vol. 64, No. 4 (July, 1996), 813-836](https://scholar.harvard.edu/files/stock/files/efficient_tests_for_an_autoregressive_unit_root.pdf)
 
-Domain papers:
+Domain knowledge:
 
 - [A Century of Work and Leisure](https://www.aeaweb.org/articles?id=10.1257/mac.1.2.189)
 
 - [A Black Swan in the Money Market](https://www.nber.org/papers/w13943) - with simple OLS
-
-
-List of lists
--------------
-
-- https://andrewgelman.com/2014/03/31/cited-statistics-papers-ever/ 
-- https://core.ac.uk/download/pdf/6237204.pdf
-- See JEL section C in https://hal.archives-ouvertes.fr/hal-01634432/document
-- https://davegiles.blogspot.com/2012/06/highly-cited-statistical-papers-for.html
 
 
 Teaching OLS
@@ -105,5 +107,3 @@ Apps
 ----
 
 - https://radiant-rstats.github.io/docs/install.html
-
-
