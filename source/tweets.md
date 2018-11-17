@@ -1,4 +1,4 @@
-# Good clues from Tweeter
+# Good clues from Twitter
 
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
 

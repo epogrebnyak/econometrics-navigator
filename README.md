@@ -1,114 +1,30 @@
-# Econometrics by replication
+# Econometrics navigator
 
-Stay fit and confident in your quantitative skills by replicating published research findings using open source software. 
+## What is it?
 
-I choose papers that are:
+*Econometrics navigator* (`100NightsOfEconometrics`) is a collaborative 
+open source guide to econometrics featuring:
 
-- important milestones, 'seminal', widely cited, or
-- good subject area reviews, or
-- easy to understand and replicate, honest and friendly to reader, or
-- already have code and data attached,
-- or sevral things from the above. 
+1. practitioner interviews
+2. structured overviews of econmetric concepts and techniques
+3. econometrics use cases of in macro, finance, risk, 
+  policy evaluation and microeconomic research
+4. data sources and software advice
 
+We aim to make entry into the econometrics easy, highlight paths to self-study, 
+show replication of important results, and appeal to intuition and practical 
+experience, which is growingly exposed at Stack Overflow, Twitter and other media.
 
-# Bits of wisdom and good clues
+Extended version of developper intents is [found here](source/_no_show.txt)
 
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
+## Where is it?
 
+The Navigator is found at <https://epogrebnyak.github.io/econometrics-navigator>.
+Source files are in this repo (see [source](source) folder).
 
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Very cool teaching tool here to help introduce students to OLS regression: <a href="https://t.co/eQV4rAQt7O">https://t.co/eQV4rAQt7O</a></p>&mdash; Nicholas Hillman (@n_hillman) <a href="https://twitter.com/n_hillman/status/1039216997727436803?ref_src=twsrc%5Etfw">10 сентября 2018 г.</a></blockquote>
+## Tech stack
 
+I write in markdown and put files together into HTML using [sphinx](http://www.sphinx-doc.org/en/master/). The HTML output is pushed to Github Pages.
+I'm hopeful to produce a nicely looking PDF using [pandoc](https://pandoc.org/) 
+and LATEX.
 
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
-
-
-What Have Economists Learned About the International Economy? https://youtu.be/RpAF8Px-E_A 
-
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">You might take a look at our Guide to R, which we use, along with tutorial scripts, to teach intro econometrics.  <a href="https://t.co/G5zPoL9Iyj">https://t.co/G5zPoL9Iyj</a> 1/2</p>&mdash; Michael Kevane (@mkevane) <a href="https://twitter.com/mkevane/status/1040653571627184128?ref_src=twsrc%5Etfw">14 сентября 2018 г.</a></blockquote>
-
-https://peterroelants.github.io/posts/linear-regression-four-ways/
-
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">If a psychologist sees an R^2 of .62 they go back to find the error they made <a href="https://t.co/Nf33adiHKR">https://t.co/Nf33adiHKR</a></p>&mdash; Alexander Etz (@AlxEtz) <a href="https://twitter.com/AlxEtz/status/1058780067403198464?ref_src=twsrc%5Etfw">3 ноября 2018 г.</a></blockquote>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ru"><p lang="en" dir="ltr">I see way to many people confused about this: You can&#39;t test the validity of your instruments. Don&#39;t even try! <a href="https://t.co/AjPvy6dOkL">https://t.co/AjPvy6dOkL</a> <a href="https://twitter.com/hashtag/CausalInference?src=hash&amp;ref_src=twsrc%5Etfw">#CausalInference</a> <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/Econometrics?src=hash&amp;ref_src=twsrc%5Etfw">#Econometrics</a> <a href="https://twitter.com/hashtag/Stats?src=hash&amp;ref_src=twsrc%5Etfw">#Stats</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a></p>&mdash; Paul Hünermund (@PHuenermund) <a href="https://twitter.com/PHuenermund/status/1057203939354001409?ref_src=twsrc%5Etfw">30 октября 2018 г.</a></blockquote>
-
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ru"><p lang="en" dir="ltr">I see way to many people confused about this: You can&#39;t test the validity of your instruments. Don&#39;t even try! <a href="https://t.co/AjPvy6dOkL">https://t.co/AjPvy6dOkL</a> <a href="https://twitter.com/hashtag/CausalInference?src=hash&amp;ref_src=twsrc%5Etfw">#CausalInference</a> <a href="https://twitter.com/hashtag/DataScience?src=hash&amp;ref_src=twsrc%5Etfw">#DataScience</a> <a href="https://twitter.com/hashtag/Econometrics?src=hash&amp;ref_src=twsrc%5Etfw">#Econometrics</a> <a href="https://twitter.com/hashtag/Stats?src=hash&amp;ref_src=twsrc%5Etfw">#Stats</a> <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a></p>&mdash; Paul Hünermund (@PHuenermund) <a href="https://twitter.com/PHuenermund/status/1057203939354001409?ref_src=twsrc%5Etfw">30 октября 2018 г.</a></blockquote>
-
-# Some entry points I (probably should) often look 
-
-Code and articles in econometrics is surprisingly rare,
-econometricians seem not to like github. 
-
-- Matlab tutorials in finance
-- quantecon
-- uni-replication 
-- [stackoverflow](https://stats.stackexchange.com/questions/tagged/least-squares?sort=votes)
-- gretl examples
-- [ARPM for risk](https://www.mathworks.com/videos/the-prayer-ten-step-checklist-for-advanced-risk-and-portfolio-management-with-attilio-meucci-81834.html)
-- journals, journals, journals
-
-# Project notes 
-
-## The big goals
-
-1. Define a path to econometrics skill-building.  
-2. Distill milestones (big and small) by subject area. 
-3. Allow easy entry to a field.
-4. Make complex things simple. 
-5. Appeal to intuition and personal experiences. 
-6. Tame jargon.
-7. Use new data.
-
-Comments:
-(1, 2) sometimes there is too much of a choice of textbooks, courses and on-line material available.  
-
-(3, 4) large parts of academia seem to have built-in incentives for complexity and for being self-referential. 
-       That's how you protect your domain. Genuine knowledge is easy to grasp and deliever, if that is truely 
-       your goal. 
-
-(5) We have twitter now - people tell their pains and joys in doing the research. These are golden bits,
-    but of course inferior to having a good supervisor and supporting peers. Twitter and stackoverflow, 
-    I should say.    
-
-(6) You do not 'train' an OLS regression.
-
-(7) We have got free software, cheap computing power, downloadable data and open publishing! Lets go!
-
-Non-goals:
-- Big data 
-- ML, AI, anything 2.0 
-
-## Software
-
-Any of: 
-
-- R, python, julia
-- Eviews, gretl
-- Matlab, Octave
-- SAS, SPSS, Stata
-- RATS, Ox
-
-If I had to choose two: R (libraries) and gretl (documentation).
-If I had to choose one: python (it just runs).
-Before open source: Eviews.
-If I had more time: Julia.
-Everything else: if I have to. 
-
-## My (over)simplified view of econometrics curriculum
-
-- some linear alg, calculus, propability
-- OLS
-- maximum likelihood
-- time series
-- panel data
-- classifications
-- systems of equations
-- darker side of macro: DSGE
-- bayesian estimation
-
-## Supplements
-
-- Glossary
-- Textbooks
-- Writing style
-- Econometrics now and then - what changed?
