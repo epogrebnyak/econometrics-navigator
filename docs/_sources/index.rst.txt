@@ -15,6 +15,7 @@ Welcome to Econometrics Navigator!
    applications.md
    references.md
    data.md
+   tweets.md
 
 
 
