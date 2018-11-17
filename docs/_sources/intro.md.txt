@@ -1,50 +1,20 @@
-Developper intents
-==================
+# Introduction
 
-### Notes
+This publication is still a draft. 
 
-- Available tutorials are endless, but some meaningless 
-- Cannot really substitute a course or a book with internet browsing
-- Maybe develop own format on how to talk briefly about topics - 
-  eg extended dictionary?
-- There is code availble to inspect in statmodels, R and julia, 
-  can browse into it. 
-- Our way: experiment with code, systematize readings, nurture intuition.
-- Todo: compile to pdf and print hard copy
+I define the publication goals as follwoing: 
 
+1. Access to knowledge  
+1.1. Allow easy entry to econometrics field.   
+1.2. Define a path to econometrics skill-building at different levels.  
+1.3. Distill milestones (big and small) by subject area.  
 
-**Goal**: refresh econometrics by reviewing and replicating 
-          some working papers and connect the dots on a mindmap 
-          of econometric methods.
+2. Style and approach  
+2.1. Make complex things simple.  
+2.2. Appeal to intuition and personal experiences.  
+2.3. Tame jargon.  
+2.4. Use new data and free tools.  
 
-**My starting point**: A's in grad econometrics in 2001 (MGU),
-                       some PhD block courses in 2004 and 2013-2014 
-                       (LBS, IfW, CEMFI, Barcelona GSE),
-                       working knowledge of python/R,
-                       taste for intuition and clean code.
+More soul-searching on how to make this guide better can be found [here](https://github.com/epogrebnyak/econometrics-navigator/blob/master/source/_no_show.txt).
 
-**Implications**: 
-
-- this may not be a good starter tutorial 
-- there can be gaps, lacoons and omissions  
-- practicing econometrician would have done this guide better 
-
-**Methods:**
-
-- simplifiy tasks and method description
-- add domain knowledge
-- do excercises in R, python, gretl and Julia
-- refer to Eviews/Matlab 
-- master writing latex formulas
-- keep a dicitonary
-- list your sources
-- link to references
-- use Stack Overflow and twitter for pointing to live discussions
-- get other people to review
-
-
-### Observations
-
-- 'data science' became more appealing than econometrics
-- panel vs time series data
-
+Feel free to contact me on [Twitter](https://twitter.com/PogrebnyakE) about this publication.
