@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index &mdash; Econometrics Navigator 0.0.1 documentation</title>
+  <title>Ordinary least squares, OLS &mdash; Econometrics Navigator 0.0.1 documentation</title>
   
 
   
@@ -25,13 +24,13 @@
 
   
 
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="Index" href="#" />
-    <link rel="search" title="Search" href="search.html" /> 
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
 
   
-  <script src="_static/js/modernizr.min.js"></script>
+  <script src="../_static/js/modernizr.min.js"></script>
 
 </head>
 
@@ -47,7 +46,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Econometrics Navigator
+            <a href="../index.html" class="icon icon-home"> Econometrics Navigator
           
 
           
@@ -64,7 +63,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -82,12 +81,10 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="intro.html">Developper intents</a></li>
-<li class="toctree-l1"><a class="reference internal" href="interviews.html">Interviews</a></li>
-<li class="toctree-l1"><a class="reference internal" href="topics.html">Concepts and techniques</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications.html">Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
-<li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Developper intents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../applications.html">Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
 </ul>
 
             
@@ -102,7 +99,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Econometrics Navigator</a>
+          <a href="../index.html">Econometrics Navigator</a>
         
       </nav>
 
@@ -131,14 +128,16 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html">Docs</a> &raquo;</li>
         
-      <li>Index</li>
+      <li>Ordinary least squares, OLS</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="../_sources/topics/ols.md.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -150,11 +149,42 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-
-<h1 id="index">Index</h1>
-
-<div class="genindex-jumpbox">
- 
+  <div class="section" id="ordinary-least-squares-ols">
+<h1>Ordinary least squares, OLS<a class="headerlink" href="#ordinary-least-squares-ols" title="Permalink to this headline">¶</a></h1>
+<p>Math: Y = BX + e</p>
+<p>Assumptions:</p>
+<ul class="simple">
+<li>e is normally distributed</li>
+</ul>
+<p>Common steps:</p>
+<ol class="arabic simple">
+<li>think of what may explain what</li>
+<li>specify model: select regressors, transform variables</li>
+<li>estimate coefficients</li>
+<li>elaborate on model quality (hardest part)</li>
+<li>to go 0 or 1 if needed</li>
+<li>know what model <em>does not</em> show (next hardest part)</li>
+</ol>
+<p>What may go wrong:</p>
+<ul class="simple">
+<li>residuals are not random</li>
+<li>variables are cointegrated</li>
+<li>multicollinearity in regressors</li>
+<li>residuals depend on x (heteroscedasticity)</li>
+<li>inference is not causality</li>
+<li>wrong signs, insignificant coefficients</li>
+<li>variable normalisation was not described</li>
+</ul>
+<p>Discussion:</p>
+<ul class="simple">
+<li>why sum of squares as a loss function?</li>
+<li>connections to bayesian estimation</li>
+</ul>
+<p>Replication examples:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></li>
+</ul>
+<p>Links:</p>
 </div>
 
 
@@ -191,7 +221,7 @@
     
       <script type="text/javascript">
           var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
+              URL_ROOT:'../',
               VERSION:'0.0.1',
               LANGUAGE:'None',
               COLLAPSE_INDEX:false,
@@ -200,15 +230,15 @@
               SOURCELINK_SUFFIX: '.txt'
           };
       </script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
         <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
   
 
-  <script type="text/javascript" src="_static/js/theme.js"></script>
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
 
   <script type="text/javascript">
       jQuery(function () {

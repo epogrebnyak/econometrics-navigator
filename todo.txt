@@ -1,0 +1,12 @@
+23:21 17.11.2018
+
+
+- [ ] replicate Kennedy OLS analysis
+- [ ] move OLS links
+- [ ] better intent declarations 
+- [ ] make pdf
+- [ ] more readme content to other parts
+- [ ] make travis build
+- [ ] takeaway travis byproducts
+
+23:22 17.11.2018

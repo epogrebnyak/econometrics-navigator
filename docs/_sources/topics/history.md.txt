@@ -1,8 +1,6 @@
-History of econometrics
-=======================
+## History of econometrics
 
-Landmark events
----------------
+### Landmark events
 
 - [Galton](http://jse.amstat.org/v9n3/stanton.html) and Pearson 
 - Tinbergen, Haavelmo
@@ -10,8 +8,7 @@ Landmark events
 - Lucas critique
 
 
-Overview publications 
----------------------
+### Overview publications 
 
 - [Econometrics: A Bird's Eye View](http://ftp.iza.org/dp2458.pdf)
 - [Econometrics: An Historical Guide for the Uninitiated](https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf)

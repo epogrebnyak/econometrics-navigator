@@ -34,7 +34,8 @@ html_static_path = 'static'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['sphinx.ext.mathjax',
-    'sphinx.ext.githubpages']
+    'sphinx.ext.githubpages',
+    'm2r']
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
@@ -43,11 +44,13 @@ extensions = ['sphinx.ext.mathjax',
 # You can specify multiple suffix as a list of string:
 source_suffix = ['.rst', '.md']
 
+#
+#
 # added from: http://www.sphinx-doc.org/en/master/usage/markdown.html
-import recommonmark
-source_parsers = {
-   '.md': 'recommonmark.parser.CommonMarkParser',
-}
+#import recommonmark
+#source_parsers = {
+#   '.md': 'recommonmark.parser.CommonMarkParser',
+#}
 
 # The master toctree document.
 master_doc = 'index'

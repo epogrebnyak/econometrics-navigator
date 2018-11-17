@@ -1,0 +1,81 @@
+
+
+
+# Some entry points I (probably should) often look 
+
+Code and articles in econometrics is surprisingly rare,
+econometricians seem not to like github. 
+
+- Matlab tutorials in finance
+- quantecon
+- uni-replication 
+- [stackoverflow](https://stats.stackexchange.com/questions/tagged/least-squares?sort=votes)
+- gretl examples
+- [ARPM for risk](https://www.mathworks.com/videos/the-prayer-ten-step-checklist-for-advanced-risk-and-portfolio-management-with-attilio-meucci-81834.html)
+- journals, journals, journals
+
+# Project notes 
+
+## The big goals
+
+1. Define a path to econometrics skill-building.  
+2. Distill milestones (big and small) by subject area. 
+3. Allow easy entry to a field.
+4. Make complex things simple. 
+5. Appeal to intuition and personal experiences. 
+6. Tame jargon.
+7. Use new data.
+
+Comments:
+(1, 2) sometimes there is too much of a choice of textbooks, courses and on-line material available.  
+
+(3, 4) large parts of academia seem to have built-in incentives for complexity and for being self-referential. 
+       That's how you protect your domain. Genuine knowledge is easy to grasp and deliever, if that is truely 
+       your goal. 
+
+(5) We have twitter now - people tell their pains and joys in doing the research. These are golden bits,
+    but of course inferior to having a good supervisor and supporting peers. Twitter and stackoverflow, 
+    I should say.    
+
+(6) You do not 'train' an OLS regression.
+
+(7) We have got free software, cheap computing power, downloadable data and open publishing! Lets go!
+
+Non-goals:
+- Big data 
+- ML, AI, anything 2.0 
+
+## Software
+
+Any of: 
+
+- R, python, julia
+- Eviews, gretl
+- Matlab, Octave
+- SAS, SPSS, Stata
+- RATS, Ox
+
+If I had to choose two: R (libraries) and gretl (documentation).
+If I had to choose one: python (it just runs).
+Before open source: Eviews.
+If I had more time: Julia.
+Everything else: if I have to. 
+
+## My (over)simplified view of econometrics curriculum
+
+- some linear alg, calculus, propability
+- OLS
+- maximum likelihood
+- time series
+- panel data
+- classifications
+- systems of equations
+- darker side of macro: DSGE
+- bayesian estimation
+
+## Supplements
+
+- Glossary
+- Textbooks
+- Writing style
+- Econometrics now and then - what changed?

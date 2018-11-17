@@ -1,5 +1,17 @@
-Developpers notes
-=================
+Developper intents
+==================
+
+### Notes
+
+- Available tutorials are endless, but some meaningless 
+- Cannot really substitute a course or a book with internet browsing
+- Maybe develop own format on how to talk briefly about topics - 
+  eg extended dictionary?
+- There is code availble to inspect in statmodels, R and julia, 
+  can browse into it. 
+- Our way: experiment with code, systematize readings, nurture intuition.
+- Todo: compile to pdf and print hard copy
+
 
 **Goal**: refresh econometrics by reviewing and replicating 
           some working papers and connect the dots on a mindmap 
@@ -31,8 +43,7 @@ Developpers notes
 - get other people to review
 
 
-Observations
-------------
+### Observations
 
 - 'data science' became more appealing than econometrics
 - panel vs time series data

@@ -35,6 +35,14 @@ Deep learning:
 Papers
 ------
 
+We choose papers that are:
+
+- important milestones, 'seminal', widely cited, or
+- good subject area reviews, or
+- easy to understand and replicate, honest and friendly to reader, or
+- already have code and data attached,
+- or sevral things from the above. 
+
 ### List of lists
 
 - https://andrewgelman.com/2014/03/31/cited-statistics-papers-ever/ 
