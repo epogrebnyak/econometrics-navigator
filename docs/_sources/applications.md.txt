@@ -1,4 +1,4 @@
-# Applications
+# 3. Applications
 
 In this chapter we collect articles and chapters from several 
 practical domains (macro, finance, risk and microeconomics) 
@@ -20,7 +20,10 @@ Panel data:
    - policy assessment
 
   
-## 1. Finance
+
+
+
+## Finance
 
 ### Exchange rates
 
@@ -41,7 +44,10 @@ Panel data:
 - There must be something easy and approachable 
 - For now [this](https://www.mathworks.com/campaigns/offers/ifrs-9-cecl-model-regulations-compliance.html)
 
-## 2. Macroeconometrics
+
+
+
+## Macroeconometrics
 
 - Kalman and other time series filtering, state space representation
 - something on probability of recession from G Perez-Quiros
@@ -51,13 +57,20 @@ Panel data:
 - anything friendlier than Smets/Vouters for DSGE
 - [matlab-and-macroeconomic-stress-testing](https://www.mathworks.com/videos/matlab-and-macroeconomic-stress-testing-118689.html)
 
-## 3. Power sector
+
+
+
+
+## Power sector
 
 ### Electricity prices
 
 - Nektaria's and Derek's paper
 
-## 4. Everything else
+
+
+
+## Rest of JEL
 
 I know there are great replicable things throughout the JEL classification. I just do not know too much about them. 
 

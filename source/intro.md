@@ -1,4 +1,4 @@
-# Introduction
+# Foreword
 
 This publication is still a draft. 
 

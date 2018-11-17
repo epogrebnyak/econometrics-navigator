@@ -1,5 +1,5 @@
-Concepts and techniques
-=======================
+2. Concepts and techniques
+==========================
 
 - Estimation 
    - OLS
