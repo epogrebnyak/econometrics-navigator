@@ -10,8 +10,11 @@ List of lists
 - https://davegiles.blogspot.com/2012/06/highly-cited-statistical-papers-for.html
 
 
-Key texts
----------
+Books
+-----
+
+### Key textbooks
+
 
 General:  Greene? Stock and Watson? Hayashi? Kennedy? Verbeek? 
 
@@ -21,9 +24,17 @@ Machine learning:  An Introduction to Statistical Learning. Gareth James, Daniel
 
 Deep learning:  Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville + fast.ai 
 
+### Other
 
-Seminal papers:
----------------
+
+- [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf)
+- [Toby Segaran. Programming Collective Intelligence. Building Smart Web 2.0 Applications](http://cds.cern.ch/record/1320136/files/9780596529321_TOC.pdf), also [here](http://axon.cs.byu.edu/~martinez/classes/778/Papers/GP.pdf)
+
+
+
+
+Seminal papers
+--------------
 
 - Marquardt, Donald W. “An algorithm for least-squares estimation of nonlinear parameters.” Journal of the Society for Industrial & Applied Mathematics 11.2 (1963): 431-441.
 
@@ -36,7 +47,7 @@ Seminal papers:
 - Engle, Robert F., and Clive WJ Granger. “Co-integration and error correction: representation, estimation, and testing.” Econometrica: journal of the Econometric Society (1987): 251-276.
 
 Other papers
--------------
+------------
 
 Popular:
 
@@ -76,11 +87,6 @@ User guides
 - statmodels
 - R
 
-Books
------
-
-- [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf)
-- [Toby Segaran. Programming Collective Intelligence. Building Smart Web 2.0 Applications](http://cds.cern.ch/record/1320136/files/9780596529321_TOC.pdf), also [here](http://axon.cs.byu.edu/~martinez/classes/778/Papers/GP.pdf)
 
 
 Apps
