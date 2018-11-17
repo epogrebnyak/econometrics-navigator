@@ -1,6 +1,6 @@
 # Good clues from Twitter
 
-A secret subtitle for the Navigator is 
+A secret subtitle for this publication is 
 "Can you learn econometrics from Twitter and Stack Overflow alone 
 without distracting yourself to machine-learning tutorials". 
 

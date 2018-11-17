@@ -1,3 +1,19 @@
+Goals
+=====
+
+1. Access to knowledge  
+
+  - Allow easy entry to econometrics field.   
+  - Define a path to econometrics skill-building at different levels.  
+  - Distill milestones by subject area.  
+
+2. Style and approach  
+  - Make complex things simple.  
+  - Appeal to intuition and personal experiences.  
+  - Tame jargon.  
+  - Use new data and free tools.  
+
+
 Developper intents
 ==================
 
