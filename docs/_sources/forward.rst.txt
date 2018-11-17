@@ -1,9 +1,9 @@
 Foreword
 ========
 
-Back in graduate school I was perfectly happy with Greene, Daugherty,
-EViews and MatLab. Now I code in Python more often than R, and I feel 
-amount of information about econometrics is now immense to a degree 
+Back in graduate school I was perfectly happy with Greene, Dougherty,
+EViews and Matlab. Now I code in Python more often than in R, and I feel 
+amount of information about econometrics is immense to a degree 
 it erodes confidence. 
 
 Not that we have more spam tutorials and ivory-tower self-referring paywall 
@@ -16,11 +16,11 @@ I want less jargon and more intuitive appeal. I want milestones to cover and
 worthwhile articles to invest time replicating them. I want to keep on coding 
 and be sure I do econometrics right. 
 
-To me it seems such a guide does not exist yet, so I'm writing one. 
-Feel free to contact me on `Twitter <https://twitter.com/PogrebnyakE>`_ 
-about this publication draft.
+Such a guide for me does not seem to exist, so I'm writing one. 
+Feel free to contact me on `@PogrebnyakE <https://twitter.com/PogrebnyakE>`_ 
+about this draft.
 
 .. note:: 
-   More soul-searching on how to make this guide better can be found 
+   More soul-searching on how to make this guide (better) can be found 
    `here <https://github.com/epogrebnyak/econometrics-navigator/blob/master/source/_no_show.txt>`_.
 
