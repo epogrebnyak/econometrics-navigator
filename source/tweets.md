@@ -1,5 +1,9 @@
 # Good clues from Twitter
 
+A secret subtitle for the Navigator is 
+"Can you learn econometrics from Twitter and Stack Overflow alone 
+without distracting yourself to machine-learning tutorials". 
+
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">That Fabio Canova&#39;s 2007 textbook didn&#39;t even cite Jorda (2005) shows the weakness of citations as a measure of quality of work.</p>&mdash; Lance Bachmεiεr (@LanceBachmeier) <a href="https://twitter.com/LanceBachmeier/status/1046811086736031747?ref_src=twsrc%5Etfw">1 октября 2018 г.</a></blockquote>
 
 
@@ -26,3 +30,12 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 
 
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Btw. I forgot to mention that I had also made a single PDF of all 4 model evaluation articles, which is maybe easier to read (and/or if you prefer print versions) <a href="https://t.co/BDuQ1RBjD0">https://t.co/BDuQ1RBjD0</a> <a href="https://t.co/7GQ5cIMwJ5">https://t.co/7GQ5cIMwJ5</a></p>&mdash; Sebastian Raschka (@rasbt) <a href="https://twitter.com/rasbt/status/1063110934426763265?ref_src=twsrc%5Etfw">15 ноября 2018 г.</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Prove the Lindeberg-Levy Central limit theorem.<br><br>Prove the Gauss-Markov theorem. <br><br>Show the parameters in a regression model are independent of the residuals.  <br><br>Find the Score and Fisher Information for every common distribution. <a href="https://twitter.com/SachaRoseUritis?ref_src=twsrc%5Etfw">@SachaRoseUritis</a>  did I miss anything?</p>&mdash; mac strelioff (@macstrelioff) <a href="https://twitter.com/macstrelioff/status/1061817672294326272?ref_src=twsrc%5Etfw">12 ноября 2018 г.</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Nice explanation, and breakdown of the algorithm. I agree - coding it is the best way to determine if you REALLY understand the math! <a href="https://t.co/GEcbxFhLwV">https://t.co/GEcbxFhLwV</a></p>&mdash; Dave Giles (@DEAGiles) <a href="https://twitter.com/DEAGiles/status/1061249503980871681?ref_src=twsrc%5Etfw">10 ноября 2018 г.</a></blockquote>
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">Key developments in modelling the microeconomics of consumer demand, from <a href="https://twitter.com/jdube6?ref_src=twsrc%5Etfw">@jdube6</a> <a href="https://t.co/HOoTO8nXKq">https://t.co/HOoTO8nXKq</a> <a href="https://twitter.com/hashtag/Econometrics?src=hash&amp;ref_src=twsrc%5Etfw">#Econometrics</a> <a href="https://twitter.com/hashtag/Microeconomics?src=hash&amp;ref_src=twsrc%5Etfw">#Microeconomics</a> <a href="https://twitter.com/hashtag/ConsumerDemand?src=hash&amp;ref_src=twsrc%5Etfw">#ConsumerDemand</a> <a href="https://t.co/EnvXr3UdRD">pic.twitter.com/EnvXr3UdRD</a></p>&mdash; NBER (@nberpubs) <a href="https://twitter.com/nberpubs/status/1060222853331738633?ref_src=twsrc%5Etfw">7 ноября 2018 г.</a></blockquote>
+
+http://dagitty.net/primer/
+

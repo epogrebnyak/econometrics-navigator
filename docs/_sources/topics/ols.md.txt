@@ -31,6 +31,7 @@ Replication examples:
 
 Links:
 
+- https://blog.minitab.com/blog/how-to-choose-the-best-regression-model
 - https://towardsdatascience.com/simple-linear-regression-2421076a5892
 - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1736184
 - https://cfss.uchicago.edu/persp012_regression_diagnostics.html
