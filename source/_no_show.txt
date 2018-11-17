@@ -1,5 +1,4 @@
-
-
+Stay fit and confident in your quantitative skills by replicating published research findings using open source software. 
 
 # Some entry points I (probably should) often look 
 
@@ -24,7 +23,7 @@ econometricians seem not to like github.
 4. Make complex things simple. 
 5. Appeal to intuition and personal experiences. 
 6. Tame jargon.
-7. Use new data.
+7. Use new data and free tools. 
 
 Comments:
 (1, 2) sometimes there is too much of a choice of textbooks, courses and on-line material available.  
