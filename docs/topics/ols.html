@@ -139,7 +139,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/topics/ols.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/topics/ols.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -154,20 +154,26 @@
             
   <div class="section" id="ordinary-least-squares-ols">
 <h1>Ordinary least squares, OLS<a class="headerlink" href="#ordinary-least-squares-ols" title="Permalink to this headline">¶</a></h1>
-<p>Math: Y = BX + e</p>
-<p>Assumptions:</p>
-<ul class="simple">
-<li>e is normally distributed</li>
-</ul>
+<p>OLS is at the core of econometrics curriculum, it is easily derived and
+highly practical to familiarise students with regression possibilites
+and limitations.</p>
+<p>The usual way to teach OLS is to present assumptions and how to deal
+with their violations as indicated in a review chart from Kennedy&#8217;s
+textbook below.</p>
+<img alt="topics\../source/topics/peter_kennedy_on_ols.png" src="topics\../source/topics/peter_kennedy_on_ols.png" />
+<p>Math:</p>
+<p><span class="math">\(Y = \beta X + \epsilon\)</span></p>
+<p>Assumptions: <span class="math">\(\epsilon\)</span> is normally distributed</p>
 <p>Common steps:</p>
-<ol class="arabic simple">
+<ol class="arabic simple" start="0">
 <li>think of what may explain what</li>
-<li>specify model: select regressors, transform variables</li>
-<li>estimate coefficients</li>
-<li>elaborate on model quality (hardest part)</li>
-<li>to go 0 or 1 if needed</li>
-<li>know what model <em>does not</em> show (next hardest part)</li>
 </ol>
+<p>1. specify model: select
+regressors, transform variables
+2. estimate coefficients
+3. elaborate on model quality (hardest part)
+4. to go 0 or 1 if needed
+5. know what model <em>does not</em> show (next hardest part)</p>
 <p>What may go wrong:</p>
 <ul class="simple">
 <li>residuals are not random</li>
@@ -181,12 +187,11 @@
 <p>Discussion:</p>
 <ul class="simple">
 <li>why sum of squares as a loss function?</li>
-<li>connections to bayesian estimation</li>
+<li>connections to</li>
 </ul>
-<p>Replication examples:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></li>
-</ul>
+<p>bayesian estimation</p>
+<p>Replication examples: -
+<a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></p>
 <p>Links:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://blog.minitab.com/blog/how-to-choose-the-best-regression-model">https://blog.minitab.com/blog/how-to-choose-the-best-regression-model</a></li>
@@ -195,17 +200,33 @@
 <li><a class="reference external" href="https://cfss.uchicago.edu/persp012_regression_diagnostics.html">https://cfss.uchicago.edu/persp012_regression_diagnostics.html</a></li>
 <li><a class="reference external" href="https://stats.stackexchange.com/questions/218156/what-are-some-of-the-most-common-misconceptions-about-linear-regression">https://stats.stackexchange.com/questions/218156/what-are-some-of-the-most-common-misconceptions-about-linear-regression</a></li>
 <li><a class="reference external" href="https://pdfs.semanticscholar.org/a410/ec58bd5ff80a4e7978955ab11d096af6d138.pdf">https://pdfs.semanticscholar.org/a410/ec58bd5ff80a4e7978955ab11d096af6d138.pdf</a></li>
-<li><a class="reference external" href="https://web.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html">COMMON MISTEAKS MISTAKES IN USING STATISTICS: Spotting and Avoiding Them</a></li>
+<li><a class="reference external" href="https://web.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html">COMMON MISTEAKS MISTAKES IN USING STATISTICS: Spotting and Avoiding
+Them</a></li>
 <li><a class="reference external" href="http://www2.sas.com/proceedings/sugi22/STATS/PAPER267.PDF">http://www2.sas.com/proceedings/sugi22/STATS/PAPER267.PDF</a></li>
 <li><a class="reference external" href="https://towardsdatascience.com/simple-linear-regression-2421076a5892">https://towardsdatascience.com/simple-linear-regression-2421076a5892</a></li>
 <li><a class="reference external" href="http://jeromyanglim.blogspot.com/2013/12/using-r-to-replicate-common-spss.html">http://jeromyanglim.blogspot.com/2013/12/using-r-to-replicate-common-spss.html</a></li>
 <li><a class="reference external" href="https://stat.hevra.haifa.ac.il/~gweiss/courses/Forecasting/CarPricesAnalysis.pdf">https://stat.hevra.haifa.ac.il/~gweiss/courses/Forecasting/CarPricesAnalysis.pdf</a></li>
 <li><a class="reference external" href="http://www.nrcresearchpress.com/doi/10.1139/f73-072#.W-SvWuK_Pcs">http://www.nrcresearchpress.com/doi/10.1139/f73-072#.W-SvWuK_Pcs</a></li>
 <li><a class="reference external" href="https://www.nejm.org/doi/full/10.1056/NEJM198512263132604">https://www.nejm.org/doi/full/10.1056/NEJM198512263132604</a></li>
-<li><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/</a> - medicine, nice!</li>
-<li><a class="reference external" href="http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS">http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS</a>) - list of replications</li>
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman">https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman</a> (replication from Hastie)</li>
+<li><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/</a> - medicine,
+nice!</li>
+<li><a class="reference external" href="http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS">http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS</a>)
+- list of replications</li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman">https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman</a>
+(replication from Hastie)</li>
 </ul>
+<p>Intuitive learning for OLS - <a class="reference external" href="https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes&amp;pageSize=15">Stackoverflow hot
+topics</a>
+- <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">In Depth: Linear
+Regression</a>
+- Stachurski math intro: -
+<a class="reference external" href="https://mitpress.mit.edu/sites/default/files/Stachurski_final_TOC.pdf">TOC</a>
+- <a class="reference external" href="https://github.com/jstac/econometric_theory_slides">slides</a> -
+<a class="reference external" href="https://lectures.quantecon.org/py/ols.html">https://lectures.quantecon.org/py/ols.html</a> -
+<a class="reference external" href="http://www.statsmodels.org/stable/examples/index.html#regression">http://www.statsmodels.org/stable/examples/index.html#regression</a> -
+<a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html</a>
+-
+<a class="reference external" href="https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression">https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression</a></p>
 </div>
 
 

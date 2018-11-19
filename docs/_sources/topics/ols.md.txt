@@ -1,9 +1,22 @@
 ## Ordinary least squares, OLS
 
-Math: Y = BX + e    
+OLS is at the core of econometrics curriculum, it is easily derived 
+and highly practical to familiarise students with regression 
+possibilites and limitations. 
+
+The usual way to teach OLS is to present assumptions and how to deal 
+with their violations as indicated in a review chart from Kennedy's 
+textbook below. 
+
+![](peter_kennedy_on_ols.png)
+
+
+Math: 
+
+   $ Y = \Beta X + \varepsilon $
 
 Assumptions:
-   - e is normally distributed
+   - $ \varepsilon $ is normally distributed
 
 Common steps:
    0. think of what may explain what
@@ -47,3 +60,15 @@ Links:
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/ - medicine, nice!
 - http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS) - list of replications
 - https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman (replication from Hastie)
+
+
+Intuitive learning for OLS
+- [Stackoverflow hot topics](https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes&pageSize=15)
+- [In Depth: Linear Regression](https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html)
+- Stachurski math intro:
+  - [TOC](https://mitpress.mit.edu/sites/default/files/Stachurski_final_TOC.pdf)
+  - [slides](https://github.com/jstac/econometric_theory_slides)
+- <https://lectures.quantecon.org/py/ols.html>
+- <http://www.statsmodels.org/stable/examples/index.html#regression>
+- <https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html>
+- <https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression>

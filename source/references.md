@@ -1,20 +1,23 @@
 References
 ==========
 
-Books
------
+## Textbooks
 
-### Key textbooks
+
+Favorite introductory: 
+
+[Peter Kennedy. A Guide To Econometrics](https://scholar.google.com/scholar?cluster=16057448950849214316&hl=en&as_sdt=0,5&sciodt=0,5)
+
 
 General:  
  - Greene? 
+ - Dougherty?
  - Stock and Watson? 
- - Hayashi? 
- - Kennedy? 
  - Verbeek?
+- [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf) 
 
-Time series:  
- - Hamilton  
+[Time series](https://scholar.google.com/scholar?q=related:3Mhz3KVE8GcJ:scholar.google.com/&scioq=&hl=en&as_sdt=0,5):  
+ - [Hamilton](https://scholar.google.com/scholar?cluster=7489561659476003036&hl=en&as_sdt=0,5)  
  - [Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf)  
  - [Granger/Watson time series chapter in Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S1573441284020092) 
 
@@ -26,10 +29,14 @@ Deep learning:
   - Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville 
   - fast.ai 
 
-### More textbooks
+Mention:
 
-- [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf)
 - [Toby Segaran. Programming Collective Intelligence. Building Smart Web 2.0 Applications](http://cds.cern.ch/record/1320136/files/9780596529321_TOC.pdf), also [here](http://axon.cs.byu.edu/~martinez/classes/778/Papers/GP.pdf)
+
+Threads:
+
+- http://www.urch.com/forums/phd-economics/127240-just-finished-intro-wooldridge-gurajati-whats-best-text-next-self-study.html
+
 
 
 Papers
@@ -76,6 +83,9 @@ We choose papers that are:
 
 - [A Black Swan in the Money Market](https://www.nber.org/papers/w13943) - with simple OLS
 
+- https://economics.stackexchange.com/questions/10358/what-are-main-methods-for-econometrics-of-macroeconomics?rq=1
+
+
 
 Blogs and twitter
 -----------------
@@ -86,6 +96,9 @@ Blogs and twitter
 
 Course syllabi
 --------------
+
+So many of them... just a few: 
+
 - http://www.sci.csueastbay.edu/~esuess/stat6620
 - http://fmwww.bc.edu/EC-C/S2013/823/EC823.S2013.php
 - [Short guides in microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm)
@@ -118,5 +131,4 @@ Other
 
 - https://radiant-rstats.github.io/docs/install.html (app)
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
-- [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
 - [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)

@@ -7,7 +7,7 @@ Welcome to Econometrics Navigator!
 ==================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    forward.rst 
    interviews.md 

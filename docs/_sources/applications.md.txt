@@ -59,15 +59,11 @@ Panel data:
 
 
 
-
-
 ## Power sector
 
 ### Electricity prices
 
 - Nektaria's and Derek's paper
-
-
 
 
 ## Rest of JEL

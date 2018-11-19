@@ -1,15 +1,7 @@
 2. Concepts and techniques
 ==========================
 
-- Estimation 
-   - OLS
-   - Max Likelihood
-   - Bayesian estimation
-- Time series
-- Panel data
-- Classification
-
-.. mdinclude::  topics/todos.md
-.. mdinclude::  topics/ols.md
+.. mdinclude::  topics/ols.rst
 .. mdinclude::  topics/pca.md
+.. mdinclude::  topics/causation.md
 .. mdinclude::  topics/history.md
