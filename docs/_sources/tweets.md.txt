@@ -81,14 +81,21 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">I have written a tutorial (masquerading as my thesis) on probabilistic programming and Monte Carlo inference. It starts with the absolute basics and takes you all the way through to some cutting edge developments. Check in out here <a href="https://t.co/ISNoyvN3Zh">https://t.co/ISNoyvN3Zh</a> <a href="https://t.co/CjkmUGgSSI">pic.twitter.com/CjkmUGgSSI</a></p>&mdash; Tom Rainforth (@tom_rainforth) <a href="https://twitter.com/tom_rainforth/status/984749361845493760?ref_src=twsrc%5Etfw">13 апреля 2018 г.</a></blockquote>
 
 
-### More links
+### Value of logit
 
-- 
-[What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">I&#39;ll use deep learning even if I can solve the problem using a single logistic regression just to use my GPU</p>&mdash; Abhik Sarkar (@abhiksark) <a href="https://twitter.com/abhiksark/status/1064023917658951680?ref_src=twsrc%5Etfw">18 ноября 2018 г.</a></blockquote>
+
+
+
+### More links
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
-- [A Short History of Markov Chain Monte
-Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
-- [how-bayesian-inference-works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
+- [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
 - [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
+
+### Videos
+- 
+[Gita Gopinath. What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
+
+- [How Bayesian inference works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
 
 
