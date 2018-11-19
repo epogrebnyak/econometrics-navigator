@@ -82,13 +82,14 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 
 
 ### More links
-
-- 
-[What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
-- [A Short History of Markov Chain Monte
-Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
-- [how-bayesian-inference-works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
+- [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
 - [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
+
+### Videos
+- 
+[Gita Gopinath. What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
+
+- [How Bayesian inference works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
 
 
