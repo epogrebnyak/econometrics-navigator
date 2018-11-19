@@ -102,10 +102,21 @@ Software user guides
 - statmodels
 - R
 
+Videos
+------
+
+- 
+[Gita Gopinath. What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
+
+- [How Bayesian inference works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
+
+- [Understanding Generalised Method of Moments](https://t.co/dKNP3c5jeL)
+
+
 Other
 -----
 
-### Apps
-
-- https://radiant-rstats.github.io/docs/install.html
-
+- https://radiant-rstats.github.io/docs/install.html (app)
+- [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
+- [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
+- [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
