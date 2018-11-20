@@ -1,7 +1,9 @@
-## Causation 
+## Causation, causality 
 
 
 > Correlation is not causation.
+
+- [causality (not 'casuality')](https://chrisaulddotcom.wordpress.com/2013/10/08/remarks-on-chen-and-pearl-on-causality-in-econometrics-textbooks/)
 
 
 ### Book of Why

@@ -1,4 +1,4 @@
-4. Applications
+3. Applications
 ===============
 
 In this chapter we collect articles and chapters from several 
@@ -19,10 +19,6 @@ Risks and finance:
 Panel data:
    - *MHE*
    - policy assessment
-
-  
-
-
 
 ## Finance
 

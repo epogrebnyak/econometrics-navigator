@@ -32,6 +32,7 @@ Deep learning:
 Mention:
 
 - [Toby Segaran. Programming Collective Intelligence. Building Smart Web 2.0 Applications](http://cds.cern.ch/record/1320136/files/9780596529321_TOC.pdf), also [here](http://axon.cs.byu.edu/~martinez/classes/778/Papers/GP.pdf)
+- [Excel-based](http://www3.wabash.edu/econometrics/index.htm)
 
 Threads about picking a textbook:
 - http://www.urch.com/forums/phd-economics/127240-just-finished-intro-wooldridge-gurajati-whats-best-text-next-self-study.html
