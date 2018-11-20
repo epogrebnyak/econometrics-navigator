@@ -33,8 +33,7 @@ Mention:
 
 - [Toby Segaran. Programming Collective Intelligence. Building Smart Web 2.0 Applications](http://cds.cern.ch/record/1320136/files/9780596529321_TOC.pdf), also [here](http://axon.cs.byu.edu/~martinez/classes/778/Papers/GP.pdf)
 
-Threads:
-
+Threads about picking a textbook:
 - http://www.urch.com/forums/phd-economics/127240-just-finished-intro-wooldridge-gurajati-whats-best-text-next-self-study.html
 
 
@@ -87,11 +86,20 @@ We choose papers that are:
 
 
 
-Blogs and twitter
------------------
-- https://simplystatistics.org/
-- Dave Giles
-- http://petersonbiology.com/math230Notes/bootstrapSimulation.html
+Blogs 
+-----
+
+The three blogs below are alone good to enlight and inspire about 
+statistics and econometrics. They are regularly updated. 
+
+- [Matt Bogard](http://econometricsense.blogspot.com/)
+- [Francis Diebold](https://fxdiebold.blogspot.com/)
+- [Dave Giles](https://davegiles.blogspot.com/)
+
+
+[Simply Statistics](https://simplystatistics.org/) by biostatistics 
+professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
+analysis and teaching stats.
 
 
 Course syllabi
@@ -132,3 +140,5 @@ Other
 - https://radiant-rstats.github.io/docs/install.html (app)
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
 - [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
+- http://petersonbiology.com/math230Notes/bootstrapSimulation.html
+

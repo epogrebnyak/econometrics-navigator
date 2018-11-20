@@ -2,15 +2,24 @@ Ordinary least squares, OLS
 ---------------------------
 
 OLS is at the core of econometrics curriculum, it is easily derived and
-highly practical to familiarise students with regression possibilites
+highly practical to familiarise a learner with regression possibilites
 and limitations.
 
-The usual way to teach OLS is to present assumptions and how to deal
-with their violations as indicated in a review chart from Kennedy's
-textbook below.
+The usual way to teach OLS is to present assumptions and show how to deal
+with their violations as indicated below in a review chart from Kennedy's
+textbook.
 
-.. image:: ../source/topics/peter_kennedy_on_ols.png
- 
+
+.. Note: sphinx treat conf.py directory as source root either of three 
+   directives work:
+   image:: \_static\peter_kennedy_on_ols.png
+   image:: .\_static\peter_kennedy_on_ols.png
+   image:: ..\_static\peter_kennedy_on_ols.png
+
+.. image:: \_static\peter_kennedy_on_ols.png
+
+
+
 Math:
 
 :math:`Y = \beta X + \epsilon`
@@ -19,7 +28,7 @@ Assumptions: :math:`\epsilon` is normally distributed
 
 Common steps: 
 
-0. think of what may explain what 
+0. think of what explanatory variables may explain a dependent variable
 1. specify model: select
 regressors, transform variables 
 2. estimate coefficients 
