@@ -3,8 +3,7 @@ Bootstrap
 
 Bootstrapping is a non-parametric method to construct empiric distributions of various 
 statistics (mean, confidence intervals, deviation, etc) by repreated 
-sampling from an observed dataset. Is is a very popular approach because it works 
-well on complex models.
+sampling from an observed dataset.
 
 A little magic is [why exactly][stats-why-bp-works] taking random samples 
 like `[1,1,2]`, `[3,2,2]`, `[1,2,3]`, etc is a good idea to approximate 
@@ -13,6 +12,8 @@ statistic properties of a dataset `[1,2,3]`.
 [stats-why-bp-works]: https://stats.stackexchange.com/questions/26088/explaining-to-laypeople-why-bootstrapping-works
 
 Bootstrap originally proposed by [Bradley Efron in 1979](http://jeti.uni-freiburg.de/studenten_seminar/stud_sem_SS_09/EfronBootstrap.pdf).
+It is a very popular approach because it works 
+well on complex models. See overviews by [Horowitz 2001 in Chapter 52 of Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S157344120105005X) and by [MacKinnon 2006](https://core.ac.uk/download/pdf/6494253.pdf).
 
 [![](https://www.statisticshowto.datasciencecentral.com/wp-content/uploads/2016/10/bootstrap-sample.png)](https://www.statisticshowto.datasciencecentral.com/bootstrap-sample/)
 
