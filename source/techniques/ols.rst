@@ -22,9 +22,7 @@ Assumptions: :math:`\epsilon` is normally distributed
 
 Common steps: 
 
-0. think of what explanatory variables may explain a dependent variable
-1. specify model: select
-regressors, transform variables 
+1. specify model: select explanatory variables, transform them if needed 
 2. estimate coefficients 
 3. elaborate on model quality (hardest part) 
 4. to go 0 or 1 if needed 
@@ -43,8 +41,7 @@ What may go wrong:
 Discussion: 
 
 - why sum of squares as a loss function? 
-- connections to
-bayesian estimation
+- connections to bayesian estimation
 
 Replication examples: -
 https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression
