@@ -24,9 +24,9 @@ Common steps:
 
 1. specify model: select explanatory variables, transform them if needed 
 2. estimate coefficients 
-3. elaborate on model quality (hardest part) 
+3. elaborate on model quality (the hardest part) 
 4. go to 1 if needed 
-5. know what model *does not* show (next hardest part)
+5. know what model *does not* show (next hardeer part)
 
 What may go wrong: 
 
