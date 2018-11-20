@@ -11,7 +11,7 @@ Welcome to Econometrics Navigator!
 
    forward.rst 
    interviews.md 
-   topics.md
+   topics.rst
    applications.md
    references.md
    data.md

@@ -10,3 +10,7 @@ build-in datasets.
 - [Kaggle](https://www.kaggle.com/datasets) obviously has plenty of datasets. 
 
 - Sheffield University made a good  listing of [datasets for teaching](https://www.sheffield.ac.uk/mash/data).
+
+- Australian National Centre for Econometric Research website has 
+  a useful [Data and code](http://www.ncer.edu.au/resources/data-and-code.php)
+  section. 

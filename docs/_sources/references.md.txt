@@ -86,12 +86,21 @@ We choose papers that are:
 
 
 
-Blogs and twitter
------------------
+Blogs 
+-----
+
+The three blogs below are alone good to enlight and inspire about 
+statistics and econometrics. They are regularly updated. 
+
 - [Matt Bogard](http://econometricsense.blogspot.com/)
-- [Dave Giles](https://davegiles.blogspot.com/)
 - [Francis Diebold](https://fxdiebold.blogspot.com/)
-- https://simplystatistics.org/
+- [Dave Giles](https://davegiles.blogspot.com/)
+
+
+[Simply Statistics](https://simplystatistics.org/) by biostatistics 
+professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
+analysis and teaching stats.
+
 
 Course syllabi
 --------------

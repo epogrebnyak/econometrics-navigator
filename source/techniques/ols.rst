@@ -10,13 +10,7 @@ with their violations as indicated below in a review chart from Kennedy's
 textbook.
 
 
-.. Note: sphinx treat conf.py directory as source root either of three 
-   directives work:
-   image:: \_static\peter_kennedy_on_ols.png
-   image:: .\_static\peter_kennedy_on_ols.png
-   image:: ..\_static\peter_kennedy_on_ols.png
-
-.. image:: \_static\peter_kennedy_on_ols.png
+.. image:: .\_static\peter_kennedy_on_ols.png
 
 
 

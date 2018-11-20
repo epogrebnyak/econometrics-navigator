@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="3. Applications" href="applications.html" />
+    <link rel="next" title="Causation" href="concepts/causation.html" />
     <link rel="prev" title="1. Interviews" href="interviews.html" /> 
 
   
@@ -86,22 +86,22 @@
 <li class="toctree-l1"><a class="reference internal" href="forward.html">Foreword</a></li>
 <li class="toctree-l1"><a class="reference internal" href="interviews.html">1. Interviews</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">2. Concepts and techniques</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#ordinary-least-squares-ols">Ordinary least squares, OLS</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#principal-components-analysis-pca">Principal components analysis, PCA</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#causation">Causation</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#book-of-why">Book of Why</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#history">History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#concepts">2.1. Concepts</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="concepts/causation.html">Causation</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#history-of-econometrics">History of econometrics</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#landmark-events">Landmark events</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#overview-publications">Overview publications</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#by-topic">By topic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#techniques">2.2. Techniques</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="techniques/ols.html">Ordinary least squares, OLS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="techniques/pca.html">Principal components analysis, PCA</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#history-of-econometrics">2.3 History of econometrics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="history.html">History of econometrics</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="applications.html">3. Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications.html">4. Applications</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tweets.html">Good clues from Twitter</a></li>
@@ -171,138 +171,37 @@
             
   <div class="section" id="concepts-and-techniques">
 <h1>2. Concepts and techniques<a class="headerlink" href="#concepts-and-techniques" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="ordinary-least-squares-ols">
-<h2>Ordinary least squares, OLS<a class="headerlink" href="#ordinary-least-squares-ols" title="Permalink to this headline">¶</a></h2>
-<p>OLS is at the core of econometrics curriculum, it is easily derived and
-highly practical to familiarise a learner with regression possibilites
-and limitations.</p>
-<p>The usual way to teach OLS is to present assumptions and show how to deal
-with their violations as indicated below in a review chart from Kennedy&#8217;s
-textbook.</p>
-<img alt="_static\peter_kennedy_on_ols.png" src="_static\peter_kennedy_on_ols.png" />
-<p>Math:</p>
-<p><span class="math">\(Y = \beta X + \epsilon\)</span></p>
-<p>Assumptions: <span class="math">\(\epsilon\)</span> is normally distributed</p>
-<p>Common steps:</p>
-<ol class="arabic simple" start="0">
-<li>think of what explanatory variables may explain a dependent variable</li>
-</ol>
-<p>1. specify model: select
-regressors, transform variables
-2. estimate coefficients
-3. elaborate on model quality (hardest part)
-4. to go 0 or 1 if needed
-5. know what model <em>does not</em> show (next hardest part)</p>
-<p>What may go wrong:</p>
-<ul class="simple">
-<li>residuals are not random</li>
-<li>variables are cointegrated</li>
-<li>multicollinearity in regressors</li>
-<li>residuals depend on x (heteroscedasticity)</li>
-<li>inference is not causality</li>
-<li>wrong signs, insignificant coefficients</li>
-<li>variable normalisation was not described</li>
+<div class="section" id="concepts">
+<h2>2.1. Concepts<a class="headerlink" href="#concepts" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="concepts/causation.html">Causation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="concepts/causation.html#book-of-why">Book of Why</a></li>
+<li class="toctree-l2"><a class="reference internal" href="concepts/causation.html#history">History</a></li>
 </ul>
-<p>Discussion:</p>
-<ul class="simple">
-<li>why sum of squares as a loss function?</li>
-<li>connections to</li>
-</ul>
-<p>bayesian estimation</p>
-<p>Replication examples: -
-<a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></p>
-<p>Links:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://blog.minitab.com/blog/how-to-choose-the-best-regression-model">https://blog.minitab.com/blog/how-to-choose-the-best-regression-model</a></li>
-<li><a class="reference external" href="https://towardsdatascience.com/simple-linear-regression-2421076a5892">https://towardsdatascience.com/simple-linear-regression-2421076a5892</a></li>
-<li><a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1736184">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1736184</a></li>
-<li><a class="reference external" href="https://cfss.uchicago.edu/persp012_regression_diagnostics.html">https://cfss.uchicago.edu/persp012_regression_diagnostics.html</a></li>
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/218156/what-are-some-of-the-most-common-misconceptions-about-linear-regression">https://stats.stackexchange.com/questions/218156/what-are-some-of-the-most-common-misconceptions-about-linear-regression</a></li>
-<li><a class="reference external" href="https://pdfs.semanticscholar.org/a410/ec58bd5ff80a4e7978955ab11d096af6d138.pdf">https://pdfs.semanticscholar.org/a410/ec58bd5ff80a4e7978955ab11d096af6d138.pdf</a></li>
-<li><a class="reference external" href="https://web.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html">COMMON MISTEAKS MISTAKES IN USING STATISTICS: Spotting and Avoiding
-Them</a></li>
-<li><a class="reference external" href="http://www2.sas.com/proceedings/sugi22/STATS/PAPER267.PDF">http://www2.sas.com/proceedings/sugi22/STATS/PAPER267.PDF</a></li>
-<li><a class="reference external" href="https://towardsdatascience.com/simple-linear-regression-2421076a5892">https://towardsdatascience.com/simple-linear-regression-2421076a5892</a></li>
-<li><a class="reference external" href="http://jeromyanglim.blogspot.com/2013/12/using-r-to-replicate-common-spss.html">http://jeromyanglim.blogspot.com/2013/12/using-r-to-replicate-common-spss.html</a></li>
-<li><a class="reference external" href="https://stat.hevra.haifa.ac.il/~gweiss/courses/Forecasting/CarPricesAnalysis.pdf">https://stat.hevra.haifa.ac.il/~gweiss/courses/Forecasting/CarPricesAnalysis.pdf</a></li>
-<li><a class="reference external" href="http://www.nrcresearchpress.com/doi/10.1139/f73-072#.W-SvWuK_Pcs">http://www.nrcresearchpress.com/doi/10.1139/f73-072#.W-SvWuK_Pcs</a></li>
-<li><a class="reference external" href="https://www.nejm.org/doi/full/10.1056/NEJM198512263132604">https://www.nejm.org/doi/full/10.1056/NEJM198512263132604</a></li>
-<li><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/</a> - medicine,
-nice!</li>
-<li><a class="reference external" href="http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS">http://replication.uni-goettingen.de/wiki/index.php/Ordinary_least_squares_(OLS</a>)
-- list of replications</li>
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman">https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman</a>
-(replication from Hastie)</li>
-</ul>
-<p>Intuitive learning for OLS - <a class="reference external" href="https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes&amp;pageSize=15">Stackoverflow hot
-topics</a>
-- <a class="reference external" href="https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html">In Depth: Linear
-Regression</a>
-- Stachurski math intro: -
-<a class="reference external" href="https://mitpress.mit.edu/sites/default/files/Stachurski_final_TOC.pdf">TOC</a>
-- <a class="reference external" href="https://github.com/jstac/econometric_theory_slides">slides</a> -
-<a class="reference external" href="https://lectures.quantecon.org/py/ols.html">https://lectures.quantecon.org/py/ols.html</a> -
-<a class="reference external" href="http://www.statsmodels.org/stable/examples/index.html#regression">http://www.statsmodels.org/stable/examples/index.html#regression</a> -
-<a class="reference external" href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html">https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html</a>
--
-<a class="reference external" href="https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression">https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression</a></p>
-</div>
-<div class="section" id="principal-components-analysis-pca">
-<h2>Principal components analysis, PCA<a class="headerlink" href="#principal-components-analysis-pca" title="Permalink to this headline">¶</a></h2>
-<p>Math:
-Assumptions:
-Usual steps:
-What may go wrong:
-Discussion:
-Replication examples:</p>
-<ul class="simple">
-<li>...</li>
-</ul>
-<p>Links:</p>
-<ul class="simple">
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues/2700#2700">https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues/2700#2700</a></li>
-<li><a class="reference external" href="https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_3d.html#sphx-glr-auto-examples-decomposition-plot-pca-3d-py">https://scikit-learn.org/stable/auto_examples/decomposition/plot_pca_3d.html#sphx-glr-auto-examples-decomposition-plot-pca-3d-py</a></li>
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/48214/replicating-shalizis-new-york-times-pca-example?rq=1">https://stats.stackexchange.com/questions/48214/replicating-shalizis-new-york-times-pca-example?rq=1</a></li>
+</li>
 </ul>
 </div>
-<div class="section" id="causation">
-<h2>Causation<a class="headerlink" href="#causation" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>Correlation is not causation.</div></blockquote>
-<div class="section" id="book-of-why">
-<h3>Book of Why<a class="headerlink" href="#book-of-why" title="Permalink to this headline">¶</a></h3>
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">The glory of this invention and the pain of the wrong turns are narrated here <a href="https://t.co/Jf1SkgV3CK">https://t.co/Jf1SkgV3CK</a>. The <a href="https://twitter.com/hashtag/Bookofwhy?src=hash&amp;ref_src=twsrc%5Etfw">#Bookofwhy</a> briefly decries, and mostly repairs the latters.</p>&mdash; Judea Pearl (@yudapearl) <a href="https://twitter.com/yudapearl/status/1064491031683461120?ref_src=twsrc%5Etfw">19 ноября 2018 г.</a></blockquote></div>
-<div class="section" id="history">
-<h3>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="ucla.in/2mhxKdO">Pearl, J. (2014). TRYGVE HAAVELMO AND THE EMERGENCE OF CAUSAL CALCULUS. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231</a></li>
+</div>
+<div class="section" id="techniques">
+<h2>2.2. Techniques<a class="headerlink" href="#techniques" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="techniques/ols.html">Ordinary least squares, OLS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="techniques/pca.html">Principal components analysis, PCA</a></li>
 </ul>
 </div>
 </div>
 <div class="section" id="history-of-econometrics">
-<h2>History of econometrics<a class="headerlink" href="#history-of-econometrics" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="landmark-events">
-<h3>Landmark events<a class="headerlink" href="#landmark-events" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://jse.amstat.org/v9n3/stanton.html">Galton</a> and Pearson</li>
-<li>Tinbergen, Haavelmo</li>
-<li>Cowles Commission</li>
-<li>Lucas critique</li>
+<h2>2.3 History of econometrics<a class="headerlink" href="#history-of-econometrics" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="history.html">History of econometrics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="history.html#landmark-events">Landmark events</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html#overview-publications">Overview publications</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html#by-topic">By topic</a></li>
 </ul>
-</div>
-<div class="section" id="overview-publications">
-<h3>Overview publications<a class="headerlink" href="#overview-publications" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="http://ftp.iza.org/dp2458.pdf">Econometrics: A Bird&#8217;s Eye View</a></li>
-<li><a class="reference external" href="https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf">Econometrics: An Historical Guide for the Uninitiated</a></li>
-<li><a class="reference external" href="https://www.researchgate.net/publication/24119912_The_First_Fifty_Years_of_Modern_Econometrics">The First Fifty Years of Modern Econometrics</a></li>
-</ul>
-</div>
-<div class="section" id="by-topic">
-<h3>By topic<a class="headerlink" href="#by-topic" title="Permalink to this headline">¶</a></h3>
-<ul class="simple">
-<li><a class="reference external" href="ucla.in/2mhxKdO">Pearl, J. (2014). TRYGVE HAAVELMO AND THE EMERGENCE OF CAUSAL CALCULUS. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231</a></li>
-<li><a class="reference external" href="https://arxiv.org/pdf/0808.2902.pdf">A Short History of Markov Chain Monte Carlo (arxiv)</a></li>
+</li>
 </ul>
 </div>
 </div>
@@ -316,7 +215,7 @@ Replication examples:</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="applications.html" class="btn btn-neutral float-right" title="3. Applications" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="concepts/causation.html" class="btn btn-neutral float-right" title="Causation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="interviews.html" class="btn btn-neutral" title="1. Interviews" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
