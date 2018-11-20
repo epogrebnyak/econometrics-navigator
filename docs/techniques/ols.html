@@ -29,7 +29,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Principal components analysis, PCA" href="pca.html" />
-    <link rel="prev" title="Causation" href="../concepts/causation.html" /> 
+    <link rel="prev" title="Causation, causality" href="../concepts/causation.html" /> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -95,7 +95,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../topics.html#history-of-econometrics">2.3 History of econometrics</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../applications.html">4. Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../applications.html">3. Applications</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
@@ -171,22 +171,20 @@
 highly practical to familiarise a learner with regression possibilites
 and limitations.</p>
 <p>The usual way to teach OLS is to present assumptions and show how to deal
-with their violations as indicated below in a review chart from Kennedy&#8217;s
+with their violations as indicated below in a review chart from Kennedy’s
 textbook.</p>
 <img alt="../_images/peter_kennedy_on_ols.png" src="../_images/peter_kennedy_on_ols.png" />
 <p>Math:</p>
 <p><span class="math">\(Y = \beta X + \epsilon\)</span></p>
 <p>Assumptions: <span class="math">\(\epsilon\)</span> is normally distributed</p>
 <p>Common steps:</p>
-<ol class="arabic simple" start="0">
-<li>think of what explanatory variables may explain a dependent variable</li>
+<ol class="arabic simple">
+<li>specify model: select explanatory variables, transform them if needed</li>
+<li>estimate coefficients</li>
+<li>elaborate on model quality (hardest part)</li>
+<li>to go 0 or 1 if needed</li>
+<li>know what model <em>does not</em> show (next hardest part)</li>
 </ol>
-<p>1. specify model: select
-regressors, transform variables
-2. estimate coefficients
-3. elaborate on model quality (hardest part)
-4. to go 0 or 1 if needed
-5. know what model <em>does not</em> show (next hardest part)</p>
 <p>What may go wrong:</p>
 <ul class="simple">
 <li>residuals are not random</li>
@@ -200,9 +198,8 @@ regressors, transform variables
 <p>Discussion:</p>
 <ul class="simple">
 <li>why sum of squares as a loss function?</li>
-<li>connections to</li>
+<li>connections to bayesian estimation</li>
 </ul>
-<p>bayesian estimation</p>
 <p>Replication examples: -
 <a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></p>
 <p>Links:</p>
@@ -253,7 +250,7 @@ Regression</a>
         <a href="pca.html" class="btn btn-neutral float-right" title="Principal components analysis, PCA" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="../concepts/causation.html" class="btn btn-neutral" title="Causation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="../concepts/causation.html" class="btn btn-neutral" title="Causation, causality" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -297,7 +294,7 @@ Regression</a>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
   
