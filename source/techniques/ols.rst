@@ -19,13 +19,11 @@ Math:
 
 Common steps: 
 
-0. think of what explanatory variables may explain a dependent variable
-1. specify model: select
-regressors, transform variables 
+1. specify model: select explanatory variables, transform them if needed 
 2. estimate coefficients 
-3. elaborate on model quality (hardest part) 
-4. to go 0 or 1 if needed 
-5. know what model *does not* show (next hardest part)
+3. elaborate on model quality (the hardest part) 
+4. go to 1 if needed 
+5. know what model *does not* show (next hardeer part)
 
 What may go wrong: 
 
@@ -53,7 +51,6 @@ Implementations:
 - [OLS class in python statsmodels](https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py)
 - [python scypi least squares](https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265)
 - julia [Alistair](https://github.com/giob1994/Alistair.jl), GLM.jl, Regression.jl
-
 
 Links (preliminary):
 
