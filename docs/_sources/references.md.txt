@@ -1,6 +1,13 @@
 References
 ==========
 
+## Mustreads
+
+- [One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org)
+- [Probability and Statistics Cookbook](http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf)
+- [QuantEcon](https://quantecon.org/)
+
+
 ## Textbooks
 
 

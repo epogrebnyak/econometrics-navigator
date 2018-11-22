@@ -11,9 +11,7 @@
    concepts/causation.md
 
 
-.. note:: To cover next
-
-   Concepts
+.. admonition:: To cover next: Concepts  
 
     - bias-variance tradeoff 
     - indentification 
@@ -21,15 +19,16 @@
     - overfitting
     - `spurious regression <https://mpra.ub.uni-muenchen.de/59008/>`__
 
-    Theorems
+.. admonition:: To cover next: Theorems
 
     - `Bayes theorem <http://onlinestatbook.com/2/probability/bayes_demo.html>`__
     - `Central limit theorem <concepts/clt.md>`__
 
-   Research design and incentives
+.. admonition:: To cover next: Research design
 
     - replication, replicability 
-    - [complexity bias](https://fs.blog/2018/01/complexity-bias/)
+    - `complexity bias <https://fs.blog/2018/01/complexity-bias/>`__
+    - `publishing and promotion <https://voxeu.org/article/publishing-and-promotion-economics-tyranny-top-five/>`__
 
 2.2. Techniques
 ---------------
@@ -40,7 +39,7 @@
    techniques/ols.rst
    techniques/pca.md
 
-.. note:: To cover next: 
+.. admonition:: To cover next
    
    To be decided.
 

@@ -171,12 +171,11 @@
 highly practical to familiarise a learner with regression possibilites
 and limitations.</p>
 <p>The usual way to teach OLS is to present assumptions and show how to deal
-with their violations as indicated below in a review chart from Kennedy’s
+with their violations as indicated below in a review chart from Kennedy&#8217;s
 textbook.</p>
 <img alt="../_images/peter_kennedy_on_ols.png" src="../_images/peter_kennedy_on_ols.png" />
 <p>Math:</p>
-<p><span class="math">\(Y = \beta X + \epsilon\)</span></p>
-<p>Assumptions: <span class="math">\(\epsilon\)</span> is normally distributed</p>
+<p><span class="math">\(Y = \beta X + \epsilon\)</span>, <span class="math">\(\epsilon\)</span> is iid, normal with finite variance.</p>
 <p>Common steps:</p>
 <ol class="arabic simple">
 <li>specify model: select explanatory variables, transform them if needed</li>
@@ -199,10 +198,20 @@ textbook.</p>
 <ul class="simple">
 <li>why sum of squares as a loss function?</li>
 <li>connections to bayesian estimation</li>
+<li>is R2 useful or dangerous?</li>
 </ul>
-<p>Replication examples: -
-<a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></p>
-<p>Links:</p>
+<p>Replication examples:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression">https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression</a></li>
+</ul>
+<p>Implementations:</p>
+<ul class="simple">
+<li>[lm function in R](<a class="reference external" href="https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R">https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R</a>)</li>
+<li>[OLS class in python statsmodels](<a class="reference external" href="https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py">https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py</a>)</li>
+<li>[python scypi least squares](<a class="reference external" href="https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265">https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265</a>)</li>
+<li>julia [Alistair](<a class="reference external" href="https://github.com/giob1994/Alistair.jl">https://github.com/giob1994/Alistair.jl</a>), GLM.jl, Regression.jl</li>
+</ul>
+<p>Links (preliminary):</p>
 <ul class="simple">
 <li><a class="reference external" href="https://blog.minitab.com/blog/how-to-choose-the-best-regression-model">https://blog.minitab.com/blog/how-to-choose-the-best-regression-model</a></li>
 <li><a class="reference external" href="https://towardsdatascience.com/simple-linear-regression-2421076a5892">https://towardsdatascience.com/simple-linear-regression-2421076a5892</a></li>
@@ -294,7 +303,7 @@ Regression</a>
         <script type="text/javascript" src="../_static/jquery.js"></script>
         <script type="text/javascript" src="../_static/underscore.js"></script>
         <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
   
