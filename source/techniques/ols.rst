@@ -13,12 +13,9 @@ textbook.
 .. image:: .\_static\peter_kennedy_on_ols.png
 
 
-
 Math:
 
-:math:`Y = \beta X + \epsilon`
-
-Assumptions: :math:`\epsilon` is normally distributed
+:math:`Y = \beta X + \epsilon`, :math:`\epsilon` is iid, normal with finite variance.
 
 Common steps: 
 
@@ -43,13 +40,22 @@ What may go wrong:
 Discussion: 
 
 - why sum of squares as a loss function? 
-- connections to
-bayesian estimation
+- connections to bayesian estimation
+- is R2 useful or dangerous?
 
-Replication examples: -
-https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression
+Replication examples: 
 
-Links:
+- https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression
+
+Implementations:
+
+- [lm function in R](https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R) 
+- [OLS class in python statsmodels](https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py)
+- [python scypi least squares](https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265)
+- julia [Alistair](https://github.com/giob1994/Alistair.jl), GLM.jl, Regression.jl
+
+
+Links (preliminary):
 
 -  https://blog.minitab.com/blog/how-to-choose-the-best-regression-model
 -  https://towardsdatascience.com/simple-linear-regression-2421076a5892

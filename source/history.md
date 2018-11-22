@@ -21,6 +21,12 @@
 
 - [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)
 
+- https://beatricecherrier.wordpress.com/2018/10/15/working-on-1960s-macroeconometrics-theres-an-echo-on-the-line/
+
+- [Criticizing the Lucas Critique: Macroeconometricians' Response to Robert Lucas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2837766)
+
+
+
 
 
 

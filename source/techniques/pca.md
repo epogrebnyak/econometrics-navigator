@@ -7,7 +7,7 @@ Usual steps:
 What may go wrong:
 Discussion:
 Replication examples:
-   - ...
+
 
 Links:
  - https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues/2700#2700

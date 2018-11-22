@@ -14,3 +14,5 @@ build-in datasets.
 - Australian National Centre for Econometric Research website has 
   a useful [Data and code](http://www.ncer.edu.au/resources/data-and-code.php)
   section. 
+
+- [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday#datasets) publishes weekly 
