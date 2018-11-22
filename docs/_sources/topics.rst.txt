@@ -9,6 +9,7 @@
 
    concepts/bootstrap.md
    concepts/causation.md
+   concepts/clt.md
 
 
 .. admonition:: To cover next: Concepts  
@@ -22,7 +23,7 @@
 .. admonition:: To cover next: Theorems
 
     - `Bayes theorem <http://onlinestatbook.com/2/probability/bayes_demo.html>`__
-    - `Central limit theorem <concepts/clt.md>`__
+    - central limit theorem
 
 .. admonition:: To cover next: Research design
 
