@@ -9,7 +9,7 @@ Welcome to Econometrics Navigator!
 .. toctree::
    :maxdepth: 1
 
-   forward.rst 
+   preface.rst 
    interviews.md 
    topics.rst
    applications.md
