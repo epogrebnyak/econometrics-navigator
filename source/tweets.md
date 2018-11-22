@@ -103,3 +103,7 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">1/ My new working paper <a href="https://twitter.com/BristolEcFin?ref_src=twsrc%5Etfw">@BristolEcFin</a> : What is the link between microfoundations and the Lucas Critique(LC) ? A historical appraisal. Thread.</p>&mdash; Francesco Sergi (@cescoeco) <a href="https://twitter.com/cescoeco/status/1054791509961269248?ref_src=twsrc%5Etfw">23 октября 2018 г.</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## MCMC recommendation by Neil Shepard
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">I am very excited by this line of work by Pierre Jacob and his coworkers.  Their coupling of MCMC chains to produce unbiasedness is simple, beautiful and important. <a href="https://t.co/p01wimrDwA">https://t.co/p01wimrDwA</a></p>&mdash; Neil Shephard (@shephard_neil) <a href="https://twitter.com/shephard_neil/status/1040813021596143622?ref_src=twsrc%5Etfw">15 сентября 2018 г.</a></blockquote>
+
