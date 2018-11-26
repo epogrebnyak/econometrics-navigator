@@ -10,9 +10,10 @@ Welcome to Econometrics Navigator!
    :maxdepth: 1
 
    preface.rst 
-   interviews.md 
-   topics.rst
+   concepts/index.rst
+   techniques/index.rst
    applications.md
+   history.md
    references.md
    data.md
    tweets.md

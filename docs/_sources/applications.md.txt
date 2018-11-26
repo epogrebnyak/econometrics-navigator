@@ -5,12 +5,16 @@ In this chapter we collect articles and chapters from several
 practical domains (macro, finance, risk and microeconomics) 
 for study and replication.
 
-Macro: 
+## Macro
+
    - GDP
    - FX
    - interest rates
    - asset class allocation 
    - business cycle 
+
+- 
+[Gita Gopinath. What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
 
 Risks and finance:
    - VAR    

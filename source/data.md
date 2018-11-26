@@ -5,6 +5,8 @@ Data
 and [R itself](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) have 
 build-in datasets.
 
+- gretl has extensive selection of datasets, including [data from key textbooks](http://gretl.sourceforge.net/gretl_data.html)
+
 - Well known dataset repository is [UCI](http://archive.ics.uci.edu/ml/datasets.html).
 
 - [Kaggle](https://www.kaggle.com/datasets) obviously has plenty of datasets. 

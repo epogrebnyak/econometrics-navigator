@@ -103,7 +103,7 @@ statistics and econometrics. They are regularly updated.
 - [Matt Bogard](http://econometricsense.blogspot.com/)
 - [Francis Diebold](https://fxdiebold.blogspot.com/)
 - [Dave Giles](https://davegiles.blogspot.com/)
-
+- [Rob Hyndman](https://robjhyndman.com/)
 
 [Simply Statistics](https://simplystatistics.org/) by biostatistics 
 professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
@@ -134,9 +134,6 @@ Software user guides
 Videos
 ------
 
-- 
-[Gita Gopinath. What Have Economists Learned About the International Economy?](https://youtu.be/RpAF8Px-E_A) 
-
 - [How Bayesian inference works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
 
 - [Understanding Generalised Method of Moments](https://t.co/dKNP3c5jeL)
@@ -145,8 +142,8 @@ Videos
 Other
 -----
 
-- https://radiant-rstats.github.io/docs/install.html (app)
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
 - [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
 - http://petersonbiology.com/math230Notes/bootstrapSimulation.html
+- [sunspot data](https://core.ac.uk/download/pdf/82474924.pdf)
 

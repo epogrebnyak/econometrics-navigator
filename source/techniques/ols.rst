@@ -54,6 +54,8 @@ Implementations:
 
 Links (preliminary):
 
+-  https://cran.r-project.org/doc/contrib/Faraway-PRA.pdf
+-  https://github.com/marcoalt/Regression-parameter-estimates
 -  https://blog.minitab.com/blog/how-to-choose-the-best-regression-model
 -  https://towardsdatascience.com/simple-linear-regression-2421076a5892
 -  https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1736184
@@ -75,7 +77,9 @@ Links (preliminary):
 -  https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman
    (replication from Hastie)
 
-Intuitive learning for OLS - `Stackoverflow hot
+Intuitive learning for OLS 
+
+- `Stackoverflow hot
 topics <https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes&pageSize=15>`__
 - `In Depth: Linear
 Regression <https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html>`__

@@ -1,6 +1,0 @@
-3. Techniques
-=============
-
-.. include::  techniques/ols.rst
-.. mdinclude::  techniques/pca.md
-

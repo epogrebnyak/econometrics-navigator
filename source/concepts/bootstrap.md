@@ -75,6 +75,7 @@ Source: [MIT lecture notes](https://ocw.mit.edu/courses/economics/14-384-time-se
 - https://www.schmidheiny.name/teaching/bootstrap2up.pdf
 - http://rosetta.ahmedmoustafa.io/bootstrap/
 - http://www.cs.cornell.edu/courses/cs1380/2018sp/textbook/chapters/11/2/bootstrap.html
+- http://economics.fundamentalfinance.com/bootstrap.php
 
 
 ### Editor notes
