@@ -5,8 +5,8 @@
 .. toctree::
    :maxdepth: 1
    
-   techniques/ols.rst
-   techniques/pca.md
+   ols.rst
+   pca.md
 
 .. admonition:: To cover next
    
