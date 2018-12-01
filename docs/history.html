@@ -84,13 +84,16 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="preface.html">Preface</a></li>
-<li class="toctree-l1"><a class="reference internal" href="topics.html">1. Concepts</a></li>
-<li class="toctree-l1"><a class="reference internal" href="topics.html#techniques">2. Techniques</a></li>
+<li class="toctree-l1"><a class="reference internal" href="concepts/index.html">1. Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="techniques/index.html">2. Techniques</a></li>
 <li class="toctree-l1"><a class="reference internal" href="applications.html">3. Applications</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">4.  History of econometrics</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#landmark-events">Landmark events</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#overviews">Overviews</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#by-topic">By topic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#by-topic">By topic</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#frequentist-vs-bayesian-views-on-maximum-likelihood">Frequentist vs bayesian views on maximum likelihood</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
@@ -174,7 +177,7 @@
 <div class="section" id="overviews">
 <h2>Overviews<a class="headerlink" href="#overviews" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="http://ftp.iza.org/dp2458.pdf">Econometrics: A Bird&#8217;s Eye View</a></li>
+<li><a class="reference external" href="http://ftp.iza.org/dp2458.pdf">Econometrics: A Bird’s Eye View</a></li>
 <li><a class="reference external" href="https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf">Econometrics: An Historical Guide for the Uninitiated</a></li>
 <li><a class="reference external" href="https://www.researchgate.net/publication/24119912_The_First_Fifty_Years_of_Modern_Econometrics">The First Fifty Years of Modern Econometrics</a></li>
 </ul>
@@ -185,8 +188,22 @@
 <li><a class="reference external" href="ucla.in/2mhxKdO">Pearl, J. (2014). Tygve Haavelmo and the emergence of causal calculus. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231</a></li>
 <li><a class="reference external" href="https://arxiv.org/pdf/0808.2902.pdf">A Short History of Markov Chain Monte Carlo (arxiv)</a></li>
 <li><a class="reference external" href="https://beatricecherrier.wordpress.com/2018/10/15/working-on-1960s-macroeconometrics-theres-an-echo-on-the-line">Working on 1960s macroeconometrics (blog)</a></li>
-<li><a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2837766">Criticizing the Lucas Critique: Macroeconometricians&#8217; Response to Robert Lucas</a></li>
+<li><a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2837766">Criticizing the Lucas Critique: Macroeconometricians’ Response to Robert Lucas</a></li>
 </ul>
+<div class="section" id="frequentist-vs-bayesian-views-on-maximum-likelihood">
+<h3>Frequentist vs bayesian views on maximum likelihood<a class="headerlink" href="#frequentist-vs-bayesian-views-on-maximum-likelihood" title="Permalink to this headline">¶</a></h3>
+<p>Source: <a class="reference external" href="https://twitter.com/florianhartig">Florian Hartig</a>
+answer on <a class="reference external" href="https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695">Stack Overflow</a></p>
+<p>Not all of these ideas were already present in Fisher’s foundational 1922 paper <a class="reference external" href="http://l.academicdirect.org/Horticulture/GAs/Refs/Fisher_1922_Estimation.pdf">“On the mathematical foundations of theoretical statistics”</a>, but the idea of optimality and unbiasedness is, and Neyman latter added the idea of constructing CIs with fixed error rates. <a class="reference external" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.4592&amp;rep=rep1&amp;type=pdf">Efron, 2013, “A 250-year argument: Belief, behavior, and the bootstrap”</a>, summarizes in his very readable history of the Bayesian/Frequentist debate:</p>
+<blockquote>
+<div>The frequentist bandwagon really got rolling in the early 1900s. Ronald Fisher developed the maximum likelihood theory of optimal estimation, showing the best possible behavior for an estimate, and Jerzy Neyman did the same for confidence intervals and tests. Fisher’s and Neyman’s procedures were an almost perfect fit to the scientific needs and the computational limits of twentieth century science, casting Bayesianism into a shadow existence.</div></blockquote>
+<p>Notes:</p>
+<ul class="simple">
+<li>Fisher paper has vocabulary attached at the start of the article.</li>
+<li>Efron papaer has a map with tiny AI space and comparison chart for
+freq vs bayes methods.</li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -245,7 +262,7 @@
         <script type="text/javascript" src="_static/jquery.js"></script>
         <script type="text/javascript" src="_static/underscore.js"></script>
         <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     
 
   
