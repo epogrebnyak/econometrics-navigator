@@ -5,13 +5,13 @@
    :maxdepth: 1
 
    bootstrap.md
+   bias_variance_tradeoff.md
    causation.md
    clt.md
    mode.md
 
 .. admonition:: To cover next: Concepts  
 
-    - bias-variance tradeoff 
     - indentification 
     - inference 
     - overfitting

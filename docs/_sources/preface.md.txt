@@ -19,14 +19,6 @@ To keep on happily coding I wanted:
 
 A single guide of the type does not seem to exist, so I'm writing one. 
 
-## What is happening now?
-
-*November 11, 2018* 
-
- - updating [Twitter](tweets.md) posts page, plenty of information 
-   with a personal appeal 
- - several articles appearing in 'Concepts and techniques' section 
-
 
 ## Contacts
 
