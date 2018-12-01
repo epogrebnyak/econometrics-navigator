@@ -26,8 +26,17 @@
 
 - [Criticizing the Lucas Critique: Macroeconometricians' Response to Robert Lucas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2837766)
 
+### Frequentist vs bayesian views on maximum likelihood
 
+Source: [Florian Hartig](https://twitter.com/florianhartig)
+answer on [Stack Overflow](https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695)
 
+Not all of these ideas were already present in Fisher's foundational 1922 paper ["On the mathematical foundations of theoretical statistics"](http://l.academicdirect.org/Horticulture/GAs/Refs/Fisher_1922_Estimation.pdf), but the idea of optimality and unbiasedness is, and Neyman latter added the idea of constructing CIs with fixed error rates. [Efron, 2013, "A 250-year argument: Belief, behavior, and the bootstrap"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.4592&rep=rep1&type=pdf), summarizes in his very readable history of the Bayesian/Frequentist debate:
 
+> The frequentist bandwagon really got rolling in the early 1900s. Ronald Fisher developed the maximum likelihood theory of optimal estimation, showing the best possible behavior for an estimate, and Jerzy Neyman did the same for confidence intervals and tests. Fisher’s and Neyman’s procedures were an almost perfect fit to the scientific needs and the computational limits of twentieth century science, casting Bayesianism into a shadow existence.
 
+Notes:
 
+- Fisher paper has vocabulary attached at the start of the article. 
+- Efron papaer has a map with tiny AI space and comparison chart for 
+  freq vs bayes methods.   
