@@ -54,6 +54,7 @@ Implementations:
 
 Links (preliminary):
 
+-  https://stats.stackexchange.com/questions/296514/is-ols-estimator-the-only-blue-estimator
 -  https://cran.r-project.org/doc/contrib/Faraway-PRA.pdf
 -  https://github.com/marcoalt/Regression-parameter-estimates
 -  https://blog.minitab.com/blog/how-to-choose-the-best-regression-model
