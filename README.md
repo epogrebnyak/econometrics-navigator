@@ -4,17 +4,17 @@
 
 ## What is it?
 
-*Econometrics navigator* is a collaborative 
-open source guide to econometrics featuring:
+*Econometrics navigator* is a open source guide to econometrics.
+It is now at skeleton + examples stage.   
 
-1. practitioner interviews
-2. structured overviews of econometric concepts and techniques, featuring 
-   toy code examples 
-3. use cases of in macro, finance, risk, policy evaluation and microeconomic research
-4. data sources 
+It looks like the sceleton will be:
 
-We aim to make entry into the econometrics easy, highlight paths to self-study, 
-show replication of important results, and appeal to intuition.
+1. an overview of econometric [concepts and techniques](source/themes/index.rst), featuring minimum working toy code to illustrate a topic   
+2. selected Stack Overflow answers and [twitter posts](source/twitter.md) are first-class citizens
+3. the ocean of on-line references is pearls amongst trash,
+   and needs [a distillation of must-reads](source/references.md).
+4. milestones articles in macro, finance, risk, policy evaluation and microeconomics is something I would have read myself ([draft](source/applications.md))
+5. [data sources](source/data.md) and replicable research in econometrics (how many econometric articles do have code published on github?)
 
 ## Where is it?
 
