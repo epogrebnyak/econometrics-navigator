@@ -14,7 +14,8 @@ My checklist for a good topic is:
 
 - you could have learned it before, but now forgot
 - simple, minimal code example illustrates it
-- links provided navigate you through chaos
+- links provided navigate you through the tutorial chaos
+- someone knowledgable read the article and approved it
 
 First articles  
 ---------------
