@@ -6,29 +6,29 @@
 Welcome to Econometrics Navigator!
 ==================================
 
-My goal is to illustrate key topics in econometrics with minimal code 
-in Python, R or Julia and provide links to quality open source textbooks, 
-popular Stack Overflow answers, short videos and twitter threads.
+The project goal is to illustrate key topics in econometrics 
+with minimal code examples in Python, R or Julia and 
+to provide links to open access textbooks, Stack Overflow answers, 
+short videos and twitter threads.
 
-My checklist for a good topic is:
+A checklist for a good topic is:
 
 - you could have learned it before, but now forgot
-- simple, minimal code example illustrates it
-- links provided navigate you through the tutorial chaos
+- illustrated by simple, minimal code example
+- links a few extra readings or discussions   
 - someone knowledgable read the article and approved it
 
 First articles  
 ---------------
-
 
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
 - `History of econometrics <special/history.html>`__
 - `Good clues from Twitter <tweets.html>`__
 
-.. image::  _static/chick.jpg
+.. image::  ../_static/chick.jpg
 
-Project sceleton
+Project skeleton
 ----------------
 
 .. toctree::
@@ -43,12 +43,12 @@ Project sceleton
    tweets.md 
    acronyms.md
 
-.. image::  _static/kiwi.jpg
+.. image::  ../_static/kiwi.jpg
 
 Contacts
 --------
 
-Feel free to contact me on `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
+Feel free to contact me `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
 I need help in shaping this guide and exposing it to readers and reviewers 
 in order to make it better.
 
