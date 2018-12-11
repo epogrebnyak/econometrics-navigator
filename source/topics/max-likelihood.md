@@ -113,7 +113,10 @@ Links
 
 [mice]: https://www.youtube.com/watch?v=XepXtl9YKwc
 
-- Informative [Stack Overflow issue](https://stats.stackexchange.com/questions/112451/maximum-likelihood-estimation-mle-in-layman-terms) on max likelihood
+- [Maximum likelihood estimation in layman terms](https://stats.stackexchange.com/questions/112451/maximum-likelihood-estimation-mle-in-layman-terms)
+
+- [Why is maximum likelihood estimation considered to be a frequentist technique] (https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695)
+
 
 - [Very accessible math treatment (in Russian)](https://nsu.ru/mmf/tvims/chernova/ms/lec/node14.html)
 
