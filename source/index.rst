@@ -21,10 +21,10 @@ First articles
 ---------------
 
 
-- `Maximum likelihood <topics/max-likelihood.md>`__
-- `Bootstrap <topics/bootstrap.md>`__
-- `History of econometrics <special/history.md>`__
-- `Good clues from Twitter <tweets.md>`__
+- `Maximum likelihood <topics/max-likelihood.html>`__
+- `Bootstrap <topics/bootstrap.html>`__
+- `History of econometrics <special/history.html>`__
+- `Good clues from Twitter <tweets.html>`__
 
 .. image::  _static/chick.jpg
 
