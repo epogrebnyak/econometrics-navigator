@@ -143,7 +143,9 @@ Other
 -----
 
 - [Causal Inference In Statistics: A Companion for R Users](http://dagitty.net/primer)
-- [77 best lines from Andrew Gelman Bayesian extimation course](http://www.stat.columbia.edu/~gelman/book/)
+- [77 best lines from Andrew Gelman Bayesian estimation course](http://www.stat.columbia.edu/~gelman/book/)
 - http://petersonbiology.com/math230Notes/bootstrapSimulation.html
 - [sunspot data](https://core.ac.uk/download/pdf/82474924.pdf)
+- http://www.netviale.com/wp-content/uploads/2015/08/Introduction_to_programming_Econometrics_with_R.pdf
+
 

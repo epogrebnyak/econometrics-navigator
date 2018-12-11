@@ -8,7 +8,7 @@
    bootstrap.md
    causation.md
    clt.md
-   mlhood.md
+   max-likelihood.md
    mode.md
    ols.rst
    pca.md

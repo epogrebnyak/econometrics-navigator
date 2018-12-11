@@ -1,3 +1,11 @@
+start: 14:38 10.12.2018
+
+- [ ] finish ols
+- [ ] finish maximum likelihood example
+- [ ] clean up bookstrap
+
+
+end: 14:38 10.12.2018
 23:21 17.11.2018
 
 - [ ] make 'gitall' alias for commit and push after build 
