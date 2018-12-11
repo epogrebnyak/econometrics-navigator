@@ -4,7 +4,12 @@ Maximum likelihood
 The probability density function `p = f(x, θ)` tells you a probability of occurrence 
 of a random value near `x`.  Likelihood is essentially a reverse operation of estimating unknown paramter `θ` from the same equation using `p` and `x`.
 
-## Example
+## Lead by example
+
+- Observations
+- Probability of observations
+- Observed sample is considered the most likely one
+- Maximisation of probability allows to compute distribution parameters 
 
 *1. Observations.* Consider an experiment where we draw two random indepenent values `(x₁, x₂)` from the same distribution, e.g. the weight of two [mice][mice] in grams `(30, 50)`. 
 There is some prior knowledge given to you that the distribution is normal with 
@@ -16,7 +21,7 @@ a center around `μ` (average mouse weight) and standard deviation of `σ`: `x ~
 It is prudent to assume that observed `(x₁, x₂) = (30, 50)` was the realisation of the most probable possible event. This way we take good use of available scarce information and make a better guess. If we decide we just saw an extreme event, we will be systematically wrong on this decision ([a tourist sees a working fountain in town][fountain] provides extra intuition).
 
 
-*4. Maximisation of probability allows to compute parameters.*
+*4. Maximisation of probability allows to compute distribution parameters.*
 So, upon a fact of observation of `(x₁, x₂)` we tend to believe this has to be an event with 
 maximum probability (likelihood) of happening. From this assumption we can find `μ` and `σ`
 that maximise `L`. Sometimes it is possible to do it analytically, as with normal 
@@ -115,7 +120,7 @@ Links
 
 - [Maximum likelihood estimation in layman terms](https://stats.stackexchange.com/questions/112451/maximum-likelihood-estimation-mle-in-layman-terms)
 
-- [Why is maximum likelihood estimation considered to be a frequentist technique] (https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695)
+- [Why is maximum likelihood estimation considered to be a frequentist technique](https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695)
 
 
 - [Very accessible math treatment (in Russian)](https://nsu.ru/mmf/tvims/chernova/ms/lec/node14.html)

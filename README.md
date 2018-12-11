@@ -2,7 +2,7 @@
 
 ## What is it?
 
-*Econometrics Navigator* is a open source guide to econometrics.
+*Econometrics Navigator* is an open source guide to econometrics.
 
 It is now at skeleton and first examples stage.   
 
