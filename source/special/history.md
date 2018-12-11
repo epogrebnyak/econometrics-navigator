@@ -1,5 +1,5 @@
-3.  History of econometrics
-===========================
+History of econometrics
+=======================
 
 ## Landmark events
 

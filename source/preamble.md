@@ -1,7 +1,5 @@
-Preface
-=======
-
-## Motivation
+Motivation
+==========
 
 Back in graduate school I was perfectly happy with Greene, Dougherty,
 MicroTSP, EViews and Matlab. Now I code in Python, R and Julia and I feel amount of information about econometrics is immense to a degree 
@@ -18,10 +16,3 @@ To keep on happily coding I wanted:
 - something to share with students on occasional teaching
 
 A single guide of the type does not seem to exist, so I'm writing (well, compiling) one. 
-
-## Contacts
-
-Feel free to contact me on [@PogrebnyakE](https://twitter.com/PogrebnyakE).
-I need help in shaping this guide and exposing it to readers to make it better.
-
-The source of this publication is avialable at <https://github.com/epogrebnyak/econometrics-navigator>.

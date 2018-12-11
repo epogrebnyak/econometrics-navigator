@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Welcome to Econometrics Navigator! &mdash; Econometrics Navigator 0.0.1 documentation</title>
+  <title>Welcome to Econometrics Navigator! &mdash; Econometrics Navigator 0.0.2 documentation</title>
   
 
   
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="1. Concepts" href="topics/index.html" /> 
+    <link rel="next" title="Motivation" href="preamble.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -57,7 +57,7 @@
             
             
               <div class="version">
-                0.0.1
+                0.0.2
               </div>
             
           
@@ -82,9 +82,10 @@
             
             
               <ul>
-<li class="toctree-l1"><a class="reference internal" href="topics/index.html">1. Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preamble.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="topics/index.html">1. Concepts and techniques</a></li>
 <li class="toctree-l1"><a class="reference internal" href="applications.html">2. Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="history.html">3.  History of econometrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special/index.html">3. Special topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tweets.html">Good clues from Twitter</a></li>
@@ -155,50 +156,46 @@
             
   <div class="section" id="welcome-to-econometrics-navigator">
 <h1>Welcome to Econometrics Navigator!<a class="headerlink" href="#welcome-to-econometrics-navigator" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<p>My goal is to illustrate key topics in econometrics with minimal code
+in Python, R or Julia and provide links to quality open source textbooks,
+popular Stack Overflow answers, short videos and twitter threads.</p>
+<p>My checklist for a good topic is:</p>
+<ul class="simple">
+<li>you could have learned it before, but now forgot</li>
+<li>simple, minimal code example illustrates it</li>
+<li>links provided navigate you through chaos</li>
+</ul>
+<div class="section" id="first-articles">
+<h2>First articles<a class="headerlink" href="#first-articles" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="topics/max-likelihood.md">Maximum likelihood</a></li>
+<li><a class="reference external" href="topics/bootstrap.md">Bootstrap</a></li>
+<li><a class="reference external" href="special/history.md">History of econometrics</a></li>
+<li><a class="reference external" href="tweets.md">Good clues from Twitter</a></li>
+</ul>
+<img alt="_static/chick.jpg" src="_static/chick.jpg" />
+</div>
+<div class="section" id="project-sceleton">
+<h2>Project sceleton<a class="headerlink" href="#project-sceleton" title="Permalink to this headline">¶</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="topics/index.html">1. Concepts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="preamble.html">Motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="topics/index.html">1. Concepts and techniques</a></li>
 <li class="toctree-l1"><a class="reference internal" href="applications.html">2. Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="history.html">3.  History of econometrics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="special/index.html">3. Special topics</a></li>
 <li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
 <li class="toctree-l1"><a class="reference internal" href="data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tweets.html">Good clues from Twitter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acronyms.html">Acronyms</a></li>
 </ul>
 </div>
-</div>
-<div class="section" id="motivation">
-<h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h2>
-<p>Back in graduate school I was perfectly happy with Greene, Dougherty,
-MicroTSP, EViews and Matlab. Now I code in Python, R and Julia and I feel amount of information about econometrics is immense to a degree
-it erodes confidence. There is also a wave of machine learning
-and deep learning flocking over, a bit of a stress.</p>
-<p>To keep on happily coding I wanted:</p>
-<ul class="simple">
-<li>a guide that helps refresh easier econometrics topics and navigate
-through more difficult ones</li>
-<li>complex things told simply, less jargon and more intuitive appeal</li>
-<li>a good list of worthwhile articles to invest time replicating them</li>
-<li>credible references to accessible books, articles, tutorials</li>
-<li>something to share with students on occasional teaching</li>
-</ul>
-<p>A single guide of the type does not seem to exist, so I&#8217;m writing (well, compiling) one.</p>
-</div>
-<div class="section" id="topic-in-focus-motivation-to-look-beyond-point-estimates">
-<h2>Topic in focus: <a class="reference external" href="https://twitter.com/PogrebnyakE/status/1071526723773194245">Motivation to look beyond point estimates</a><a class="headerlink" href="#topic-in-focus-motivation-to-look-beyond-point-estimates" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div>In statistical inference the immediate learning focus is to
-&#8216;get that (point) estimate&#8217;, the rest of story is harder to
-motivate for unless you attach explict decision costs
-to biased/inefficient predictions.</div></blockquote>
-<img alt="_images/beyond_point_estimate.png" src="_images/beyond_point_estimate.png" />
+<img alt="_static/kiwi.jpg" src="_static/kiwi.jpg" />
 </div>
 <div class="section" id="contacts">
 <h2>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">¶</a></h2>
 <p>Feel free to contact me on <a class="reference external" href="https://twitter.com/PogrebnyakE">&#64;PogrebnyakE</a>.
-I need help in shaping this guide and exposing it to readers to make it better.</p>
+I need help in shaping this guide and exposing it to readers and reviewers
+in order to make it better.</p>
 <p>The source of this publication is avialable at <a class="reference external" href="https://github.com/epogrebnyak/econometrics-navigator">https://github.com/epogrebnyak/econometrics-navigator</a>.</p>
 </div>
 </div>
@@ -211,7 +208,7 @@ I need help in shaping this guide and exposing it to readers to make it better.<
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="topics/index.html" class="btn btn-neutral float-right" title="1. Concepts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="preamble.html" class="btn btn-neutral float-right" title="Motivation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
     </div>
@@ -245,7 +242,7 @@ I need help in shaping this guide and exposing it to readers to make it better.<
       <script type="text/javascript">
           var DOCUMENTATION_OPTIONS = {
               URL_ROOT:'./',
-              VERSION:'0.0.1',
+              VERSION:'0.0.2',
               LANGUAGE:'None',
               COLLAPSE_INDEX:false,
               FILE_SUFFIX:'.html',

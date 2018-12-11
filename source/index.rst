@@ -6,53 +6,49 @@
 Welcome to Econometrics Navigator!
 ==================================
 
-Contents
---------
+My goal is to illustrate key topics in econometrics with minimal code 
+in Python, R or Julia and provide links to quality open source textbooks, 
+popular Stack Overflow answers, short videos and twitter threads.
+
+My checklist for a good topic is:
+
+- you could have learned it before, but now forgot
+- simple, minimal code example illustrates it
+- links provided navigate you through chaos
+
+First articles  
+---------------
+
+
+- `Maximum likelihood <topics/max-likelihood.md>`__
+- `Bootstrap <topics/bootstrap.md>`__
+- `History of econometrics <special/history.md>`__
+- `Good clues from Twitter <tweets.md>`__
+
+.. image::  _static/chick.jpg
+
+Project sceleton
+----------------
 
 .. toctree::
    :maxdepth: 1
 
+   preamble.md
    topics/index.rst
    applications.md
-   history.md
+   special/index.md
    references.md
    data.md
    tweets.md 
    acronyms.md
 
-Motivation
-----------
-
-Back in graduate school I was perfectly happy with Greene, Dougherty,
-MicroTSP, EViews and Matlab. Now I code in Python, R and Julia and I feel amount of information about econometrics is immense to a degree 
-it erodes confidence. There is also a wave of machine learning
-and deep learning flocking over, a bit of a stress. 
-
-To keep on happily coding I wanted:
-
-- a guide that helps refresh easier econometrics topics and navigate 
-  through more difficult ones 
-- complex things told simply, less jargon and more intuitive appeal
-- a good list of worthwhile articles to invest time replicating them
-- credible references to accessible books, articles, tutorials
-- something to share with students on occasional teaching
-
-A single guide of the type does not seem to exist, so I'm writing (well, compiling) one. 
-
-Topic in focus: `Motivation to look beyond point estimates <https://twitter.com/PogrebnyakE/status/1071526723773194245>`__
---------------------------------------------------------------------------------------------------------------------------
-
-    In statistical inference the immediate learning focus is to 
-    'get that (point) estimate', the rest of story is harder to 
-    motivate for unless you attach explict decision costs 
-    to biased/inefficient predictions.
-
-..  image:: ../_static/beyond_point_estimate.png
+.. image::  _static/kiwi.jpg
 
 Contacts
 --------
 
 Feel free to contact me on `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
-I need help in shaping this guide and exposing it to readers to make it better.
+I need help in shaping this guide and exposing it to readers and reviewers 
+in order to make it better.
 
 The source of this publication is avialable at https://github.com/epogrebnyak/econometrics-navigator.

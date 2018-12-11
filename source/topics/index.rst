@@ -1,5 +1,5 @@
-1. Concepts 
-===========
+1. Concepts and techniques 
+==========================
 
 .. toctree::
    :maxdepth: 1
