@@ -18,8 +18,6 @@ History of econometrics
 
 ## By topic
 
-- [timeless Cramer, 1946, Russian translation](http://cyber.sibsutis.ru:82/Monarev/docs/nauka/MV_Probability/MVsa_Statistics%20and%20applications/0417.Kramer-Matem_Metodi_Statistiki.pdf)
-
 - [Pearl, J. (2014). Tygve Haavelmo and the emergence of causal calculus. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231](ucla.in/2mhxKdO) 
 
 - [A Short History of Markov Chain Monte Carlo (arxiv)](https://arxiv.org/pdf/0808.2902.pdf)

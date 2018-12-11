@@ -45,6 +45,11 @@ Threads about picking a textbook:
 - http://www.urch.com/forums/phd-economics/127240-just-finished-intro-wooldridge-gurajati-whats-best-text-next-self-study.html
 
 
+Historic: 
+
+- [Cramer, 1946, Russian translation](http://cyber.sibsutis.ru:82/Monarev/docs/nauka/MV_Probability/MVsa_Statistics%20and%20applications/0417.Kramer-Matem_Metodi_Statistiki.pdf), timeless! also has dataset if wheat yeilds.
+
+
 
 Papers
 ------
