@@ -1,15 +1,44 @@
 References
 ==========
 
-## Mustreads
+## Econometrics 
+
+- [QuantEcon](https://quantecon.org/)
+- [Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/)
+- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm)
+
+## Preparation
 
 - [One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org)
 - [Probability and Statistics Cookbook](http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf)
-- [QuantEcon](https://quantecon.org/)
+- [VLMS](http://vmls-book.stanford.edu)
+- [Herman J. Bierens. Introduction to the Mathematical and Statistical Foundations of Econometrics](https://bit.ly/2zWyyff)
 
+## Popular press
+
+- _MHE_
+- _Noise_ 
+- _Book of Why_
+
+## Blogs 
+
+The  blogs below are enlight and inspire about statistics and econometrics. They are regularly updated. 
+
+- [Matt Bogard](http://econometricsense.blogspot.com/)
+- [Francis Diebold](https://fxdiebold.blogspot.com/)
+- [Dave Giles](https://davegiles.blogspot.com/)
+- [Rob Hyndman](https://robjhyndman.com/)
+
+[Simply Statistics](https://simplystatistics.org/) by biostatistics 
+professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
+analysis and teaching stats.
+
+
+--------
+
+Unsorted below 
 
 ## Textbooks
-
 
 Favorite introductory: 
 
@@ -82,6 +111,14 @@ We choose papers that are:
 
 - Engle, Robert F., and Clive WJ Granger. “Co-integration and error correction: representation, estimation, and testing.” Econometrica: journal of the Econometric Society (1987): 251-276.
 
+
+- Fisher's foundational 1922 paper ["On the mathematical foundations of theoretical statistics"](http://l.academicdirect.org/Horticulture/GAs/Refs/Fisher_1922_Estimation.pdf)(has a vocabulary attached at the start of the article)
+
+- [Efron, 2013, "A 250-year argument: Belief, behavior, and the bootstrap"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.306.4592&rep=rep1&type=pdf), summary of the Bayesian/Frequentist debate:
+
+> The frequentist bandwagon really got rolling in the early 1900s. Ronald Fisher developed the maximum likelihood theory of optimal estimation, showing the best possible behavior for an estimate, and Jerzy Neyman did the same for confidence intervals and tests. Fisher’s and Neyman’s procedures were an almost perfect fit to the scientific needs and the computational limits of twentieth century science, casting Bayesianism into a shadow existence.
+
+
 ### Popular
 
 - [A PANIC ATTACK ON UNIT ROOTS AND COINTEGRATION Econometrica , Vol. 72, No. 4 (July, 2004), 1127–1177](http://www.columbia.edu/~jb3064/papers/2004_A_panic_attack_on_unit_roots_and_cointegration.pdf)
@@ -99,22 +136,6 @@ We choose papers that are:
 
 
 
-Blogs 
------
-
-The three blogs below are alone good to enlight and inspire about 
-statistics and econometrics. They are regularly updated. 
-
-- [Matt Bogard](http://econometricsense.blogspot.com/)
-- [Francis Diebold](https://fxdiebold.blogspot.com/)
-- [Dave Giles](https://davegiles.blogspot.com/)
-- [Rob Hyndman](https://robjhyndman.com/)
-
-[Simply Statistics](https://simplystatistics.org/) by biostatistics 
-professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
-analysis and teaching stats.
-
-
 Course syllabi
 --------------
 
@@ -122,19 +143,17 @@ So many of them... just a few:
 
 - http://www.sci.csueastbay.edu/~esuess/stat6620
 - http://fmwww.bc.edu/EC-C/S2013/823/EC823.S2013.php
-- [Short guides in microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm)
 - https://github.com/bdemeshev/em301/wiki/dream_econometrics
 - http://bdemeshev.github.io/em301/
 - https://www.tristanfletcher.co.uk/tutorials/
+- https://ocw.mit.edu/courses/sloan-school-of-management/15-450-analytics-of-finance-fall-2010/
 
 
-Software user guides
---------------------
-
-- [gretl](http://gretl.sourceforge.net/gretl-help/gretl-guide.pdf)
-- [scilearn-kit dev](http://www.math.unipd.it/~aiolli/corsi/1213/aa/user_guide-0.12-git.pdf)
-- statmodels
+Compare code implementations
+----------------------------
 - R
+- https://www.statsmodels.org/stable/index.html
+- Julia
 
 Videos
 ------
@@ -142,7 +161,6 @@ Videos
 - [How Bayesian inference works](https://www.analyticbridge.datasciencecentral.com/profiles/blogs/how-bayesian-inference-works-tutorial)
 
 - [Understanding Generalised Method of Moments](https://t.co/dKNP3c5jeL)
-
 
 Other
 -----
@@ -152,5 +170,4 @@ Other
 - http://petersonbiology.com/math230Notes/bootstrapSimulation.html
 - [sunspot data](https://core.ac.uk/download/pdf/82474924.pdf)
 - http://www.netviale.com/wp-content/uploads/2015/08/Introduction_to_programming_Econometrics_with_R.pdf
-
-
+- https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1

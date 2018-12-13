@@ -5,3 +5,4 @@
    :maxdepth: 1
 
    history.md
+   ways-into-econometrics.md

@@ -8,15 +8,8 @@ Welcome to Econometrics Navigator!
 
 The project goal is to illustrate key topics in econometrics 
 with minimal code examples in Python, R or Julia and 
-to provide links to open access textbooks, Stack Overflow answers, 
-short videos and twitter threads.
-
-A checklist for a good topic is:
-
-- you could have learned it before, but now forgot
-- illustrated by simple, minimal code example
-- links a few extra readings or discussions   
-- someone knowledgable read the article and approved it
+to provide good links to open access textbooks, reputable Stack Overflow 
+answers, short videos and twitter threads.
 
 First articles  
 ---------------
@@ -24,7 +17,9 @@ First articles
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
 - `History of econometrics <special/history.html>`__
+- `Ways to review econometrics <special/ways-into-econometrics.html>`__
 - `Good clues from Twitter <tweets.html>`__
+- `Data sources <data.html>`__
 
 .. image::  ../_static/chick.jpg
 

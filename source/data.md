@@ -5,7 +5,7 @@ Data
 and [R itself](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) have 
 build-in datasets.
 
-- gretl has extensive selection of datasets, including [data from key textbooks](http://gretl.sourceforge.net/gretl_data.html)
+- gretl has extensive selection of datasets, including [data from key textbooks](http://gretl.sourceforge.net/gretl_data.html).
 
 - Well known dataset repository is [UCI](http://archive.ics.uci.edu/ml/datasets.html).
 
@@ -19,3 +19,5 @@ build-in datasets.
 
 - [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday#datasets) publishes weekly 
   datasets and accompanying articles.
+
+- Expecting to add here FRED, sunspot data, dbnomics.

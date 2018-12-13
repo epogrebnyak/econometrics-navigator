@@ -107,3 +107,22 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">I am very excited by this line of work by Pierre Jacob and his coworkers.  Their coupling of MCMC chains to produce unbiasedness is simple, beautiful and important. <a href="https://t.co/p01wimrDwA">https://t.co/p01wimrDwA</a></p>&mdash; Neil Shephard (@shephard_neil) <a href="https://twitter.com/shephard_neil/status/1040813021596143622?ref_src=twsrc%5Etfw">15 сентября 2018 г.</a></blockquote>
 
+
+## A4 econometric art
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="es" dir="ltr">Legalicenla: permito a mis alumnos venir a mi examen con una hoja escrita de ambos lado, con cualquier cosa. Cada año doy el premio &quot;Arte Econometrico&quot; a la mayor cantidad de info por cm2. Aqui uno de los ganadores. <a href="https://t.co/i1cTpSpxLp">pic.twitter.com/i1cTpSpxLp</a></p>&mdash; Walter Sosa Escudero (@wsosaescudero) <a href="https://twitter.com/wsosaescudero/status/1067880573170065413?ref_src=twsrc%5Etfw">28 ноября 2018 г.</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+##  CLT matters
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">The Central Limit Theorem matters in real life. <a href="https://t.co/GxFPx2PsMV">https://t.co/GxFPx2PsMV</a></p>&mdash; Alex Combessie (@alex_combessie) <a href="https://twitter.com/alex_combessie/status/1069563652947279872?ref_src=twsrc%5Etfw">3 декабря 2018 г.</a></blockquote>
+
+## A 1910 must-read
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">How a book written in 1910 could teach you calculus better than several books of today [Calculus Made Easy, 1910] <a href="https://t.co/W4gspJoGQc">https://t.co/W4gspJoGQc</a> <a href="https://t.co/rm45Ot0xSm">pic.twitter.com/rm45Ot0xSm</a></p>&mdash; Massimo (@Rainmaker1973) <a href="https://twitter.com/Rainmaker1973/status/1069321585591492610?ref_src=twsrc%5Etfw">2 декабря 2018 г.</a></blockquote>
+
+
+## Amazing statistics animation
+
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">As requested, slower graphs! Also added a graph on collider bias, the webpage explanation helps there.<br><br>These graphs are intended to show what standard causal inference methods actually *do* to data, and how they work.<br><br>This is what controlling for a binary variable looks like: <a href="https://t.co/dTZxqY5JxA">pic.twitter.com/dTZxqY5JxA</a></p>&mdash; Nick HK (@nickchk) <a href="https://twitter.com/nickchk/status/1068215492458905600?ref_src=twsrc%5Etfw">29 ноября 2018 г.</a></blockquote>
+
