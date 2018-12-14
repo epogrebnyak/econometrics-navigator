@@ -190,3 +190,19 @@ Heteroscedasticity
 - http://www.statsmodels.org/dev/diagnostic.html
 - https://datascienceplus.com/how-to-detect-heteroscedasticity-and-rectify-it/
 - https://stats.stackexchange.com/questions/251652/resolving-heteroscedasticity-in-poisson-glmm/251742#251742
+
+- DSGE [1](https://github.com/epogrebnyak/cmf-dsge) 
+
+Learning paths
+---------------
+
+- [ ] @econometrics https://github.com/jstac/econometric_theory_slides/blob/master/lecture_pdfs/Lecture_2.pdf
+- [ ] @econometrics https://github.com/mcreel/Econometrics/blob/master/econometrics_local.pdf
+- [ ] @econometrics http://quantlabs.net/academy/download/free_quant_instituitional_books_/[London+Business+School,+Bunn]+Forecasting+Electricity+Prices.pdf
+- [ ] @ecnometrics https://github.com/statsmodels/statsmodels
+
+Quantitative Macroeconomics Ellen McGrattan http://users.econ.umn.edu/~erm/teaching/um8186/syll14.pdf
+
+Nice [notebook](http://marek.petrik.us/teaching/intro_ml_17_files/linear_regression.html) on [this textbook](http://www-bcf.usc.edu/~gareth/ISL/code.html), ignoring heteroskedasticity, though.
+
+[This article](https://economics.mit.edu/files/4123) replicated at [QuantEcon](https://lectures.quantecon.org/py/ols.html)

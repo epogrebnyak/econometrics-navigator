@@ -84,11 +84,11 @@ Intuitive learning for OLS
 topics <https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes&pageSize=15>`__
 - `In Depth: Linear
 Regression <https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html>`__
-- Stachurski math intro: -
-`TOC <https://mitpress.mit.edu/sites/default/files/Stachurski_final_TOC.pdf>`__
-- `slides <https://github.com/jstac/econometric_theory_slides>`__ -
-https://lectures.quantecon.org/py/ols.html -
-http://www.statsmodels.org/stable/examples/index.html#regression -
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html
--
-https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression
+- Stachurski math intro:
+  - `TOC <https://mitpress.mit.edu/sites/default/files/Stachurski_final_TOC.pdf>`__
+  - `slides <https://github.com/jstac/econometric_theory_slides>`__ 
+- https://lectures.quantecon.org/py/ols.html 
+- http://www.statsmodels.org/stable/examples/index.html#regression 
+- https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html
+- https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression
+
