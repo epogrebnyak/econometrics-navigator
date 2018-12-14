@@ -32,7 +32,7 @@ textbooks in econometrics:
 
 Additionally one can look into [R package system for econometrics]	(https://cran.r-project.org/web/views/Econometrics.html), MATLAB [manual](https://www.mathworks.com/help/econ/) and [course](http://fmwww.bc.edu/ec-p/software/matlab/mbook.pdf.old).
 
-Manulas of some less known packages:
+Manulas of some less popular packages:
 
 - [RATS](https://www.estima.com/enders/RATS_Programming_Manual.pdf)
 - [PcGive](https://www.doornik.com/pcgive/index.html)	

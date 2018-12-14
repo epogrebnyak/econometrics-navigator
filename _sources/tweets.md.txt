@@ -1,11 +1,8 @@
 # Good clues from Twitter
 
-A secret subtitle for this publication is 
-"Can you learn econometrics from Twitter and Stack Overflow alone 
-without distracting yourself to machine-learning tutorials". 
+A secret subtitle for this publication is _"Can you learn econometrics from Twitter and Stack Overflow alone without distracting yourself to data science tutorials"_. 
 
-Links collcted in no particular order, but will show in other sections of the Navigator.
-
+Links collcted in no particular order, some will show in other sections of the Navigator.
 
 ## No links between leading macrotextbooks
 

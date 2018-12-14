@@ -1,6 +1,6 @@
-
 A DSGE in Julia
----------------
+================
+
 - [model description](https://www.newyorkfed.org/research/staff_reports/sr647.html)
 - [git repo](https://github.com/FRBNY-DSGE/DSGE.jl)
 - [a very balanced comment](https://github.com/FRBNY-DSGE/DSGE.jl/blob/master/doc/MatlabToJuliaTransition.md) from people who seem to know what they are doing with Julia:
@@ -13,3 +13,10 @@ A DSGE in Julia
 
 <!-- -->
 > After months of hard work, we are pleased to be able to increase the performance of our model and provide our project for the benefit of the community. For those considering similar projects, we find the benefits of a transition to Julia are significant. One should, however, be realistic about the challenges that will be faced transitioning to a young language.
+
+Macroeconometrics
+=================
+
+https://github.com/wmutschl/macroeconometrics
+
+- DSGE [1](https://github.com/epogrebnyak/cmf-dsge
