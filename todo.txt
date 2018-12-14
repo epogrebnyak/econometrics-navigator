@@ -3,14 +3,18 @@ Content:
 - [ ] clean ols
 - [ ] run pca example
 
+---
+
 - [x] finish maximum likelihood example
 - [x] clean up bookstrap
 
 Presentation:
 
 - [ ] make pdf
-- [ ] use 'make' or 'invoke' 
 
+---
+
+- [x] use 'make' or 'invoke' 
 - [?] make travis build on Windows
 - [?] takeaway travis byproducts
 - [-] make 'gitall' alias for commit and push after build 
