@@ -191,8 +191,8 @@ For formal introduction see <a class="reference external" href="https://www.scie
 <h2>Toy example<a class="headerlink" href="#toy-example" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading24.pdf">Bootstrap confidence intervals by Jeremy Orloff and Jonathan Bloom, pp. 4-6</a> provides the following basic code example
 for bootstrap. Their full code for this excercise is <a class="reference external" href="https://math.mit.edu/~dav/05.dir/class24-empiricalbootstrap.r">here</a>.</p>
-<div class="highlight-R"><div class="highlight"><pre><span></span><span class="c1"># Example. Empirical bootstrap confidence interval for the mean.</span>
-<span class="c1"># Data for the example in class24-prep</span>
+<div class="highlight-R"><div class="highlight"><pre><span></span><span class="c1"># Bootstrap</span>
+<span class="c1"># Adapted from https://math.mit.edu/~dav/05.dir/class24-empiricalbootstrap.r</span>
 <span class="kp">cat</span><span class="p">(</span><span class="s">&quot;Example. Empirical boostrap confidence interval for the mean.&quot;</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
 x <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="m">30</span><span class="p">,</span><span class="m">37</span><span class="p">,</span><span class="m">36</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="m">42</span><span class="p">)</span>
 n <span class="o">=</span> <span class="kp">length</span><span class="p">(</span>x<span class="p">)</span>
