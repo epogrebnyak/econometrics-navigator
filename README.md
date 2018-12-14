@@ -1,7 +1,5 @@
 # Econometrics navigator
 
-## What is it?
-
 *Econometrics Navigator* is an open source guide to econometrics. It is located at <https://epogrebnyak.github.io/econometrics-navigator>.
 
 ## Tech stack
