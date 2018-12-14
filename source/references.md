@@ -171,3 +171,16 @@ Other
 - [sunspot data](https://core.ac.uk/download/pdf/82474924.pdf)
 - http://www.netviale.com/wp-content/uploads/2015/08/Introduction_to_programming_Econometrics_with_R.pdf
 - https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1
+
+Very unsorted
+-------------
+
+- https://mailchi.mp/5dd13ffc422e/machine-learning-articles-of-the-week-98031
+- https://www.blueprism.com/
+
+Heteroscedasticity
+------------------
+
+- http://www.statsmodels.org/dev/diagnostic.html
+- https://datascienceplus.com/how-to-detect-heteroscedasticity-and-rectify-it/
+- https://stats.stackexchange.com/questions/251652/resolving-heteroscedasticity-in-poisson-glmm/251742#251742

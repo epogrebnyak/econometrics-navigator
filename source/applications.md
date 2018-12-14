@@ -19,6 +19,8 @@ for study and replication.
 Risks and finance:
    - VAR    
    - search of invariants (Atillo Meucci)
+   - [ARPM for risk](https://www.mathworks.com/videos/the-prayer-ten-step-checklist-for-advanced-risk-and-portfolio-management-with-attilio-meucci-81834.html)
+
 
 Panel data:
    - *MHE*
