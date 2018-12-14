@@ -24,8 +24,8 @@ for bootstrap. Their full code for this excercise is [here](https://math.mit.edu
 
 
 ```R
-# Example. Empirical bootstrap confidence interval for the mean.
-# Data for the example in class24-prep
+# Bootstrap
+# Adapted from https://math.mit.edu/~dav/05.dir/class24-empiricalbootstrap.r
 cat("Example. Empirical boostrap confidence interval for the mean.",'\n')
 x = c(30,37,36,43,42,43,43,46,41,42)
 n = length(x)
