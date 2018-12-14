@@ -1,22 +1,20 @@
-start: 14:38 10.12.2018
+Content:
 
-- [ ] finish ols
-- [ ] finish maximum likelihood example
-- [ ] clean up bookstrap
+- [ ] clean ols
+- [ ] run pca example
 
+- [x] finish maximum likelihood example
+- [x] clean up bookstrap
 
-end: 14:38 10.12.2018
-23:21 17.11.2018
+Presentation:
 
-- [ ] make 'gitall' alias for commit and push after build 
-- [ ] better intent declarations 
 - [ ] make pdf
-- [ ] make travis build on Windows
-- [ ] takeaway travis byproducts
+- [ ] use 'make' or 'invoke' 
 
+- [?] make travis build on Windows
+- [?] takeaway travis byproducts
+- [-] make 'gitall' alias for commit and push after build 
+- [x] better intent declarations 
 - [x] replicate Kennedy OLS textbook analysis
 - [x] move OLS links
 - [x] more readme content to other parts
-
-
-23:22 17.11.2018
