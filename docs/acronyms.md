@@ -1,8 +1,7 @@
 Acronyms
 ========
 
-Econometrics is full of fancy abbreviations that 
-one can juggle with randomly and mostly sound cool.
+Econometrics is full of fancy abbreviations that one can juggle with.
 
 .. glossary::
 

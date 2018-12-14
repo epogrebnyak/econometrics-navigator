@@ -29,9 +29,8 @@ Project skeleton
 .. toctree::
    :maxdepth: 1
 
-   preamble.md
    topics/index.rst
-   applications.md
+   applications/applications.md
    special/index.md
    references.md
    data.md
