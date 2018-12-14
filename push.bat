@@ -1,6 +1,10 @@
-REM TODO: switch branch, and markdown and add to gh-pages
 @echo off
-if NOT [%1]==[] (
-    git commit -am%1
-    git push
-    )
+if [%1]==[] goto end
+
+cd gh-pages 
+git add . 
+git commit -am%1
+git push
+cd ..
+	
+: end	

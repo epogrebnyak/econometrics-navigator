@@ -1,1 +1,1 @@
-sphinx-build -b html source docs -c .
+sphinx-build -b html docs gh-pages -c .
