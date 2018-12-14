@@ -1,4 +1,5 @@
-## Software
+Software
+========
 
 +-----+---------------------+-------------+
 |     |     Open source     | Proprietary |
