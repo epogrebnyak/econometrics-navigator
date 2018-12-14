@@ -9,9 +9,15 @@ References
 
 ## Preparation
 
+### Numerical computing
+
 - [One document to learn numerics, science, and data with Python](http://www.scipy-lectures.org)
-- [Probability and Statistics Cookbook](http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf)
+
+### Linear Algebra
 - [VLMS](http://vmls-book.stanford.edu)
+
+### Probability and statistics
+- [Probability and Statistics Cookbook](http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf)
 - [Herman J. Bierens. Introduction to the Mathematical and Statistical Foundations of Econometrics](https://bit.ly/2zWyyff)
 
 ## Popular press

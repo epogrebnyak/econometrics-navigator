@@ -26,7 +26,6 @@ Software
 
 Personal choice:
 
-
 - If I had to choose two: R (libraries) and gretl (documentation).
 - If I had to choose one: python.
 - Before open source: Eviews.
