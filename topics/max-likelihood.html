@@ -1,0 +1,361 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Maximum likelihood &mdash; Econometrics Navigator 0.0.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mode" href="mode.html" />
+    <link rel="prev" title="Central limit theorem, CLT" href="clt.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Econometrics Navigator
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preamble.html">Motivation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. Concepts and techniques</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="bias_variance_tradeoff.html">Bias-variance tradeoff</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bootstrap.html">Bootstrap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="causation.html">Causation, causality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clt.html">Central limit theorem, CLT</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Maximum likelihood</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#lead-by-example">Lead by example</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generalisation">Generalisation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#code">Code</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="mode.html">Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ols.html">Ordinary least squares, OLS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pca.html">Principal components analysis, PCA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simulation.html">Simulation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../applications.html">2. Applications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../special/index.html">3. Special topics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acronyms.html">Acronyms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Econometrics Navigator</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">1. Concepts and techniques</a> &raquo;</li>
+        
+      <li>Maximum likelihood</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/topics/max-likelihood.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="maximum-likelihood">
+<h1>Maximum likelihood<a class="headerlink" href="#maximum-likelihood" title="Permalink to this headline">¶</a></h1>
+<p>The probability density function <code class="docutils literal"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">f(x,</span> <span class="pre">θ)</span></code> tells you a probability of occurrence
+of a random value near <code class="docutils literal"><span class="pre">x</span></code>.  Likelihood is essentially a reverse operation of estimating unknown paramter <code class="docutils literal"><span class="pre">θ</span></code> from the same equation using <code class="docutils literal"><span class="pre">p</span></code> and <code class="docutils literal"><span class="pre">x</span></code>.</p>
+<div class="section" id="lead-by-example">
+<h2>Lead by example<a class="headerlink" href="#lead-by-example" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Observations</li>
+<li>Probability of observations</li>
+<li>Observed sample is considered the most likely one</li>
+<li>Maximisation of probability allows to compute distribution parameters</li>
+</ul>
+<p><em>1. Observations.</em> Consider an experiment where we draw two random indepenent values <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span></code> from the same distribution, e.g. the weight of two <a class="reference external" href="https://www.youtube.com/watch?v=XepXtl9YKwc">mice</a> in grams <code class="docutils literal"><span class="pre">(30,</span> <span class="pre">50)</span></code>.
+There is some prior knowledge given to you that the distribution is normal with
+a center around <code class="docutils literal"><span class="pre">μ</span></code> (average mouse weight) and standard deviation of <code class="docutils literal"><span class="pre">σ</span></code>: <code class="docutils literal"><span class="pre">x</span> <span class="pre">~</span> <span class="pre">N(μ,</span> <span class="pre">σ²)</span></code>.</p>
+<p><em>2. Probability of observations</em>. What was the probability of encountering <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span> <span class="pre">=</span> <span class="pre">(30,</span> <span class="pre">50)</span></code>? It is the product of individual event probabilities <code class="docutils literal"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">f(x₁)</span> <span class="pre">·</span> <span class="pre">f(x₂)</span></code>. This value itself depends on  unknown <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code>, so can be written as <code class="docutils literal"><span class="pre">L(μ,</span> <span class="pre">σ)</span> <span class="pre">=</span> <span class="pre">f(x₁</span> <span class="pre">|</span> <span class="pre">μ,</span> <span class="pre">σ)</span> <span class="pre">·</span> <span class="pre">f(x₂</span> <span class="pre">|</span> <span class="pre">μ,</span> <span class="pre">σ)</span></code>,  where <code class="docutils literal"><span class="pre">f</span></code> is probability density function.</p>
+<p><em>3. Observed sample is considered the most likely one.</em>
+It is prudent to assume that observed <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span> <span class="pre">=</span> <span class="pre">(30,</span> <span class="pre">50)</span></code> was the realisation of the most probable possible event. This way we take good use of available scarce information and make a better guess. If we decide we just saw an extreme event, we will be systematically wrong on this decision (<a class="reference external" href="https://www.youtube.com/watch?v=2iRIqkm1mug">a tourist sees a working fountain in town</a> provides extra intuition).</p>
+<p><em>4. Maximisation of probability allows to compute distribution parameters.</em>
+So, upon a fact of observation of <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span></code> we tend to believe this has to be an event with
+maximum probability (likelihood) of happening. From this assumption we can find <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code>
+that maximise <code class="docutils literal"><span class="pre">L</span></code>. Sometimes it is possible to do it analytically, as with normal
+distributions, sometimes we have to search for solution numerically (hoping it is unique).</p>
+</div>
+<div class="section" id="generalisation">
+<h2>Generalisation<a class="headerlink" href="#generalisation" title="Permalink to this headline">¶</a></h2>
+<p>We usualy denote a set of parameters like <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code> as <code class="docutils literal"><span class="pre">θ</span></code>, a vector of parameters.
+Our task is to estimate parameter <code class="docutils literal"><span class="pre">θ</span></code> given:</p>
+<ul class="simple">
+<li>a sample of observations of а random variable <code class="docutils literal"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code>, and</li>
+<li>a pre-defined probability density function <code class="docutils literal"><span class="pre">f(x,</span> <span class="pre">θ)</span></code>.</li>
+</ul>
+<p><strong>Solution steps:</strong></p>
+<ol class="arabic simple">
+<li>collect observations <code class="docutils literal"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code></li>
+<li>make a decision which probability density function <code class="docutils literal"><span class="pre">f(x,</span> <span class="pre">θ)</span></code> is appropriate
+for this data</li>
+<li>compose joint probability of observations as a function of <code class="docutils literal"><span class="pre">θ</span></code>:
+<code class="docutils literal"><span class="pre">L(θ)</span> <span class="pre">=</span> <span class="pre">f(x₁,</span> <span class="pre">θ)·f(x₂,</span> <span class="pre">θ)·</span> <span class="pre">...·f(xₙ,</span> <span class="pre">θ)</span></code>.</li>
+<li>Come to terms with a principle &#8220;if we observed this event, we consider
+it was the most probable outcome of all possible events in this distribution&#8221;</li>
+<li>Find which <code class="docutils literal"><span class="pre">θ</span></code> maiximises joint probability of observations</li>
+</ol>
+</div>
+<div class="section" id="code">
+<h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
+<p>Python code below below relies on <code class="docutils literal"><span class="pre">scipy.optimixe.minimize</span></code> solver
+to find parameters of a normal distribution based on two measurements
+of mice weights. It can be easily applied to more observations.</p>
+<div class="highlight-python"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Maximum likelihood with two mice.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">minimize</span>
+
+<span class="k">def</span> <span class="nf">dnorm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Normal distribution probability density fucntion.&quot;&quot;&quot;</span>
+    <span class="n">const</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">/</span> <span class="p">(</span><span class="n">sigma</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="p">))</span>
+    <span class="n">power</span> <span class="o">=</span> <span class="o">-</span> <span class="p">(</span><span class="n">x</span> <span class="o">-</span> <span class="n">mu</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">sigma</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">return</span>  <span class="n">const</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">power</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">log_likelihood</span><span class="p">(</span><span class="n">observed_x</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Sum of logs of probability densities at *observed_x*.</span>
+<span class="sd">    Return:</span>
+<span class="sd">       function of mu and sigma</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">foo</span><span class="p">(</span><span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">):</span>
+        <span class="n">logs</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">dnorm</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">mu</span><span class="p">,</span> <span class="n">sigma</span><span class="p">))</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">observed_x</span><span class="p">]</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">logs</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">foo</span>
+
+<span class="k">def</span> <span class="nf">maximise</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">start_mu</span><span class="p">,</span> <span class="n">start_sigma</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return mu and lambda, which maximise *f*.&quot;&quot;&quot;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">p</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span> <span class="o">*</span> <span class="n">l_func</span><span class="p">(</span><span class="n">mu</span><span class="o">=</span><span class="n">p</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">sigma</span><span class="o">=</span><span class="n">p</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">res</span> <span class="o">=</span> <span class="n">minimize</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">x0</span><span class="o">=</span><span class="p">[</span><span class="n">start_mu</span><span class="p">,</span> <span class="n">start_sigma</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">res</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">res</span><span class="o">.</span><span class="n">x</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># two mice weigths are given, similar to https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6143748/</span>
+<span class="n">events</span> <span class="o">=</span> <span class="p">[</span><span class="mi">30</span><span class="p">,</span> <span class="mi">50</span><span class="p">]</span>
+<span class="c1"># construct likelihood as a function of unknown mu and sigma</span>
+<span class="n">l_func</span> <span class="o">=</span> <span class="n">log_likelihood</span><span class="p">(</span><span class="n">events</span><span class="p">)</span>
+<span class="c1"># run maximisation procedure</span>
+<span class="c1"># attention: need a sensible pick for start variables, eg (0, 1) will fail</span>
+<span class="n">estimated_mu</span><span class="p">,</span> <span class="n">estimated_sd</span> <span class="o">=</span> <span class="n">maximise</span><span class="p">(</span><span class="n">l_func</span><span class="p">,</span> <span class="n">start_mu</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">start_sigma</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="c1"># test outcomes</span>
+<span class="c1">#estimated_mu is 39.99999527669165</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">estimated_mu</span><span class="p">,</span> <span class="mi">40</span><span class="p">)</span>
+<span class="c1">#estimated_sd is 9.999976480910071</span>
+<span class="k">assert</span> <span class="n">np</span><span class="o">.</span><span class="n">isclose</span><span class="p">(</span><span class="n">estimated_sd</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+
+<span class="c1"># Result: observed values [30, 50] were most likely coming from</span>
+<span class="c1">#         normal distribution with parameters μ=40 and σ=10.</span>
+</pre></div>
+</div>
+<p>Other code examples:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://datawookie.netlify.com/blog/2013/08/fitting-a-model-by-maximum-likelihood">Annotated R code by Andrew Collier (2013)</a></li>
+<li><a class="reference external" href="http://www.johnmyleswhite.com/notebook/2010/04/21/doing-maximum-likelihood-estimation-by-hand-in-r">Doing Maximum Likelihood Estimation by Hand in R by John Myles White (2010)</a></li>
+<li><a class="reference external" href="https://www.codementor.io/zhuojiadai/julia-vs-r-vs-python-simple-optimization-gnqi4njro">Julia vs R vs Python Simple Optimization by Zhuo Jiadai (2018)</a></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Nice video with <a class="reference external" href="https://www.youtube.com/watch?v=XepXtl9YKwc">weight of mice</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/112451/maximum-likelihood-estimation-mle-in-layman-terms">Maximum likelihood estimation in layman terms</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/180420/why-is-maximum-likelihood-estimation-considered-to-be-a-frequentist-technique/190695#190695">Why is maximum likelihood estimation considered to be a frequentist technique</a></li>
+<li><a class="reference external" href="https://nsu.ru/mmf/tvims/chernova/ms/lec/node14.html">Very accessible math treatment (in Russian)</a></li>
+<li><a class="reference external" href="https://www.youtube.com/watch?v=2iRIqkm1mug">Tourist sees a fountain (also in Russian)</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="mode.html" class="btn btn-neutral float-right" title="Mode" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="clt.html" class="btn btn-neutral" title="Central limit theorem, CLT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Evgeny Pogrebnyak
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.0.2',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
