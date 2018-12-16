@@ -5,7 +5,8 @@ Unsorted below
 
 - https://economicsnetwork.ac.uk/sites/default/files/Vincent%20Daly/ase09book.pdf
 - https://github.com/wmutschl/macroeconometrics
-
+- http://static.stevereads.com/papers_to_read/25_billion_dollar_eigenvector.pdf
+- http://khpi-iip.mipk.kharkiv.edu/library/tv/4.pdf
 
 
 Papers
