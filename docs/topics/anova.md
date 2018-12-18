@@ -50,7 +50,7 @@ NIST Handbook deals with ANOVA assumptions and interepations, as well as provide
 Very simple and illustrative case NIST reference case [here](https://www.itl.nist.gov/div898/strd/anova/SiRstv.html).
 
 
-Nice Julia package [ANOVA.jl](https://github.com/marcpabst/ANOVA.jl), but not as much documentation yet.
+Comoact Julia package [ANOVA.jl](https://github.com/marcpabst/ANOVA.jl) at about 150 lines of code, but not as much documentation yet.
 
 
 ANOVA is again a case where [Russian wikipedia][ru] is more concise and clear on the subject.
