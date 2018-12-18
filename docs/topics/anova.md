@@ -1,7 +1,7 @@
 Analysis of variance (ANOVA)
 ============================
 
-- ANOVA may mean several things: actual decomposition of variance, comparing the group means or representation of regression results
+- ANOVA can mean several things: actual decomposition of variance, comparing the group means or representation of regression results
 - Boils down to a regression with dummy (categorical) variables
 - Heavy traction in terminolgy from design of exepriments (see definitons section [here](https://en.wikipedia.org/wiki/Analysis_of_variance))
 - Standartised result tables with `SS`, `DF`, `MSS`, `F`, `p`
@@ -33,6 +33,7 @@ Cross-Validated has several general discussions:
 
 - [why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared](https://stats.stackexchange.com/questions/555/why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared)
 - [how-to-visualize-what-anova-does](https://stats.stackexchange.com/questions/5278/how-to-visualize-what-anova-does)
+- [how-to-interpret-f-and-p-value-in-anova](https://stats.stackexchange.com/questions/12398/how-to-interpret-f-and-p-value-in-anova)
 - [good-resource-to-understand-anova-and-ancova](https://stats.stackexchange.com/questions/2730/good-resource-to-understand-anova-and-ancova)
 
 ... followed by ANOVA vs regression:
@@ -60,6 +61,7 @@ ANOVA is again a case where [Russian wikipedia][ru] is more concise and clear on
 'Types' of sum of squares and associated confusion:
 - https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/
 - https://rcompanion.org/rcompanion/d_04.html
+- https://stats.stackexchange.com/questions/20452/how-to-interpret-type-i-type-ii-and-type-iii-anova-and-manova
 
 References
 ----------
