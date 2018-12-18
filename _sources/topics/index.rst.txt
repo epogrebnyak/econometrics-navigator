@@ -4,6 +4,7 @@
 .. toctree::
    :maxdepth: 1
 
+   anova.md
    bias_variance_tradeoff.md
    bootstrap.md
    causation.md

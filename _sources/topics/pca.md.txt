@@ -2,11 +2,17 @@ Principal components analysis, PCA
 ----------------------------------
 
 Math:
+
 Assumptions:
+
 Usual steps:
+
 What may go wrong:
+
 Discussion:
+
 Replication examples:
+
 
 
 Links:

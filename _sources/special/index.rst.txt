@@ -6,5 +6,7 @@
 
    history.md
    ways-into-econometrics.md
+   mindmap.md
+   badge.rst
 
 

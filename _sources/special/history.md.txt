@@ -6,7 +6,7 @@ History of econometrics
 - [Galton](http://jse.amstat.org/v9n3/stanton.html) and Pearson 
 - Tinbergen, Haavelmo
 - Cowles Commission
-- Lucas critique
+- Lucas and Sims critique
 
 
 ## Overviews
