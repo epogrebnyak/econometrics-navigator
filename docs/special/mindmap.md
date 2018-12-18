@@ -1,10 +1,19 @@
-Econometrics Mindmap
+Econometrics mindmap
 ====================
+
+It would be great to show a modern roadmaps in econometrics starting 
+from mathematic foundations (linear algebra, calculus, probability) to 
+econometrics to computationally intensive data processing tasks. 
+I've seen this being approachesd as [clusters of courses][hacla], but I think there 
+is more that can be done. 
+
+[hacla]: https://www.quora.com/How-do-I-design-a-curriculum-to-teach-myself-statistics
+
 
 An (over)simplified view of econometrics curriculum
 ---------------------------------------------------
 
-- linear algebra, calculus, probability and statistics
+- linear algebra, calculus, probability and statistical inference 
 - OLS (assumptions, violations, fixes + estimatore quality)
 - limited depenedent variables + maximum likelihood
 - intrumental variables 

@@ -8,14 +8,26 @@ Welcome to Econometrics Navigator!
 
 The project goal is to illustrate key topics in econometrics 
 with minimal code examples in Python, R or Julia and 
-to provide good links to open access textbooks, reputable Stack Overflow 
-answers, short videos and twitter threads.
+to provide a learning roadmap involving open access textbooks and 
+selected pieces of community knowledge (Stack Overflow, 
+twitter threads, etc).
+
+
 
 First articles  
 ---------------
 
+With code examples
+~~~~~~~~~~~~~~~~~~
+
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
+- `ANOVA <topics/anova.html>`__ (links to code)
+
+Other
+~~~~~
+
+- `Textbooks review <textbook/index.html>`__
 - `History of econometrics <special/history.html>`__
 - `Ways to review econometrics <special/ways-into-econometrics.html>`__
 - `Good clues from Twitter <tweets.html>`__
@@ -30,10 +42,13 @@ Project skeleton
    :maxdepth: 1
 
    topics/index.rst
-   applications/applications.md
+   applications/index.md
    special/index.md
-   references.md
+   textbook/index.rst
+   courses.md
    data.md
+   software.rst
+   blogs.md
    tweets.md 
    acronyms.md
 
