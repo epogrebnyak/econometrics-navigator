@@ -1,4 +1,4 @@
-.. Econometrics Navigator documentation master file, created by
+.. Econometrics Navigator documentation master file, created by 
    sphinx-quickstart on Fri Nov 16 05:36:08 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,13 +6,16 @@
 Welcome to Econometrics Navigator!
 ==================================
 
-The project goal is to illustrate key topics in econometrics 
-with minimal code examples in Python, R or Julia and 
-to provide a learning roadmap involving open access textbooks and 
-selected pieces of community knowledge (Stack Overflow, 
-twitter threads, etc).
+The Econometrics Navigator goals are:
 
+- **code examples**: illustrate key topics in econometrics with minimal code 
+  examples in Python, R or Julia; 
 
+- **roadmap**: provide guidance for continuous learning using open access textbooks 
+  and community knowledge (Stack Overflow, Cross Validated, twitter threads).
+
+We struggle to reduce unnecessary complexity of the topics studied and make 
+simple things simple again. 
 
 First articles  
 ---------------
