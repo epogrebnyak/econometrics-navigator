@@ -14,7 +14,6 @@ History of econometrics
 - [Econometrics: A Bird's Eye View](http://ftp.iza.org/dp2458.pdf)
 - [Econometrics: An Historical Guide for the Uninitiated](https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf)
 - [The First Fifty Years of Modern Econometrics](https://www.researchgate.net/publication/24119912_The_First_Fifty_Years_of_Modern_Econometrics)
-- [W N Venables. Exegeses on Linear Models (1998)](https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf)
 
 
 ## By topic
@@ -27,6 +26,4 @@ History of econometrics
 
 - [Criticizing the Lucas Critique: Macroeconometricians' Response to Robert Lucas](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2837766)
 
-
-
-
+- [W N Venables. Exegeses on Linear Models (1998)](https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf)
