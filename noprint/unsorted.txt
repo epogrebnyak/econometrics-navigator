@@ -1,7 +1,0 @@
-- https://mailchi.mp/5dd13ffc422e/machine-learning-articles-of-the-week-98031
-- https://www.blueprism.com/
-
-hsc
-- http://www.statsmodels.org/dev/diagnostic.html
-- https://datascienceplus.com/how-to-detect-heteroscedasticity-and-rectify-it/
-- https://stats.stackexchange.com/questions/251652/resolving-heteroscedasticity-in-poisson-glmm/251742#251742

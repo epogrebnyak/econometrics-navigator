@@ -1,7 +1,0 @@
-- Estimation 
-   - OLS
-   - Max Likelihood
-   - Bayesian estimation
-- Time series
-- Panel data
-- Classification
