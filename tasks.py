@@ -1,19 +1,16 @@
-"""
+"""Task automation for Windows using python invoke, similar to 'make'
 
-Make-like task automation for Windows using python invoke
+Workflow:
 
-Supports:
+    inv html - builds html files from markdown source 
+    inv show - display local version of the web site
+    inv push <message> - publish website to github pages
 
-inv clean
-inv build
-inv show
-inv push <message>
-
-Based on:
+Based on tasks.py from:
 
     https://github.com/mini-kep/parser-rosstat-kep/blob/dev/tasks.py
 
-Original Windows workaround for invoke:
+Original advice about Windows workaround for invoke:
     
     https://github.com/pyinvoke/invoke/issues/371#issuecomment-259711426
 
@@ -21,10 +18,6 @@ Original Windows workaround for invoke:
 import sys
 import os
 import shutil
-
-
-from sys import platform
-from os import environ
 from pathlib import Path
 
 from invoke import Collection, task
@@ -43,11 +36,6 @@ def remove_folder(folder, exclude = [".git", ".nojekyll"]):
             print("Deleting:", fullpath)
             remove(fullpath)
 
-@task
-def clean(ctx):
-    """Wipe html documentation (not implemented)"""
-    remove_folder("gh-pages")
-
 
 def run(ctx, cmd):
     return ctx.run(cmd, hide=False, warn=True) 
@@ -59,6 +47,12 @@ def run_all(ctx, commands):
 
 
 @task
+def clean(ctx):
+    """Wipe html documentation"""
+    remove_folder("gh-pages")
+
+
+@task
 def ls(ctx):
     """List current directory"""
     run(ctx, "dir /b")
@@ -67,8 +61,9 @@ def ls(ctx):
 @task
 def html(ctx):
     """Build html documentation with `sphinx-build`"""
-    # WONT FIX: output is colorless
+    # WONT FIX: console output is colorless
     run(ctx, "sphinx-build -b html docs gh-pages -c .")
+
 
 @task
 def pdf(ctx):
@@ -76,8 +71,7 @@ def pdf(ctx):
 
 
 def quote(s):
-    QUOTECHAR = '"' # this is "
-    return f"{QUOTECHAR}{s}{QUOTECHAR}"
+    return f'"{s}"'
 
 
 @task
@@ -103,6 +97,6 @@ for t in [ls, clean, html, show, push, pdf]:
 
 
 # Workaround for Windows execution
-if platform == 'win32':
+if sys.platform == 'win32':
     # This is path to cmd.exe
-    ns.configure({'run': {'shell': environ['COMSPEC']}})
+    ns.configure({'run': {'shell': os.environ['COMSPEC']}})
