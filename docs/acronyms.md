@@ -22,6 +22,9 @@ Econometrics is full of fancy abbreviations that one can juggle with.
 
    iid
       independent identicaly distributed
+   
+   IV 
+      instrumental variable 
 
    OLS
       ordinary least squares

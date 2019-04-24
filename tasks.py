@@ -75,16 +75,16 @@ def quote(s):
 
 
 @task
+# BROKEN: does not publish
 def push(ctx, message="build html"):
     """Build html documentation"""
     commands = ["cd gh-pages", 
-                #"git add .", 
+                "git add .", 
                 "git commit -am%s" % quote(message),
                 "git push",
                 "cd .."]
     run_all(ctx, commands)
 
-# fixme: errors in VSCode
 @task
 def show(ctx):
     """Show documentation in default browser."""
