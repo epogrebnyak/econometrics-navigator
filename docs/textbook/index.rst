@@ -7,4 +7,5 @@
    preliminaries.md
    statistics.md
    econometrics.md
+   ml-dl.md
 

@@ -1,7 +1,10 @@
 Blogs 
 =====
 
-The blogs listed would enlight and inspire about statistics and econometrics.
+Blogs may seem as an outdated fashion of communication, but they often present 
+a wider story than a twitter post. 
+
+Below there are some blogs that enlight and inspire about statistics and econometrics.
 They are regularly updated. 
 
 - [Matt Bogard](http://econometricsense.blogspot.com/)
@@ -12,4 +15,5 @@ They are regularly updated.
 [Simply Statistics](https://simplystatistics.org/) by biostatistics 
 professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
 analysis and teaching stats.
+
 

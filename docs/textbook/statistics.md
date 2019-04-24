@@ -1,6 +1,9 @@
 Statistical Inference
 =====================
 
+This page is a draft.
+
+
 Some discussions about a good book: 
    - [mathoverflow](https://mathoverflow.net/questions/31655/statistics-for-mathematicians)
    - [stackexchange](https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger)

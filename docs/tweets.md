@@ -123,3 +123,7 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 
 <blockquote class="twitter-tweet" data-lang="ru"><p lang="en" dir="ltr">As requested, slower graphs! Also added a graph on collider bias, the webpage explanation helps there.<br><br>These graphs are intended to show what standard causal inference methods actually *do* to data, and how they work.<br><br>This is what controlling for a binary variable looks like: <a href="https://t.co/dTZxqY5JxA">pic.twitter.com/dTZxqY5JxA</a></p>&mdash; Nick HK (@nickchk) <a href="https://twitter.com/nickchk/status/1068215492458905600?ref_src=twsrc%5Etfw">29 ноября 2018 г.</a></blockquote>
 
+## Undergrad econometrics condensed to 3 pages
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also, in case it&#39;s useful, here is an entire overview of undergrad econometrics (no matrix algebra) in 3 pages: <a href="https://t.co/kQYrn92v7w">https://t.co/kQYrn92v7w</a> <a href="https://t.co/UBe7OZJTJh">pic.twitter.com/UBe7OZJTJh</a></p>&mdash; Tyler Ransom (@tyleransom) <a href="https://twitter.com/tyleransom/status/1085242403643183105?ref_src=twsrc%5Etfw">January 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+

@@ -20,4 +20,5 @@ build-in datasets.
 - [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday#datasets) publishes weekly 
   datasets and accompanying articles.
 
-- Expecting to add here FRED, sunspot data, dbnomics.
+
+Expecting to add here: FRED/mini-kep, Quandl, sunspot data, dbnomics, lightbulbs.

@@ -78,21 +78,27 @@ def quote(s):
 def push(ctx, message="build html"):
     """Build html documentation"""
     commands = ["cd gh-pages", 
-                "git add .", 
+                #"git add .", 
                 "git commit -am%s" % quote(message),
                 "git push",
                 "cd .."]
     run_all(ctx, commands)
 
-
+# fixme: errors in VSCode
 @task
 def show(ctx):
-    """Show documentation in default browser"""
+    """Show documentation in default browser."""
     run(ctx, "start gh-pages/index.html")
 
 
+@task
+def help(ctx):
+    """Print this file doctsring at console."""
+    print (__doc__)
+    
+
 ns = Collection()
-for t in [ls, clean, html, show, push, pdf]: 
+for t in [ls, clean, html, show, push, pdf, help]: 
    ns.add_task(t)
 
 
@@ -100,3 +106,4 @@ for t in [ls, clean, html, show, push, pdf]:
 if sys.platform == 'win32':
     # This is path to cmd.exe
     ns.configure({'run': {'shell': os.environ['COMSPEC']}})
+

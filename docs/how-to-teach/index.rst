@@ -1,12 +1,8 @@
-3. Special topics 
-=================
+The science of teaching 
+=======================
 
 .. toctree::
    :maxdepth: 1
 
-   history.md
    ways-into-econometrics.md
    mindmap.md
-   badge.rst
-
-
