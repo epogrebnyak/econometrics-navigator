@@ -78,12 +78,14 @@ def quote(s):
 
 @task
 # BROKEN: does not publish
-def push(ctx, message="build html"):
+# create branch + https://gist.github.com/cobyism/4730490#gistcomment-2375522
+# see also https://webapps.stackexchange.com/a/103336/216781
+def push(ctx, message="Deploy to gh-pages"):
     """Build html documentation"""
     commands = [f"cd {GH_PAGES_FOLDER}", 
-                "git add .", 
-                "git commit -am%s" % quote(message),
-                "git push",
+                "git add --all", 
+                "git commit -m%s" % quote(message), #git commit -m "Deploy to gh-pages"
+                "git push origin gh-pages",
                 "cd .."]
     run_all(ctx, commands)
 
