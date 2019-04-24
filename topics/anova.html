@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Analysis of variance (ANOVA) &mdash; Econometrics Navigator 0.0.3b documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Bias-variance tradeoff" href="bias_variance_tradeoff.html" />
+    <link rel="prev" title="1. Concepts and techniques" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Econometrics Navigator
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.3b
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. Concepts and techniques</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Analysis of variance (ANOVA)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-examples">Code examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#links">Links</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bias_variance_tradeoff.html">Bias-variance tradeoff</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bootstrap.html">Bootstrap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="causation.html">Causation, causality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="clt.html">Central limit theorem, CLT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="max-likelihood.html">Maximum likelihood</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mode.html">Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ols.html">Ordinary least squares, OLS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pca.html">Principal components analysis, PCA</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simulation.html">Simulation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../textbook/index.html">2. Textbooks and courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-teach/index.html">3. The science of teaching</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../blogs.html">Blogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../acronyms.html">Acronyms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Econometrics Navigator</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">1. Concepts and techniques</a> &raquo;</li>
+        
+      <li>Analysis of variance (ANOVA)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/topics/anova.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="analysis-of-variance-anova">
+<h1>Analysis of variance (ANOVA)<a class="headerlink" href="#analysis-of-variance-anova" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li>ANOVA can mean several things: actual decomposition of variance, comparing the group means or representation of regression results</li>
+<li>Boils down to a regression with dummy (categorical) variables</li>
+<li>Heavy traction in terminolgy from design of exepriments (see definitons section <a class="reference external" href="https://en.wikipedia.org/wiki/Analysis_of_variance">here</a>)</li>
+<li>Standartised result tables with <code class="docutils literal"><span class="pre">SS</span></code>, <code class="docutils literal"><span class="pre">DF</span></code>, <code class="docutils literal"><span class="pre">MSS</span></code>, <code class="docutils literal"><span class="pre">F</span></code>, <code class="docutils literal"><span class="pre">p</span></code></li>
+<li>Frightening multitude of R packages</li>
+<li>May want to look at a simple reference case <a class="reference external" href="https://www.itl.nist.gov/div898/strd/anova/SiRstv.html">here</a></li>
+</ul>
+<p>Quote:</p>
+<blockquote>
+<div><em>ANOVA can be seen as &#8220;syntactic sugar&#8221; for a special subgroup of linear regression models. ANOVA is regularly used by researchers who are not statisticians by training. They are now &#8220;institutionalized&#8221; and its hard to convert them back to using the more general representation</em> <a class="reference external" href="https://stats.stackexchange.com/users/1307/suncoolsu">suncoolsu</a></div></blockquote>
+<div class="section" id="code-examples">
+<h2>Code examples<a class="headerlink" href="#code-examples" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://stackoverflow.com/questions/25537399/anova-in-python-using-pandas-dataframe-with-statsmodels-or-scipy">https://stackoverflow.com/questions/25537399/anova-in-python-using-pandas-dataframe-with-statsmodels-or-scipy</a></li>
+<li><a class="reference external" href="http://www.statsmodels.org/devel/anova.html">http://www.statsmodels.org/devel/anova.html</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/a/175265/211794">https://stats.stackexchange.com/a/175265/211794</a></li>
+<li>also possibly in Think Stats and <a class="reference external" href="https://stats.stackexchange.com/a/5283/211794">Hadley Wickham</a></li>
+</ul>
+</div>
+<div class="section" id="links">
+<h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
+<p>Intro by <a class="reference external" href="http://statisticsbyjim.com/anova/">Jim</a></p>
+<p>Cross-Validated has several general discussions:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/555/why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared">why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/5278/how-to-visualize-what-anova-does">how-to-visualize-what-anova-does</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/12398/how-to-interpret-f-and-p-value-in-anova">how-to-interpret-f-and-p-value-in-anova</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/2730/good-resource-to-understand-anova-and-ancova">good-resource-to-understand-anova-and-ancova</a></li>
+</ul>
+<p>... followed by ANOVA vs regression:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/34616/difference-between-regression-analysis-and-analysis-of-variance">difference-between-regression-analysis-and-analysis-of-variance</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/175246/why-is-anova-equivalent-to-linear-regression">why-is-anova-equivalent-to-linear-regression</a></li>
+</ul>
+<p>NIST Handbook deals with ANOVA assumptions and interepations, as well as provides reference datasets:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.itl.nist.gov/div898/handbook/prc/section4/prc432.htm">The one-way ANOVA model and assumptions</a></li>
+<li><a class="reference external" href="https://www.itl.nist.gov/div898/handbook/prc/section4/prc433.htm">Interpretation of the ANOVA table</a></li>
+<li><a class="reference external" href="https://www.itl.nist.gov/div898/strd/anova/anova.html">Reference datasets and regresion results</a></li>
+</ul>
+<p>Very simple and illustrative case NIST reference case <a class="reference external" href="https://www.itl.nist.gov/div898/strd/anova/SiRstv.html">here</a>.</p>
+<p>Comoact Julia package <a class="reference external" href="https://github.com/marcpabst/ANOVA.jl">ANOVA.jl</a> at about 150 lines of code, but not as much documentation yet.</p>
+<p>ANOVA is again a case where <a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7">Russian wikipedia</a> is more concise and clear on the subject.</p>
+<p>&#8216;Types&#8217; of sum of squares and associated confusion:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/">https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/</a></li>
+<li><a class="reference external" href="https://rcompanion.org/rcompanion/d_04.html">https://rcompanion.org/rcompanion/d_04.html</a></li>
+<li><a class="reference external" href="https://stats.stackexchange.com/questions/20452/how-to-interpret-type-i-type-ii-and-type-iii-anova-and-manova">https://stats.stackexchange.com/questions/20452/how-to-interpret-type-i-type-ii-and-type-iii-anova-and-manova</a></li>
+</ul>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<p>Gelman, A. (2005). Analysis of variance: why it is more important than ever (with discussion). Annals of Statistics 33, 1–53. doi:10.1214/009053604000001048</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="bias_variance_tradeoff.html" class="btn btn-neutral float-right" title="Bias-variance tradeoff" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="1. Concepts and techniques" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Evgeny Pogrebnyak
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.0.3b',
+              LANGUAGE:'None',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
