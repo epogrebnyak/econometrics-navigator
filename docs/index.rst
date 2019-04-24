@@ -25,8 +25,7 @@ The Econometrics Navigator (EN) targets easier learning and coding
 for statistics and econometrics by doing two things:
 
 1. guide a learner through **open access textbooks** and **community knowledge** (reddit, Stack Overflow, Cross Validated, twitter threads) 
-2. illustrate key topics with **minimal code examples** in open source software 
-  (Python, R, gretl or Julia).
+2. illustrate key topics with **minimal code examples** in Python, R, gretl or Julia.
 
 Changelog
 ---------
@@ -77,16 +76,19 @@ Roadmap
 
 In next versions, I would like to do the following:
 
--  draw a mindmap for econometrics, the one that is just described in  text and put key textbooks on it
--  write more articles for the main section
+-  draw a mindmap for econometrics (described in text) and put key textbooks on it
+-  write more articles and code for the main section
 -  review 'depreciated' folder, and 'history' page
 -  add resources on reproducible research and why it has such a poor traction in economics
 -  add APIs to Data section and a lightbulb survival case, which is dear to me
 -  pick couple resources on (technical) pedagogy - how to teach effectively
 -  pay more attention to bayesian / causality
--  'vednorize' `LessOLS <https://github.com/epogrebnyak/LessOLS.jl>`__
+-  translate some RATS/MATLAB code to open source (esp time series)
+-  'vednorize' `LessOLS.jl <https://github.com/epogrebnyak/LessOLS.jl>`__
 -  add a bit more of `deep learning links <https://github.com/epogrebnyak/learn/blob/master/deep_learning.md>`__
--  things mentioned in `todo.txt <https://github.com/epogrebnyak/econometrics-navigator/blob/master/todo.txt>`__
+http://nickchk.com/econometrics.html#Rdata
+- use data links from [nickchk](http://nickchk.com/econometrics.html#Rdata)
+- things mentioned in `todo.txt <https://github.com/epogrebnyak/econometrics-navigator/blob/master/todo.txt>`__
 
 
 Links (reproducibility):
