@@ -22,6 +22,8 @@ from pathlib import Path
 
 from invoke import Collection, task
 
+GH_PAGES_FOLDER = "site"
+
 def remove(path):
     if os.path.isfile(path):
         os.unlink(path)
@@ -49,7 +51,7 @@ def run_all(ctx, commands):
 @task
 def clean(ctx):
     """Wipe html documentation"""
-    remove_folder("gh-pages")
+    remove_folder(GH_PAGES_FOLDER)
 
 
 @task
@@ -62,7 +64,7 @@ def ls(ctx):
 def html(ctx):
     """Build html documentation with `sphinx-build`"""
     # WONT FIX: console output is colorless
-    run(ctx, "sphinx-build -b html docs gh-pages -c .")
+    run(ctx, f"sphinx-build -b html docs {GH_PAGES_FOLDER} -c .")
 
 
 @task
@@ -78,7 +80,7 @@ def quote(s):
 # BROKEN: does not publish
 def push(ctx, message="build html"):
     """Build html documentation"""
-    commands = ["cd gh-pages", 
+    commands = [f"cd {GH_PAGES_FOLDER}", 
                 "git add .", 
                 "git commit -am%s" % quote(message),
                 "git push",
@@ -88,7 +90,7 @@ def push(ctx, message="build html"):
 @task
 def show(ctx):
     """Show documentation in default browser."""
-    run(ctx, "start gh-pages/index.html")
+    run(ctx, f"start {GH_PAGES_FOLDER}/index.html")
 
 
 @task
