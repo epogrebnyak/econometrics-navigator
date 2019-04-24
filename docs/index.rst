@@ -21,12 +21,11 @@ Welcome to Econometrics Navigator!
 Goals
 -----
 
-The Econometrics Navigator (EN) aims to enable easier learning and coding 
-for statistics and econometrics by dowing two things:
+The Econometrics Navigator (EN) targets easier learning and coding 
+for statistics and econometrics by doing two things:
 
-- guide a learner through **open access textbooks**  and **community knowledge** (reddit, Stack Overflow, Cross Validated, twitter threads) 
-
-- illustrate key topics with **minimal code examples** in open source software 
+1. guide a learner through **open access textbooks** and **community knowledge** (reddit, Stack Overflow, Cross Validated, twitter threads) 
+2. illustrate key topics with **minimal code examples** in open source software 
   (Python, R, gretl or Julia).
 
 Changelog
