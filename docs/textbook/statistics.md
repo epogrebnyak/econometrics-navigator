@@ -16,7 +16,7 @@ Review of probability:
 - random variables, outcomes, probability
 - distributions, pdf/cdf
 
-Math stat itself:
+Math.stat itself:
 
 - idea: learn about data generating process (DGP) from a sample
 - sample/realisation as a random vector 
@@ -34,6 +34,7 @@ See an example of [stated learning objectives](http://comet.lehman.cuny.edu/owen
 
 Also concise version [here (in Russian)](http://math.csu.ru/new_files/students/lectures/teor_ver/solovev_teor_ver.pdf)
 
+<!--
 
 Programming
 -----------
@@ -41,6 +42,7 @@ Programming
 - [R infer package](https://infer.netlify.com/): 
 - [Julia - Statistical Primer]https://people.smp.uq.edu.au/YoniNazarathy/julia-stats/exploring-julia-a-statistical-primer-DRAFT.pdf
 
+-->
 
 Key textbook
 ------------

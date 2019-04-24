@@ -2,37 +2,40 @@ Software
 ========
 
 Below is a small chart that outlines common options for statistics / econometrics software.
-Items marked with (*) have superb documentation.
+gretl, EViews and MATLAB tend to have better-organised documentation. My personal choices:
 
-My personal choices:
+- if I had to choose just one: python;
+- if I had to choose other two: R (libraries) and gretl (documentation);
+- before open source era: Eviews;
+- if I had more time: Julia.
 
-- If I had to choose just two: R (libraries) and gretl (documentation).
-- If I had to choose just one: python.
-- Before open source era: Eviews.
-- If I had more time: Julia.
++----------------------------------------+----------------------------------+
+|      Open source                       |   Proprietary                    |
++========================================+==================================+
+| - R (RStudio)                          |                                  |
+| - Python (Anaconda)                    |                                  |
+| - Julia                                |                                  |
++----------------------------------------+----------------------------------+
+| - gretl                                | - EViews                         |
++----------------------------------------+----------------------------------+
+| - Octave                               | - MATLAB                         |
++----------------------------------------+----------------------------------+
+|                                        | - SAS                            |
+|                                        | - SPSS                           |
+|                                        | - Stata                          |
++----------------------------------------+----------------------------------+
+|                                        | RATS, Ox, PcGive                 |
++----------------------------------------+----------------------------------+
+| Stan, PyMC3, Turing.jl                 |                                  |
++----------------------------------------+----------------------------------+
+| `JASP <https://www.jasp-stats.org>`__  |                                  |
++----------------------------------------+----------------------------------+
 
-+----------------------------------------+------------------+
-|      Open source                       |   Proprietary    |
-+========================================+==================+
-| - R (RStudio)                          |                  |
-| - Python (Anaconda)                    |                  |
-| - Julia                                |                  |
-+----------------------------------------+------------------+
-| - gretl*                               | - EViews*        |
-+----------------------------------------+------------------+
-| - Octave                               | - Matlab*        |
-+----------------------------------------+------------------+
-|                                        | - SAS            |
-|                                        | - SPSS           |
-|                                        | - Stata          |
-+----------------------------------------+------------------+
-|                                        | RATS, Ox, PcGive |
-+----------------------------------------+------------------+
-| Stan, PyMC3, Turing.jl                 |                  |
-+----------------------------------------+------------------+
-| `JASP <https://www.jasp-stats.org>`__  |                  |
-+----------------------------------------+------------------+
-                
+Example: software used in black hole discovery 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Reading *First M87 Event Horizon Telescope Results. III. Data Processing and Calibration*:
+
 .. raw:: html
 
     <embed>

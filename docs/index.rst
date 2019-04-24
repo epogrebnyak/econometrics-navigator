@@ -3,56 +3,108 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. toctree::
+   :maxdepth: 1
+   
+   topics/index.rst
+   textbook/index.rst
+   how-to-teach/index.rst
+   data.md
+   software.rst
+   blogs.md
+   tweets.md 
+   acronyms.md
 
 Welcome to Econometrics Navigator!
 ==================================
 
-The Econometrics Navigator aims to enable easier learning and coding 
+Goals
+-----
+
+The Econometrics Navigator (EN) aims to enable easier learning and coding 
 for statistics and econometrics by dowing two things:
 
-- guide a learner through **open access textbooks**
-  and **community knowledge** (reddit, Stack Overflow, Cross Validated, twitter threads) 
+- guide a learner through **open access textbooks**  and **community knowledge** (reddit, Stack Overflow, Cross Validated, twitter threads) 
 
-- illustrate key topics with **minimal code  examples** in open source software (Python, R, gretl or Julia).
+- illustrate key topics with **minimal code examples** in open source software 
+  (Python, R, gretl or Julia).
 
+Changelog
+---------
 
-.. toctree::
-   :maxdepth: 1
+- **v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
+  had sample articles on max likelihood, bootstrap, ANOVA.
 
-   topics/index.rst
-   textbook/index.rst
-   data.md
-   software.rst
-   blogs.md
-   tweets.md   
-   history.md
-   how-to-teach/index.rst
-   acronyms.md
+- **v.0.0.3 (April 2019)** scraps several unfinished articles, including 
+  a section on applications (hard to fill it quickly). Three main parts
+  in content established (own articles, textbook annotations and how to 
+  teach resources).
 
-Navigator first articles 
-------------------------
+Content
+-------
 
-With code examples
-~~~~~~~~~~~~~~~~~~
+1. Collection of own articles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The main body of Econometrics Navigator articles is `Concepts and techniques section <topics/index.rst>`__,  organised alphabetically. Finished examples are: 
 
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
 - `ANOVA <topics/anova.html>`__ 
 
-Other
-~~~~~
+2. Textbooks guide  
+~~~~~~~~~~~~~~~~~~
 
-- `Textbooks review <textbook/index.html>`__
-- `History of econometrics <history.html>`__
-- `Ways to review econometrics <how-to-teach/ways-into-econometrics.html>`__
+`Textbooks review <textbook/index.html>`__ attempts to sort out and annotate textbooks and 
+reference texts by several categories. 
 
-.. image::  ../_static/chick.jpg
+For example, I praise Kennedy's textbook and 
+collect (constructive) criticisms of Mostly Harmless Econometrics there. The categories 
+in econometrics are 'general' textbooks, cross-section/panel and time series texts.
+
+3. Instructor resources
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The backstage workings of the Navigator are `History of econometrics <history.html>`__, 
+`Ways to review econometrics <how-to-teach/ways-into-econometrics.html>`__ and 
+`econometrics mindmap (draft) <how-to-teach/mindmap.html>`__. 
+
+These documents aim to organise thinking about better teaching of 
+econometrics in terms of sequence of topics, better analogies for the learner and 
+a faster bridge to coding from formulas. 
+
+Roadmap 
+-------
+
+In next versions, I would like to do the following:
+
+-  draw a mindmap for econometrics, the one that is just described in  text and put key textbooks on it
+-  write more articles for the main section
+-  review 'depreciated' folder, and 'history' page
+-  add resources on reproducible research and why it has such a poor traction in economics
+-  add APIs to Data section and a lightbulb survival case, which is dear to me
+-  pick couple resources on (technical) pedagogy - how to teach effectively
+-  pay more attention to bayesian / causality
+-  'vednorize' `LessOLS <https://github.com/epogrebnyak/LessOLS.jl>`__
+-  add a bit more of `deep learning links <https://github.com/epogrebnyak/learn/blob/master/deep_learning.md>`__
+-  things mentioned in `todo.txt <https://github.com/epogrebnyak/econometrics-navigator/blob/master/todo.txt>`__
+
+
+Links (reproducibility):
+
+-  `this <https://github.com/epogrebnyak/notes-pandoc/blob/master/paper.md>`__
+-  `this <https://github.com/epogrebnyak/notes-pandoc>`__ 
+
+Links (teaching):
+
+-  https://twitter.com/AllenDowney/status/1118255413575680000
+-  http://teachtogether.tech/en/
 
 Twitter 
 -------
 
 So far twitter has been an enormously valuable source of demos, links and opinion for me.
-I keep a `separate page with twitter posts <tweets.html>`__, some of my favourites are:
+I keep a `separate page with twitter posts <tweets.html>`__, some of my favorites are:
 
 - `Undergrad Econometrics Cheatsheet <https://twitter.com/tyleransom/status/1085242403643183105>`__ by Tyler Ransom
 
@@ -93,4 +145,7 @@ Contacts
 Feel free to contact me `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
 I need help in shaping this guide.
 
-The source of this publication is avialable at https://github.com/epogrebnyak/econometrics-navigator.
+Source
+------
+
+The source of this publication is available at https://github.com/epogrebnyak/econometrics-navigator.

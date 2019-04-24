@@ -71,5 +71,10 @@ User profiles
 1. "Numerate biologists" - solve a domain problem in biology, psychology, social sciences
 2. "Want to hit a 'Run' button" - quick results without thinking, typical of students
 3. "I'm doing XYZ now!" - excited adopters, writing a piece on Medium full of acronyms 
-4. "Sane econometrics" - appropriate methods with clear, accessible explaination, rare trait  
+4. "Sane econometrics" - appropriate methods with clear, accessible explaination, rare trait 
 5. "Asymptotics" - publish evermore sophisticated articles to secure academic career 
+
+Discussion
+----------
+
+Review: [Undergraduate Econometrics Instruction: Through Our Classes, Darkly. NBER/IZA](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwju2Oz0mrrdAhXvsIsKHXWcDdgQFjAAegQIARAC&url=http%3A%2F%2Fftp.iza.org%2Fdp10535.pdf&usg=AOvVaw1P3mT5tEcUak_g0W1ai7xR) and a criticism of [G1/G2 goals](https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html)

@@ -1,21 +1,32 @@
-Machine and deep learning
-=========================
+Machine learning and deep learning
+==================================
 
-Machine learning
-----------------
+Books
+-----
 
-  - [An Introduction to Statistical Learning. Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) 
-  - [Andrew Ng course](https://www.coursera.org/learn/machine-learning)
+ML
+~~
+
+- [An Introduction to Statistical Learning. Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) 
   
-Deep learning
--------------
+DL
+~~
 
-  - [Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/)
-  - <fast.ai> 
-  - [deeplearning.ai](https://www.deeplearning.ai/deep-learning-specialization)
+- [Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/) 
   
 
-  Course pack
-  -----------
+Courses
+-------
 
-  - [ods](https://github.com/Yorko/mlcourse.ai)
+ML
+~~
+
+- [ods](https://github.com/Yorko/mlcourse.ai)
+- [Andrew Ng course](https://www.coursera.org/learn/machine-learning)
+  
+DL
+~~
+
+- [fast.ai](https://www.fast.ai/) 
+- [deeplearning.ai](https://www.deeplearning.ai/deep-learning-specialization)
+  

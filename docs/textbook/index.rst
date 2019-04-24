@@ -1,4 +1,4 @@
-4. Textbooks and courses
+2. Textbooks and courses
 ========================
 
 .. toctree::

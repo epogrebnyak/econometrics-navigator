@@ -1,7 +1,7 @@
-Preliminaries
-==============
+Mathematic preliminaries
+========================
 
-Typical prerequisites for mathematic statistics and econometrics are:
+Typical prerequisites for statistics and econometrics are:
 
 - linear algebra 
 - calculus 
