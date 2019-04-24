@@ -1,1 +1,0 @@
-sphinx-build -b html docs gh-pages -c .
