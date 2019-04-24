@@ -1,4 +1,0 @@
-m2r
-sphinx
-sphinx_rtd_theme 
-invoke
