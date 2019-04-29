@@ -1,1 +1,7 @@
 https://www.reed.edu/economics/parker/312/readings.html
+---
+https://nbviewer.jupyter.org/github/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/table_of_contents.ipynb
+http://www.statsmodels.org/devel/examples/index.html
+https://github.com/petl-developers/petl
+https://juliabox.com/notebook/notebooks/tutorials/introductory-tutorials/intro-to-julia/06.%20Functions.ipynb
+http://learnds.com/
