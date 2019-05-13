@@ -5,9 +5,16 @@ Updated May 13, 2019.
 
 In next versions, I would like to do the following:
 
+
+## Labels
+
+- label 'heavy' vs 'easy' content
+- adjust structure accordingly 
+
 ### General 
 
--  draw a mindmap for econometrics (described in text) and put key textbooks on it
+-  draw a mindmap for econometrics (as described in text) 
+-  put key textbooks on a roadmap
 -  pay more attention to bayesian / causality
 
 ### Interactivity
