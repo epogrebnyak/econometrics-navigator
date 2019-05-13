@@ -26,6 +26,14 @@ Probability and statistics
 [PSC]: http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pd
 
 
+- [Probability and Statistics for Engineers and Scientists (PSES)][PSES]
+
+[PSES]: https://fac.ksu.edu.sa/sites/default/files/probability_and_statistics_for_engineers_and_scientisst.pdf
+
+<!--
+Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye
+-->
+
 Numerical computing
 --------------------
 

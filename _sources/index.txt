@@ -9,6 +9,7 @@
    topics/index.rst
    textbook/index.rst
    how-to-teach/index.rst
+   references/history.md
    data.md
    software.rst
    blogs.md
@@ -31,13 +32,20 @@ for statistics and econometrics by doing two things:
 Changelog
 ---------
 
-- **v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
-  had sample articles on max likelihood, bootstrap, ANOVA.
+.. **v.0.0.4 (May 2019)**:   
+.. Data: added @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk
+.. Books: WM Venables. Exegeses on Linear Models and Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
+.. Teaching: resources form @
+
 
 - **v.0.0.3 (April 2019)** scraps several unfinished articles, including 
   a section on applications (hard to fill it quickly). Three main parts
   in content established (own articles, textbook annotations and how to 
   teach resources).
+
+- **v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
+  had sample articles on max likelihood, bootstrap, ANOVA.
+
 
 Content
 -------
