@@ -10,10 +10,16 @@ In next versions, I would like to do the following:
 -  draw a mindmap for econometrics (described in text) and put key textbooks on it
 -  pay more attention to bayesian / causality
 
+### Interactivity
+
+- repl.it
+- colab (no Julia)
+- notebooks/binder
+
 ### Data science textbooks
 
--  add a bit more of [deep learning links](https://github.com/epogrebnyak/learn/blob/master/deep_learning.md)
-
+-  Add  [deep learning links](https://github.com/epogrebnyak/learn/blob/master/deep_learning.md)
+- [Data Science fo Economists](https://github.com/tyleransom/DScourseS18)
 
 ### Articles and code
 
@@ -21,15 +27,15 @@ In next versions, I would like to do the following:
 - translate some RATS/MATLAB code to open source (esp time series)
 
 Specific tasks:
-- [ ] clean ols
-- [ ] run pca example
+- clean ols
+- run pca example
 
 ### Reproducibility
 
 Add resources on reproducible research and why it has such a poor traction in economics
 
--  [this](https://github.com/epogrebnyak/notes-pandoc/blob/master/paper.md)
--  [this](https://github.com/epogrebnyak/notes-pandoc) 
+-  [this - 1](https://github.com/epogrebnyak/notes-pandoc/blob/master/paper.md)
+-  [this - 2](https://github.com/epogrebnyak/notes-pandoc) 
 
 DAG tools:
 
