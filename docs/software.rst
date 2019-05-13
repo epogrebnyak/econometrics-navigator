@@ -12,11 +12,11 @@ gretl, EViews and MATLAB tend to have better-organised documentation. My persona
 +----------------------------------------+----------------------------------+
 |      Open source                       |   Proprietary                    |
 +========================================+==================================+
-| - R (RStudio)                          |                                  |
+| - R (RStudio), derived from S          |                                  |
 | - Python (Anaconda)                    |                                  |
 | - Julia                                |                                  |
 +----------------------------------------+----------------------------------+
-| - gretl                                | - EViews                         |
+| - gretl                                | - EViews (derived from TSP)      |
 +----------------------------------------+----------------------------------+
 | - Octave                               | - MATLAB                         |
 +----------------------------------------+----------------------------------+
@@ -30,6 +30,21 @@ gretl, EViews and MATLAB tend to have better-organised documentation. My persona
 +----------------------------------------+----------------------------------+
 | `JASP <https://www.jasp-stats.org>`__  |                                  |
 +----------------------------------------+----------------------------------+
+
+
+SAS and terminology
+~~~~~~~~~~~~~~~~~~~
+
+    SAS, it seems, has become the gold standard, the output of SAS
+    programs the ultimate point of reference for correct and appropriate
+    statistical calculations and the SAS terminology israpidly taking
+    over as standard terminology. This is very Microsoft-like indeed and
+    very worrying for anyone who cares about the profession.
+
+`WN Venables. Exegeses on Linear
+Models <https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf>`__ - on early
+adoption of S Plus
+
 
 Example: software used in black hole discovery 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -4,7 +4,7 @@ Blogs
 Blogs may seem as an outdated fashion of communication, but they often present 
 a wider story than a twitter post. 
 
-Below there are some blogs that enlight and inspire about statistics and econometrics.
+Below there are some personal blogs that enlight and inspire about statistics and econometrics.
 They are regularly updated. 
 
 - [Matt Bogard](http://econometricsense.blogspot.com/)
@@ -16,4 +16,4 @@ They are regularly updated.
 professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management, 
 analysis and teaching stats.
 
-
+[Medium](https://medium.com/tag/statistics) has a variety of posts on statistics, but rarely tags econometrics. PCA is a widely popular topic.

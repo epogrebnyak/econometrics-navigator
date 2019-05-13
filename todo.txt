@@ -1,11 +1,17 @@
-Content:
+Biliography:
 
-- [ ] clean ols
-- [ ] run pca example
+- need format / presentation of references
+- see https://www.jonathangilligan.org/publications/ for Hugo theme
+- also https://github.com/jonathan-g/jonathangilligan.hugo/tree/master/bibliography
+  and https://discourse.gohugo.io/t/bibtex-support/8879/2
 
 Presentation:
 
-- [ ] hugo can be a massive improvement over sphinx
+- [ ] hugo can be an improvement over sphinx
+- [ ] sphinx [downgraded to version below 2](https://github.com/sphinx-doc/sphinx/issues/6360)
+
+Timeline:
+- https://time.graphics/editor
 
 Done:
 

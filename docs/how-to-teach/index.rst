@@ -4,9 +4,6 @@
 .. toctree::
    :maxdepth: 1
 
+   pedagogy.md 
    ways-into-econometrics.md
    mindmap.md
-   history.md
-
-Also note `10 rules of teaching <http://third-bit.com/10rules/#teaching>`__ by Greg Wilson. Rule one is *"Be
-kind: all else is details."*

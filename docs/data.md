@@ -1,6 +1,9 @@
 Data
 ====
 
+Large collections
+-----------------
+
 - Python libraries [statsmodels, sci-learn and seaborn](https://kolesnikov.ga/Datasets_in_Python/)
 and [R itself](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) have build-in datasets.
 
@@ -16,11 +19,25 @@ and [R itself](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Ind
   a useful [Data and code](http://www.ncer.edu.au/resources/data-and-code.php)
   section. 
 
+- [Google Dataset search](https://toolbox.google.com/datasetsearch) is not yet as good as 
+  main Google search, but will surely improve.
+
+- [FRED][fred], [Quandl][q] and [dbnomics][dbn] are standard sources for macroeconomic data. My own effort for clean Russian macro time series - [mini-kep](https://github.com/mini-kep). 
+
+[fred]: https://fred.stlouisfed.org/
+[dbn]: https://db.nomics.world/
+[q]: https://www.quandl.com/
+
+
+Individual datasets
+-------------------
+
 - [Tidy Tuesday](https://github.com/rfordatascience/tidytuesday#datasets) publishes weekly 
   datasets and accompanying articles.
 
-Next
-----
+-  Nick Huntington-Klein provides a variety of extra examples of [data importable into R](http://nickchk.com/econometrics.html#Rdata).
 
-Expecting to add here: FRED/mini-kep, Quandl, sunspot data, dbnomics, lightbulbs, 
-data links from [nickchk](http://nickchk.com/econometrics.html#Rdata).
+- I extracted a small, but illustartive dataset about [lightbulb survival rate](https://twitter.com/PogrebnyakE/status/1108438155554930688).   
+
+- [Sunspot data](https://www.google.com/search?client=firefox-b-d&q=sunspot+data) is listed at variety of sources.
+

@@ -11,6 +11,12 @@ Econometrics is full of fancy abbreviations that one can juggle with.
    ARIMA
       autoregression, integration, moving average
 
+   DID
+      difference-in-differences
+
+   FE 
+      feature engineering 
+
    GARCH
       generalised (a)uto(r)egressive conditional heteroscedasticity
 
@@ -31,6 +37,9 @@ Econometrics is full of fancy abbreviations that one can juggle with.
 
    PCA
       principal components analysis
+
+   RDD
+      regression discontinuity design 
 
    VECM
       vector error correction model

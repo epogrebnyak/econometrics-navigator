@@ -9,6 +9,7 @@
    topics/index.rst
    textbook/index.rst
    how-to-teach/index.rst
+   references/history.md
    data.md
    software.rst
    blogs.md
@@ -31,13 +32,24 @@ for statistics and econometrics by doing two things:
 Changelog
 ---------
 
-- **v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
-  had sample articles on max likelihood, bootstrap, ANOVA.
+**v.0.0.4 (May 2019)**:   
 
-- **v.0.0.3 (April 2019)** scraps several unfinished articles, including 
-  a section on applications (hard to fill it quickly). Three main parts
-  in content established (own articles, textbook annotations and how to 
-  teach resources).
+- Science of teaching: quoting @gvwilson, @nickchk, @AllenDowney, @RochelleTerman at https://tinyurl.com/em-nav-teach
+- Data: added data from @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk at https://tinyurl.com/em-nav-da
+- Books: 
+
+   - `WM Venables. Exegeses on Linear Models <software.html#sas-and-terminology>`__
+   - Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
+
+
+**v.0.0.3 (April 2019)** scraps several unfinished articles, including 
+a section on applications (hard to fill it quickly). Three main parts
+in content established (own articles, textbook annotations and how to 
+teach resources).
+
+**v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
+had sample articles on max likelihood, bootstrap, ANOVA.
+
 
 Content
 -------
@@ -122,4 +134,5 @@ I need help in shaping this guide. Some future steps outlined in
 Source
 ------
 
-The source of this publication is available at https://github.com/epogrebnyak/econometrics-navigator.
+The source of this publication is available at https://github.com/epogrebnyak/econometrics-navigator
+or https://tinyurl.com/emnavig
