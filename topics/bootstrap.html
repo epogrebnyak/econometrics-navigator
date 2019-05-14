@@ -17,32 +17,37 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Causation, causality" href="causation.html" />
     <link rel="prev" title="Bias-variance tradeoff" href="bias_variance_tradeoff.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -164,7 +169,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/topics/bootstrap.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/topics/bootstrap.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -183,8 +188,8 @@
 statistics (mean, confidence intervals, deviation, etc) by using repreated
 sampling from an observed dataset.</p>
 <p>A little magic is <a class="reference external" href="https://stats.stackexchange.com/questions/26088/explaining-to-laypeople-why-bootstrapping-works">why exactly</a> taking random samples
-like <code class="docutils literal"><span class="pre">[1,1,2]</span></code>, <code class="docutils literal"><span class="pre">[3,2,2]</span></code>, <code class="docutils literal"><span class="pre">[2,1,3]</span></code>, etc is a good idea to approximate
-properties of a dataset <code class="docutils literal"><span class="pre">[1,2,3]</span></code>.</p>
+like <code class="docutils literal notranslate"><span class="pre">[1,1,2]</span></code>, <code class="docutils literal notranslate"><span class="pre">[3,2,2]</span></code>, <code class="docutils literal notranslate"><span class="pre">[2,1,3]</span></code>, etc is a good idea to approximate
+properties of a dataset <code class="docutils literal notranslate"><span class="pre">[1,2,3]</span></code>.</p>
 <p>Bootstrap originally proposed by <a class="reference external" href="http://jeti.uni-freiburg.de/studenten_seminar/stud_sem_SS_09/EfronBootstrap.pdf">Bradley Efron in 1979</a>.
 For formal introduction see <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S157344120105005X">Horowitz chapter in Handbook of Econometrics</a> (2001) and a usage  overview by <a class="reference external" href="https://core.ac.uk/download/pdf/6494253.pdf">MacKinnon 2006</a>.</p>
 <a class="reference external image-reference" href="https://www.statisticshowto.datasciencecentral.com/bootstrap-sample/"><img alt="" src="https://www.statisticshowto.datasciencecentral.com/wp-content/uploads/2016/10/bootstrap-sample.png" /></a>
@@ -192,34 +197,34 @@ For formal introduction see <a class="reference external" href="https://www.scie
 <h2>Toy example<a class="headerlink" href="#toy-example" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://ocw.mit.edu/courses/mathematics/18-05-introduction-to-probability-and-statistics-spring-2014/readings/MIT18_05S14_Reading24.pdf">Bootstrap confidence intervals by Jeremy Orloff and Jonathan Bloom, pp. 4-6</a> provides the following basic code example
 for bootstrap. Their full code for this excercise is <a class="reference external" href="https://math.mit.edu/~dav/05.dir/class24-empiricalbootstrap.r">here</a>.</p>
-<div class="highlight-R"><div class="highlight"><pre><span></span><span class="c1"># Bootstrap</span>
+<div class="highlight-R notranslate"><div class="highlight"><pre><span></span><span class="c1"># Bootstrap</span>
 <span class="c1"># Adapted from https://math.mit.edu/~dav/05.dir/class24-empiricalbootstrap.r</span>
-<span class="kp">cat</span><span class="p">(</span><span class="s">&quot;Example. Empirical boostrap confidence interval for the mean.&quot;</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
-x <span class="o">=</span> <span class="kt">c</span><span class="p">(</span><span class="m">30</span><span class="p">,</span><span class="m">37</span><span class="p">,</span><span class="m">36</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="m">42</span><span class="p">)</span>
-n <span class="o">=</span> <span class="kp">length</span><span class="p">(</span>x<span class="p">)</span>
-<span class="kp">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>  <span class="c1"># for repeatability</span>
+<span class="nf">cat</span><span class="p">(</span><span class="s">&quot;Example. Empirical boostrap confidence interval for the mean.&quot;</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="m">30</span><span class="p">,</span><span class="m">37</span><span class="p">,</span><span class="m">36</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="m">42</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="nf">length</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="nf">set.seed</span><span class="p">(</span><span class="m">1</span><span class="p">)</span>  <span class="c1"># for repeatability</span>
 
 <span class="c1"># sample mean</span>
-xbar <span class="o">=</span> <span class="kp">mean</span><span class="p">(</span>x<span class="p">)</span>
-<span class="kp">cat</span><span class="p">(</span><span class="s">&quot;data mean = &quot;</span><span class="p">,</span>xbar<span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
-nboot <span class="o">=</span> <span class="m">20</span>
+<span class="n">xbar</span> <span class="o">=</span> <span class="nf">mean</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+<span class="nf">cat</span><span class="p">(</span><span class="s">&quot;data mean = &quot;</span><span class="p">,</span><span class="n">xbar</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
+<span class="n">nboot</span> <span class="o">=</span> <span class="m">20</span>
 <span class="c1"># Generate 20 bootstrap samples, i.e. an n x 20 array of</span>
 <span class="c1"># random resamples from x.</span>
-tmpdata <span class="o">=</span> <span class="kp">sample</span><span class="p">(</span>x<span class="p">,</span>n<span class="o">*</span>nboot<span class="p">,</span> replace<span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
-bootstrapsample <span class="o">=</span> <span class="kt">matrix</span><span class="p">(</span>tmpdata<span class="p">,</span> nrow<span class="o">=</span>n<span class="p">,</span> ncol<span class="o">=</span>nboot<span class="p">)</span>
+<span class="n">tmpdata</span> <span class="o">=</span> <span class="nf">sample</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">n</span><span class="o">*</span><span class="n">nboot</span><span class="p">,</span> <span class="n">replace</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span>
+<span class="n">bootstrapsample</span> <span class="o">=</span> <span class="nf">matrix</span><span class="p">(</span><span class="n">tmpdata</span><span class="p">,</span> <span class="n">nrow</span><span class="o">=</span><span class="n">n</span><span class="p">,</span> <span class="n">ncol</span><span class="o">=</span><span class="n">nboot</span><span class="p">)</span>
 
 <span class="c1"># Compute the means xbar*</span>
-xbarstar <span class="o">=</span> <span class="kp">colMeans</span><span class="p">(</span>bootstrapsample<span class="p">)</span>
+<span class="n">xbarstar</span> <span class="o">=</span> <span class="nf">colMeans</span><span class="p">(</span><span class="n">bootstrapsample</span><span class="p">)</span>
 
 <span class="c1"># Compute delta* for each bootstrap sample</span>
-deltastar <span class="o">=</span> xbarstar <span class="o">-</span> xbar
+<span class="n">deltastar</span> <span class="o">=</span> <span class="n">xbarstar</span> <span class="o">-</span> <span class="n">xbar</span>
 
 <span class="c1"># Find the 0.1 and 0.9 quantiles for deltastar</span>
-d <span class="o">=</span> quantile<span class="p">(</span>deltastar<span class="p">,</span><span class="kt">c</span><span class="p">(</span><span class="m">0.1</span><span class="p">,</span><span class="m">0.9</span><span class="p">))</span>
+<span class="n">d</span> <span class="o">=</span> <span class="nf">quantile</span><span class="p">(</span><span class="n">deltastar</span><span class="p">,</span><span class="nf">c</span><span class="p">(</span><span class="m">0.1</span><span class="p">,</span><span class="m">0.9</span><span class="p">))</span>
 
 <span class="c1"># Calculate the 80\% confidence interval for the mean.</span>
-ci <span class="o">=</span> xbar <span class="o">-</span> <span class="kt">c</span><span class="p">(</span>d<span class="p">[</span><span class="m">2</span><span class="p">],</span>d<span class="p">[</span><span class="m">1</span><span class="p">])</span>
-<span class="kp">cat</span><span class="p">(</span><span class="s">&#39;Bootstrap confidence interval: [&#39;</span><span class="p">,</span>ci<span class="p">,</span><span class="s">&#39;]&#39;</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
+<span class="n">ci</span> <span class="o">=</span> <span class="n">xbar</span> <span class="o">-</span> <span class="nf">c</span><span class="p">(</span><span class="n">d[2]</span><span class="p">,</span><span class="n">d[1]</span><span class="p">)</span>
+<span class="nf">cat</span><span class="p">(</span><span class="s">&#39;Bootstrap confidence interval: [&#39;</span><span class="p">,</span><span class="n">ci</span><span class="p">,</span><span class="s">&#39;]&#39;</span><span class="p">,</span><span class="s">&#39;\n&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="section" id="bootstrap-dos-and-donts-by-anna-mikusheva">
@@ -271,7 +276,7 @@ than <a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%91%D1
         <a href="causation.html" class="btn btn-neutral float-right" title="Causation, causality" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="bias_variance_tradeoff.html" class="btn btn-neutral" title="Bias-variance tradeoff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="bias_variance_tradeoff.html" class="btn btn-neutral float-left" title="Bias-variance tradeoff" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -297,36 +302,16 @@ than <a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%91%D1
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'0.0.4a',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: ''
-          };
-      </script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

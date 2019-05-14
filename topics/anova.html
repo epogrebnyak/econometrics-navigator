@@ -17,32 +17,37 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Bias-variance tradeoff" href="bias_variance_tradeoff.html" />
     <link rel="prev" title="1. Concepts and techniques" href="index.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -161,7 +166,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/topics/anova.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/topics/anova.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -180,13 +185,13 @@
 <li>ANOVA can mean several things: actual decomposition of variance, comparing the group means or representation of regression results</li>
 <li>Boils down to a regression with dummy (categorical) variables</li>
 <li>Heavy traction in terminolgy from design of exepriments (see definitons section <a class="reference external" href="https://en.wikipedia.org/wiki/Analysis_of_variance">here</a>)</li>
-<li>Standartised result tables with <code class="docutils literal"><span class="pre">SS</span></code>, <code class="docutils literal"><span class="pre">DF</span></code>, <code class="docutils literal"><span class="pre">MSS</span></code>, <code class="docutils literal"><span class="pre">F</span></code>, <code class="docutils literal"><span class="pre">p</span></code></li>
+<li>Standartised result tables with <code class="docutils literal notranslate"><span class="pre">SS</span></code>, <code class="docutils literal notranslate"><span class="pre">DF</span></code>, <code class="docutils literal notranslate"><span class="pre">MSS</span></code>, <code class="docutils literal notranslate"><span class="pre">F</span></code>, <code class="docutils literal notranslate"><span class="pre">p</span></code></li>
 <li>Frightening multitude of R packages</li>
 <li>May want to look at a simple reference case <a class="reference external" href="https://www.itl.nist.gov/div898/strd/anova/SiRstv.html">here</a></li>
 </ul>
 <p>Quote:</p>
 <blockquote>
-<div><em>ANOVA can be seen as &#8220;syntactic sugar&#8221; for a special subgroup of linear regression models. ANOVA is regularly used by researchers who are not statisticians by training. They are now &#8220;institutionalized&#8221; and its hard to convert them back to using the more general representation</em> <a class="reference external" href="https://stats.stackexchange.com/users/1307/suncoolsu">suncoolsu</a></div></blockquote>
+<div><em>ANOVA can be seen as “syntactic sugar” for a special subgroup of linear regression models. ANOVA is regularly used by researchers who are not statisticians by training. They are now “institutionalized” and its hard to convert them back to using the more general representation</em> <a class="reference external" href="https://stats.stackexchange.com/users/1307/suncoolsu">suncoolsu</a></div></blockquote>
 <div class="section" id="code-examples">
 <h2>Code examples<a class="headerlink" href="#code-examples" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -206,7 +211,7 @@
 <li><a class="reference external" href="https://stats.stackexchange.com/questions/12398/how-to-interpret-f-and-p-value-in-anova">how-to-interpret-f-and-p-value-in-anova</a></li>
 <li><a class="reference external" href="https://stats.stackexchange.com/questions/2730/good-resource-to-understand-anova-and-ancova">good-resource-to-understand-anova-and-ancova</a></li>
 </ul>
-<p>... followed by ANOVA vs regression:</p>
+<p>… followed by ANOVA vs regression:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://stats.stackexchange.com/questions/34616/difference-between-regression-analysis-and-analysis-of-variance">difference-between-regression-analysis-and-analysis-of-variance</a></li>
 <li><a class="reference external" href="https://stats.stackexchange.com/questions/175246/why-is-anova-equivalent-to-linear-regression">why-is-anova-equivalent-to-linear-regression</a></li>
@@ -220,7 +225,7 @@
 <p>Very simple and illustrative case NIST reference case <a class="reference external" href="https://www.itl.nist.gov/div898/strd/anova/SiRstv.html">here</a>.</p>
 <p>Comoact Julia package <a class="reference external" href="https://github.com/marcpabst/ANOVA.jl">ANOVA.jl</a> at about 150 lines of code, but not as much documentation yet.</p>
 <p>ANOVA is again a case where <a class="reference external" href="https://ru.wikipedia.org/wiki/%D0%94%D0%B8%D1%81%D0%BF%D0%B5%D1%80%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7">Russian wikipedia</a> is more concise and clear on the subject.</p>
-<p>&#8216;Types&#8217; of sum of squares and associated confusion:</p>
+<p>‘Types’ of sum of squares and associated confusion:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/">https://mcfromnz.wordpress.com/2011/03/02/anova-type-iiiiii-ss-explained/</a></li>
 <li><a class="reference external" href="https://rcompanion.org/rcompanion/d_04.html">https://rcompanion.org/rcompanion/d_04.html</a></li>
@@ -244,7 +249,7 @@
         <a href="bias_variance_tradeoff.html" class="btn btn-neutral float-right" title="Bias-variance tradeoff" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="1. Concepts and techniques" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral float-left" title="1. Concepts and techniques" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -270,36 +275,16 @@
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'0.0.4a',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: ''
-          };
-      </script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

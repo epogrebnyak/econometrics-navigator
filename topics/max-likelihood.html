@@ -17,32 +17,37 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Mode" href="mode.html" />
     <link rel="prev" title="Central limit theorem, CLT" href="clt.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -162,7 +167,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/topics/max-likelihood.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/topics/max-likelihood.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -177,8 +182,8 @@
             
   <div class="section" id="maximum-likelihood">
 <h1>Maximum likelihood<a class="headerlink" href="#maximum-likelihood" title="Permalink to this headline">¶</a></h1>
-<p>The probability density function <code class="docutils literal"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">f(x,</span> <span class="pre">θ)</span></code> tells you a probability of occurrence
-of a random value near <code class="docutils literal"><span class="pre">x</span></code>.  Likelihood is essentially a reverse operation of estimating unknown paramter <code class="docutils literal"><span class="pre">θ</span></code> from the same equation using <code class="docutils literal"><span class="pre">p</span></code> and <code class="docutils literal"><span class="pre">x</span></code>.</p>
+<p>The probability density function <code class="docutils literal notranslate"><span class="pre">p</span> <span class="pre">=</span> <span class="pre">f(x,</span> <span class="pre">θ)</span></code> tells you a probability of occurrence
+of a random value near <code class="docutils literal notranslate"><span class="pre">x</span></code>.  Likelihood is essentially a reverse operation of estimating unknown paramter <code class="docutils literal notranslate"><span class="pre">θ</span></code> from the same equation using <code class="docutils literal notranslate"><span class="pre">p</span></code> and <code class="docutils literal notranslate"><span class="pre">x</span></code>.</p>
 <div class="section" id="lead-by-example">
 <h2>Lead by example<a class="headerlink" href="#lead-by-example" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
@@ -187,44 +192,33 @@ of a random value near <code class="docutils literal"><span class="pre">x</span>
 <li>Observed sample is considered the most likely one</li>
 <li>Maximisation of probability allows to compute distribution parameters</li>
 </ul>
-<p><em>1. Observations.</em> Consider an experiment where we draw two random indepenent values <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span></code> from the same distribution, e.g. the weight of two <a class="reference external" href="https://www.youtube.com/watch?v=XepXtl9YKwc">mice</a> in grams <code class="docutils literal"><span class="pre">(30,</span> <span class="pre">50)</span></code>.
-There is some prior knowledge given to you that the distribution is normal with
-a center around <code class="docutils literal"><span class="pre">μ</span></code> (average mouse weight) and standard deviation of <code class="docutils literal"><span class="pre">σ</span></code>: <code class="docutils literal"><span class="pre">x</span> <span class="pre">~</span> <span class="pre">N(μ,</span> <span class="pre">σ²)</span></code>.</p>
-<p><em>2. Probability of observations</em>. What was the probability of encountering <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span> <span class="pre">=</span> <span class="pre">(30,</span> <span class="pre">50)</span></code>? It is the product of individual event probabilities <code class="docutils literal"><span class="pre">L</span> <span class="pre">=</span> <span class="pre">f(x₁)</span> <span class="pre">·</span> <span class="pre">f(x₂)</span></code>. This value itself depends on  unknown <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code>, so can be written as <code class="docutils literal"><span class="pre">L(μ,</span> <span class="pre">σ)</span> <span class="pre">=</span> <span class="pre">f(x₁</span> <span class="pre">|</span> <span class="pre">μ,</span> <span class="pre">σ)</span> <span class="pre">·</span> <span class="pre">f(x₂</span> <span class="pre">|</span> <span class="pre">μ,</span> <span class="pre">σ)</span></code>,  where <code class="docutils literal"><span class="pre">f</span></code> is probability density function.</p>
-<p><em>3. Observed sample is considered the most likely one.</em>
-It is prudent to assume that observed <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span> <span class="pre">=</span> <span class="pre">(30,</span> <span class="pre">50)</span></code> was the realisation of the most probable possible event. This way we take good use of available scarce information and make a better guess. If we decide we just saw an extreme event, we will be systematically wrong on this decision (<a class="reference external" href="https://www.youtube.com/watch?v=2iRIqkm1mug">a tourist sees a working fountain in town</a> provides extra intuition).</p>
-<p><em>4. Maximisation of probability allows to compute distribution parameters.</em>
-So, upon a fact of observation of <code class="docutils literal"><span class="pre">(x₁,</span> <span class="pre">x₂)</span></code> we tend to believe this has to be an event with
-maximum probability (likelihood) of happening. From this assumption we can find <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code>
-that maximise <code class="docutils literal"><span class="pre">L</span></code>. Sometimes it is possible to do it analytically, as with normal
-distributions, sometimes we have to search for solution numerically (hoping it is unique).</p>
 </div>
 <div class="section" id="generalisation">
 <h2>Generalisation<a class="headerlink" href="#generalisation" title="Permalink to this headline">¶</a></h2>
-<p>We usualy denote a set of parameters like <code class="docutils literal"><span class="pre">μ</span></code> and <code class="docutils literal"><span class="pre">σ</span></code> as <code class="docutils literal"><span class="pre">θ</span></code>, a vector of parameters.
-Our task is to estimate parameter <code class="docutils literal"><span class="pre">θ</span></code> given:</p>
+<p>We usualy denote a set of parameters like <code class="docutils literal notranslate"><span class="pre">μ</span></code> and <code class="docutils literal notranslate"><span class="pre">σ</span></code> as <code class="docutils literal notranslate"><span class="pre">θ</span></code>, a vector of parameters.
+Our task is to estimate parameter <code class="docutils literal notranslate"><span class="pre">θ</span></code> given:</p>
 <ul class="simple">
-<li>a sample of observations of а random variable <code class="docutils literal"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code>, and</li>
-<li>a pre-defined probability density function <code class="docutils literal"><span class="pre">f(x,</span> <span class="pre">θ)</span></code>.</li>
+<li>a sample of observations of а random variable <code class="docutils literal notranslate"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code>, and</li>
+<li>a pre-defined probability density function <code class="docutils literal notranslate"><span class="pre">f(x,</span> <span class="pre">θ)</span></code>.</li>
 </ul>
 <p><strong>Solution steps:</strong></p>
 <ol class="arabic simple">
-<li>collect observations <code class="docutils literal"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code></li>
-<li>make a decision which probability density function <code class="docutils literal"><span class="pre">f(x,</span> <span class="pre">θ)</span></code> is appropriate
+<li>collect observations <code class="docutils literal notranslate"><span class="pre">X</span> <span class="pre">=</span> <span class="pre">(x₁,</span> <span class="pre">x₂,</span> <span class="pre">...,</span> <span class="pre">xₙ)</span></code></li>
+<li>make a decision which probability density function <code class="docutils literal notranslate"><span class="pre">f(x,</span> <span class="pre">θ)</span></code> is appropriate
 for this data</li>
-<li>compose joint probability of observations as a function of <code class="docutils literal"><span class="pre">θ</span></code>:
-<code class="docutils literal"><span class="pre">L(θ)</span> <span class="pre">=</span> <span class="pre">f(x₁,</span> <span class="pre">θ)·f(x₂,</span> <span class="pre">θ)·</span> <span class="pre">...·f(xₙ,</span> <span class="pre">θ)</span></code>.</li>
-<li>Come to terms with a principle &#8220;if we observed this event, we consider
-it was the most probable outcome of all possible events in this distribution&#8221;</li>
-<li>Find which <code class="docutils literal"><span class="pre">θ</span></code> maiximises joint probability of observations</li>
+<li>compose joint probability of observations as a function of <code class="docutils literal notranslate"><span class="pre">θ</span></code>:
+<code class="docutils literal notranslate"><span class="pre">L(θ)</span> <span class="pre">=</span> <span class="pre">f(x₁,</span> <span class="pre">θ)·f(x₂,</span> <span class="pre">θ)·</span> <span class="pre">...·f(xₙ,</span> <span class="pre">θ)</span></code>.</li>
+<li>Come to terms with a principle “if we observed this event, we consider
+it was the most probable outcome of all possible events in this distribution”</li>
+<li>Find which <code class="docutils literal notranslate"><span class="pre">θ</span></code> maiximises joint probability of observations</li>
 </ol>
 </div>
 <div class="section" id="code">
 <h2>Code<a class="headerlink" href="#code" title="Permalink to this headline">¶</a></h2>
-<p>Python code below below relies on <code class="docutils literal"><span class="pre">scipy.optimixe.minimize</span></code> solver
+<p>Python code below below relies on <code class="docutils literal notranslate"><span class="pre">scipy.optimixe.minimize</span></code> solver
 to find parameters of a normal distribution based on two measurements
 of mice weights. It can be easily applied to more observations.</p>
-<div class="highlight-python"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">Maximum likelihood with two mice.</span>
 <span class="sd">&quot;&quot;&quot;</span>
 
@@ -301,7 +295,7 @@ of mice weights. It can be easily applied to more observations.</p>
         <a href="mode.html" class="btn btn-neutral float-right" title="Mode" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="clt.html" class="btn btn-neutral" title="Central limit theorem, CLT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="clt.html" class="btn btn-neutral float-left" title="Central limit theorem, CLT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -327,36 +321,16 @@ of mice weights. It can be easily applied to more observations.</p>
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'0.0.4a',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: ''
-          };
-      </script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>
