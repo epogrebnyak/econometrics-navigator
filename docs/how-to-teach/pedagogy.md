@@ -1,4 +1,4 @@
-Technical pedadogy
+Technical pedagogy
 ==================
 
 Ideas
