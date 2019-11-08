@@ -9,7 +9,6 @@
    topics/index.rst
    textbook/index.rst
    how-to-teach/index.rst
-   references/history.md
    data.md
    software.rst
    blogs.md
@@ -25,17 +24,17 @@ Goals
 
 The Econometrics Navigator (EN) is aims to provide you with:
 
-- open access textbooks 
-- community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads)
-- minimal code examples in Python, R, gretl or Julia
-
-for better understanding of statistics and econometrics topics.
+- open access textbooks;
+- community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads);
+- minimal code examples in Python, R, gretl or Julia.
 
 
 Changelog
 ---------
 
 **v.0.0.5 (November 2019)**:
+
+
 
 
 **v.0.0.4 (May 2019)**:   

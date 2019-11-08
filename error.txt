@@ -1,0 +1,15 @@
+d:\anaconda3\lib\site-packages\m2r.py:652: RemovedInSphinx30Warning: app.add_source_parser() does not support suffix argument. Use app.add_source_suffix() instead.
+  app.add_source_parser('.md', M2RParser)
+D:\github\econometrics-navigator\docs\topics\ols.rst:84: WARNING: Inline interpreted text or phrase reference start-string without end-string.
+D:\github\econometrics-navigator\docs\topics\ols.rst:85: WARNING: Bullet list ends without a blank line; unexpected unindent.
+D:\github\econometrics-navigator\docs\topics\ols.rst:89: WARNING: Unexpected indentation.
+D:\github\econometrics-navigator\docs\topics\ols.rst:91: WARNING: Block quote ends without a blank line; unexpected unindent.
+D:\github\econometrics-navigator\docs\topics\ols.rst:15: WARNING: image file not readable: topics\._staticpeter_kennedy_on_ols.png
+D:\github\econometrics-navigator\docs\applications\are_we_in_recession.md: WARNING: document isn't included in any toctree
+D:\github\econometrics-navigator\docs\applications\dsge.md: WARNING: document isn't included in any toctree
+D:\github\econometrics-navigator\docs\applications\finance.md: WARNING: document isn't included in any toctree
+D:\github\econometrics-navigator\docs\applications\index.md: WARNING: document isn't included in any toctree
+D:\github\econometrics-navigator\docs\applications\norwegian_forecasting_1990s.md: WARNING: document isn't included in any toctree
+D:\github\econometrics-navigator\docs\topics\hypothesis-test.md: WARNING: document isn't included in any toctree
+d:\anaconda3\lib\site-packages\sphinx_rtd_theme\search.html:20: RemovedInSphinx30Warning: To modify script_files in the theme is deprecated. Please insert a <script> tag directly in your theme instead.
+  {{ super() }}

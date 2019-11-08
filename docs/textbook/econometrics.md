@@ -29,6 +29,14 @@ Cross Section and Panel Data
 
 Note that MHE is one of few books with excercises [reproduced on github](https://github.com/vikjam/mostly-harmless-replication).
 
+Criticism of MHE:
+
+> Rather, it's a companion for a highly-specialized group of applied non-structural micro-econometricians hoping to estimate causal effects using non-experimental data and largely-static, linear, regression-based methods. It's a novel treatment of that sub-sub-sub-area of applied econometrics, but pretending to be anything more is most definitely harmful, particularly to students, who have no way to recognize the charade as a charade.
+
+<https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html>
+
+- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm) - nicely presented topics in econometrics for microeconomics from OLS to Bootstrap. Guides to software.
+
 
 Time Series
 -----------
@@ -53,10 +61,18 @@ has MATLAB code)
 - [Karl Whelan. Time Series and Macroeconomics.](http://www.karlwhelan.com/MAMacro/part1.pdf) (also see RATS code and other lectures on the web site)
 
 <!--
-
 To add:
 - Judea Pearl on casualty
-- bayesian methods
 - p-value crisis
-- D.Mayo
 -->
+
+
+Вayesian Methods
+----------------
+
+- [Bayesian Methods for Hackers](http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/) has programming-first approach.
+
+- [SciPy 2019 Lecture on Bayesian Model Evaluation and Criticism](https://twitter.com/canyon289/status/1148709146478465025).
+
+- [A simple explanation of Naive Bayes Classification](https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification), an overwhelmingly popular 
+StackOverflow answer.

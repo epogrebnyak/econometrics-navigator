@@ -1,3 +1,18 @@
+Machine learning
+----------------
+
+- [Decision trees / Coursera](https://www.coursera.org/learn/machine-learning-data-analysis/home/info)
+- [Decision trees / SAS](https://support.sas.com/edu/schedules.html?id=5436&ctry=RU&locationId=MO#s1=3)
+
+Econometrics 
+------------
+
+- https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C
+- [Treatment effects](https://ocw.mit.edu/courses/economics/14-386-new-econometric-methods-spring-2007/readings/treatment_effect.pdf)
+- https://www.bls.gov/opub/mlr/2014/article/measuring-the-distribution-of-wages-in-the-united-states-from-1996-through-2010-using-the-occupational-employment-survey.htm
+- https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf
+
+
 Cross-validated: 
 
 - [how-to-tell-the-probability-of-failure-if-there-were-no-failures](https://stats.stackexchange.com/questions/134380/how-to-tell-the-probability-of-failure-if-there-were-no-failures)

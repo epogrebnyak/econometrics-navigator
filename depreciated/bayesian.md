@@ -1,3 +1,6 @@
+https://twitter.com/canyon289/status/1148709146478465025
+
+
 https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification
 
 

@@ -8,10 +8,10 @@ Biliography:
 Presentation:
 
 - [ ] hugo can be an improvement over sphinx
-- [ ] sphinx [downgraded to version below 2](https://github.com/sphinx-doc/sphinx/issues/6360)
 
 Timeline:
-- https://time.graphics/editor
+
+- [ ] https://time.graphics/editor
 
 Done:
 
@@ -22,9 +22,11 @@ Done:
 - [x] replicate Kennedy OLS textbook analysis
 - [x] move OLS links
 - [x] more readme content to other parts
+- [x] sphinx [downgraded to version below 2](https://github.com/sphinx-doc/sphinx/issues/6360),
+      but nore runs on 2.2
+- [x] make pdf
 
 Not doing:
-- [ ] make pdf
 - [?] make travis build on Windows
 - [?] takeaway travis byproducts
 - [-] make 'gitall' alias for commit and push after build 

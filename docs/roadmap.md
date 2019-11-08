@@ -1,15 +1,16 @@
 Roadmap 
 =======
 
-Updated May 13, 2019.
+## November 09, 2019
 
-In next versions, I would like to do the following:
+- add more tweets
+- add from twitter personalities - links to them
+- Section 4 History may go somewhere else
+- logit models, tweets about them
+- add presentation about reproducibility
 
+## May 13, 2019
 
-## Labels
-
-- label 'heavy' vs 'easy' content
-- adjust structure accordingly 
 
 ### General 
 
@@ -17,21 +18,14 @@ In next versions, I would like to do the following:
 -  put key textbooks on a roadmap
 -  pay more attention to bayesian / causality
 
-### Interactivity
-
-- repl.it
-- colab (no Julia)
-- notebooks/binder
-
 ### Data science textbooks
 
--  Add  [deep learning links](https://github.com/epogrebnyak/learn/blob/master/deep_learning.md)
 - [Data Science fo Economists](https://github.com/tyleransom/DScourseS18)
 
 ### Articles and code
 
 - write more articles and code for the main section
-- translate some RATS/MATLAB code to open source (esp time series)
+- translate some RATS/MATLAB code to open source (especially time series)
 
 Specific tasks:
 - clean ols

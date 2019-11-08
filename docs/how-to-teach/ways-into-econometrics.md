@@ -13,7 +13,7 @@ The undergraduate textbook structure often repeats itself: OLS, estimator
 properties, some of OLS deviations/extensions, logit/probit + maximum likelihood, 
 time series and maybe a bit of panels and simultaneous equations. 
 
-More textbook analysis may be found in 2017 Angrist and Pischke article [Undergraduate Econometrics Instruction: Through Our Classes, Darkly](https://pubs.aeaweb.org/doi/pdf/10.1257/jep.31.2.125), below is a summary table.
+More textbook analysis may be found in 2017 Angrist and Pischke article [Undergraduate Econometrics Instruction: Through Our Classes, Darkly](https://pubs.aeaweb.org/doi/pdf/10.1257/jep.31.2.125), below is a summary table (some of it does not escape [criticism](https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html)).
 
 ![](../../_static/darkly.jpg)
 
@@ -43,7 +43,7 @@ Manulas of some less popular packages:
 3. Handbook of Econometrics
 ---------------------------
 
-Elsivier [Handbook of Econometrics](https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C) 
+Elsievier [Handbook of Econometrics](https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C) 
 is a renowned publication series runniing since 1983. It now 
 features 77 chapters in 6 volumes. Many earlier articles are 
 foundational, but quite a few are about some are really narrow 

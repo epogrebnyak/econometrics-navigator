@@ -8,8 +8,9 @@ Typical prerequisites for statistics and econometrics are:
 - probability
 
 They usually take 2-4 semester in college. Linear algebra is fully covered by 
-[VMLS][VMLS], and probability is exposed in [PSC][PSC], even though latter is a compact reference, not formally a textbook. Scipy lectures is a great one-stop resource for numerical computing basics. I do not have a one single source to recommend for calculus yet. 
+[VMLS][VMLS], and probability is exposed in [PSC][PSC], even though it is a compact reference, not formally a textbook. [Scipy lectures][Sci] are a great one-stop resource for numerical computing basics.
 
+I do not have a one single source to recommend for calculus yet. 
 
 Linear Algebra
 --------------
@@ -17,6 +18,19 @@ Linear Algebra
 - [Vectors, Matrices, and Least Squares (VLMS)][VMLS]
 
 [VMLS]: http://vmls-book.stanford.edu
+
+
+- You can also check Computational Linear Algebra repository from *fast.ai* [here](https://github.com/fastai/numerical-linear-algebra).
+
+
+Calculus
+--------
+
+[The Matrix Calculus You Need For Deep Learning](https://arxiv.org/abs/1802.01528) 
+recommends [Khan Academy differential calculus course](https://www.khanacademy.org/math/differential-calculus), but it is not a single downloadable reference. *fast.ai*
+also has a [calculus intro](http://wiki.fast.ai/index.php/Calculus_for_Deep_Learning), 
+going from start to derivatives in deep learning quickly.
+
 
 Probability and statistics
 --------------------------
@@ -29,5 +43,6 @@ Probability and statistics
 Numerical computing
 --------------------
 
-- [Scipy lectures: one document to learn numerics, science, and data with Python](http://www.scipy-lectures.org)
+- [Scipy lectures: one document to learn numerics, science, and data with Python][Sci]
 
+[Sci]: http://www.scipy-lectures.org

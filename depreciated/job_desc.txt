@@ -1,15 +1,4 @@
-﻿OLS
----
-
-- http://seismo.berkeley.edu/~kirchner/eps_120/Toolkits/Toolkit_10.pdf
-
-
-Econ notebooks
---------------
-
-https://quantecon.org/notebooks.html
-
-Job description in ML
+﻿Job description in ML
 ---------------------
 
 Knowledge of machine learning and some typical frameworks for machine learning and computational
@@ -27,33 +16,3 @@ Polished communications and data visualization highly desirable.  Familiarity wi
 and typical libraries (e.g. D3.js, Material) and application frameworks (e.g. R’s Shiny, 
 Angular, Polymer etc.) commonly used to build highly interactive analytical applications
 
-Stan
-----
-
-- http://nbviewer.jupyter.org/github/QuantEcon/QuantEcon.notebooks/blob/master/IntroToStan_basics_workflow.ipynb
-
-
-Latex / Overleaf
-----------------
-
-- https://www.overleaf.com/register?sso_error=not_registered
-
-
-Machine learning
-----------------
-
-- [Decision trees / Coursera](https://www.coursera.org/learn/machine-learning-data-analysis/home/info)
-- [Decision trees / SAS](https://support.sas.com/edu/schedules.html?id=5436&ctry=RU&locationId=MO#s1=3)
-
-Econometrics 
-------------
-
-- https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C
-- [Treatment effects](https://ocw.mit.edu/courses/economics/14-386-new-econometric-methods-spring-2007/readings/treatment_effect.pdf)
-
----
-
-- https://www.bls.gov/opub/mlr/2014/article/measuring-the-distribution-of-wages-in-the-united-states-from-1996-through-2010-using-the-occupational-employment-survey.htm
-- https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf
-
----

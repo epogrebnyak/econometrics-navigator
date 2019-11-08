@@ -16,7 +16,7 @@ Review of probability:
 - random variables, outcomes, probability
 - distributions, pdf/cdf
 
-Math.stat itself:
+Mathematic statistics itself:
 
 - idea: learn about data generating process (DGP) from a sample
 - sample/realisation as a random vector 

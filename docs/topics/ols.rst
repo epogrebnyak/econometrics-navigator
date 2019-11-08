@@ -77,6 +77,7 @@ Links (preliminary):
    - list of replications
 -  https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman
    (replication from Hastie)
+- http://seismo.berkeley.edu/~kirchner/eps_120/Toolkits/Toolkit_10.pdf   
 
 Intuitive learning for OLS 
 
