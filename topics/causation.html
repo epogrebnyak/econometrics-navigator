@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Causation, causality &mdash; Econometrics Navigator 0.0.2 documentation</title>
+  <title>Causation, causality &mdash; Econometrics Navigator 0.0.5 documentation</title>
   
 
   
@@ -17,34 +17,37 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Central limit theorem, CLT" href="clt.html" />
     <link rel="prev" title="Bootstrap" href="bootstrap.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -58,7 +61,7 @@
             
             
               <div class="version">
-                0.0.2
+                0.0.5
               </div>
             
           
@@ -84,6 +87,7 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">1. Concepts and techniques</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="anova.html">Analysis of variance (ANOVA)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bias_variance_tradeoff.html">Bias-variance tradeoff</a></li>
 <li class="toctree-l2"><a class="reference internal" href="bootstrap.html">Bootstrap</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Causation, causality</a><ul>
@@ -99,14 +103,14 @@
 <li class="toctree-l2"><a class="reference internal" href="simulation.html">Simulation</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../applications/index.html">2. Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../special/index.html">3. Special topics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../textbook/index.html">4. Textbooks and courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../textbook/index.html">2. Textbooks and courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-teach/index.html">3. The science of teaching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../blogs.html">Blogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../acronyms.html">Acronyms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
 </ul>
 
             
@@ -176,11 +180,11 @@
   <div class="section" id="causation-causality">
 <h1>Causation, causality<a class="headerlink" href="#causation-causality" title="Permalink to this headline">¶</a></h1>
 <div class="admonition important">
-<p class="first admonition-title">Important</p>
-<p class="last">Correlation is not causation.</p>
+<p class="admonition-title">Important</p>
+<p>Correlation is not causation.</p>
 </div>
 <ul class="simple">
-<li><a class="reference external" href="https://chrisaulddotcom.wordpress.com/2013/10/08/remarks-on-chen-and-pearl-on-causality-in-econometrics-textbooks/">causality (not &#8216;casuality&#8217;)</a></li>
+<li><p><a class="reference external" href="https://chrisaulddotcom.wordpress.com/2013/10/08/remarks-on-chen-and-pearl-on-causality-in-econometrics-textbooks/">causality (not ‘casuality’)</a></p></li>
 </ul>
 <div class="section" id="book-of-why-by-judea-pearl">
 <h2>Book of Why by Judea Pearl<a class="headerlink" href="#book-of-why-by-judea-pearl" title="Permalink to this headline">¶</a></h2>
@@ -188,7 +192,7 @@
 <div class="section" id="history">
 <h2>History<a class="headerlink" href="#history" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li><a class="reference external" href="ucla.in/2mhxKdO">Pearl, J. (2014). TRYGVE HAAVELMO AND THE EMERGENCE OF CAUSAL CALCULUS. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231</a></li>
+<li><p><a class="reference external" href="ucla.in/2mhxKdO">Pearl, J. (2014). TRYGVE HAAVELMO AND THE EMERGENCE OF CAUSAL CALCULUS. Econometric Theory, 31(1), 152–179. https://doi.org/10.1017/s0266466614000231</a></p></li>
 </ul>
 </div>
 </div>
@@ -204,7 +208,7 @@
         <a href="clt.html" class="btn btn-neutral float-right" title="Central limit theorem, CLT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="bootstrap.html" class="btn btn-neutral" title="Bootstrap" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="bootstrap.html" class="btn btn-neutral float-left" title="Bootstrap" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -213,7 +217,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Evgeny Pogrebnyak
+        &copy; Copyright 2018-2019, Evgeny Pogrebnyak
 
     </p>
   </div>
@@ -230,36 +234,16 @@
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'0.0.2',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

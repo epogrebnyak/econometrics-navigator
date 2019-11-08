@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Statistical Inference &mdash; Econometrics Navigator 0.0.2 documentation</title>
+  <title>Statistical Inference &mdash; Econometrics Navigator 0.0.5 documentation</title>
   
 
   
@@ -17,34 +17,37 @@
   
 
   
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Econometrics" href="econometrics.html" />
-    <link rel="prev" title="Preliminaries" href="preliminaries.html" /> 
-
-  
-  <script src="../_static/js/modernizr.min.js"></script>
-
+    <link rel="prev" title="Mathematic preliminaries" href="preliminaries.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -58,7 +61,7 @@
             
             
               <div class="version">
-                0.0.2
+                0.0.5
               </div>
             
           
@@ -84,28 +87,30 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../topics/index.html">1. Concepts and techniques</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../applications/index.html">2. Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../special/index.html">3. Special topics</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. Textbooks and courses</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="preliminaries.html">Preliminaries</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">2. Textbooks and courses</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="preliminaries.html">Mathematic preliminaries</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Statistical Inference</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#topics">Topics</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#programming">Programming</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#key-textbook">Key textbook</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#other-choices">Other choices</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#supplements">Supplements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other-reading">Other reading</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#papers">Papers</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#in-russian">In Russian</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="econometrics.html">Econometrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html">4. History of econometrics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ml-dl.html">Machine learning (ML) and deep learning (DL)</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../how-to-teach/index.html">3. The science of teaching</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../data.html">Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../software.html">Software</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../blogs.html">Blogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../acronyms.html">Acronyms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
 </ul>
 
             
@@ -151,7 +156,7 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">4. Textbooks and courses</a> &raquo;</li>
+          <li><a href="index.html">2. Textbooks and courses</a> &raquo;</li>
         
       <li>Statistical Inference</li>
     
@@ -174,65 +179,82 @@
             
   <div class="section" id="statistical-inference">
 <h1>Statistical Inference<a class="headerlink" href="#statistical-inference" title="Permalink to this headline">¶</a></h1>
+<p>This page is a draft.</p>
 <p>Some discussions about a good book:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://mathoverflow.net/questions/31655/statistics-for-mathematicians">mathoverflow</a></li>
-<li><a class="reference external" href="https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger">stackexchange</a></li>
+<li><p><a class="reference external" href="https://mathoverflow.net/questions/31655/statistics-for-mathematicians">Math Overflow: Statistics for Mathematicians</a></p></li>
+<li><p><a class="reference external" href="https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger">Stack Exchange: What to learn after Casella/Berger</a></p></li>
 </ul>
 <div class="section" id="topics">
 <h2>Topics<a class="headerlink" href="#topics" title="Permalink to this headline">¶</a></h2>
 <p>Review of probability:</p>
 <ul class="simple">
-<li>random variables, outcomes, probability</li>
-<li>distributions, pdf/cdf</li>
+<li><p>random variables, outcomes, probability</p></li>
+<li><p>distributions, pdf/cdf</p></li>
 </ul>
-<p>Math stat itself:</p>
+<p>Mathematic statistics itself:</p>
 <ul class="simple">
-<li>idea: learn about data generating process (DGP) from a sample</li>
-<li>sample/realisation as a random vector</li>
-<li>statistic as a function of sample</li>
-<li>parameter inference:<ul>
-<li>point estimation and methods (estimators)</li>
-<li>estimator quality (bias, consistency, efficiency)</li>
+<li><p>idea: learn about data generating process (DGP) from a sample</p></li>
+<li><p>sample/realisation as a random vector</p></li>
+<li><p>statistic as a function of sample</p></li>
+<li><p>parameter inference:</p>
+<ul>
+<li><p>point estimation and methods (estimators)</p></li>
+<li><p>estimator quality (bias, consistency, efficiency)</p></li>
 </ul>
 </li>
-<li>confidence intervals (CI)</li>
-<li>hypothesis testing (HT), types of errors</li>
-<li>analysis of variance and regression</li>
+<li><p>confidence intervals (CI)</p></li>
+<li><p>hypothesis testing (HT), types of errors</p></li>
+<li><p>analysis of variance and regression</p></li>
 </ul>
 <p>See an example of <a class="reference external" href="http://comet.lehman.cuny.edu/owen/teaching/mat327/syllabus_mat327_782_2018fa.pdf">stated learning objectives</a></p>
-<p>Also concise version <a class="reference external" href="http://math.csu.ru/new_files/students/lectures/teor_ver/solovev_teor_ver.pdf">here (in Russian)</a></p>
-</div>
-<div class="section" id="programming">
-<h2>Programming<a class="headerlink" href="#programming" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><a class="reference external" href="https://infer.netlify.com/">R infer package</a>:</li>
-<li>[Julia - Statistical Primer]https://people.smp.uq.edu.au/YoniNazarathy/julia-stats/exploring-julia-a-statistical-primer-DRAFT.pdf</li>
-</ul>
-</div>
+<!--
+
+https://www.amazon.com/Statistical-Inference-Monographs-Statistics-Probability-ebook/dp/B076M4Q3WH/ref=sr_1_fkmrnull_1?keywords=S.D.+Silvey&qid=1557747351&s=gateway&sr=8-1-fkmrnull
+
+----------
+
+May buy:
+
+https://www.amazon.com/gp/offer-listing/052100618X/ref=dp_olp_all_mbc?ie=UTF8&condition=all
+
+----------
+
+Programming:
+
+- [R infer package](https://infer.netlify.com/):
+- [Julia - Statistical Primer]https://people.smp.uq.edu.au/YoniNazarathy/julia-stats/exploring-julia-a-statistical-primer-DRAFT.pdf
+
+----------
+
+Modern Applied Statistics with S. Venables & Ripley.
+http://www.bagualu.net/wordpress/wp-content/uploads/2015/10/Modern_Applied_Statistics_With_S.pdf
+
++ MASS package.
+
+----------
+
+http://greenteapress.com/thinkstats/thinkstats.pdf
+
+I  also  used  two  books,  David  MacKay’sInformation  Theory,  In-ference, and Learning Algorithms, which is the book that got me hooked onBayesian statistics, and Press et al.’sNumerical Recipes in C. But both booksare available online, so I don’t feel too bad
+--></div>
 <div class="section" id="key-textbook">
 <h2>Key textbook<a class="headerlink" href="#key-textbook" title="Permalink to this headline">¶</a></h2>
 <p>Casella, Berger. Statistical Inference.</p>
 <ul class="simple">
-<li><a class="reference external" href="https://fsalamri.files.wordpress.com/2015/02/casella_berger_statistical_inference1.pdf">link</a></li>
+<li><p><a class="reference external" href="https://fsalamri.files.wordpress.com/2015/02/casella_berger_statistical_inference1.pdf">link</a></p></li>
 </ul>
 </div>
 <div class="section" id="other-choices">
 <h2>Other choices<a class="headerlink" href="#other-choices" title="Permalink to this headline">¶</a></h2>
 <p>Larry Wasserman. All of Statistics: A Concise Course in Statistical Inference</p>
-<div class="highlight-guess"><div class="highlight"><pre><span></span>- [text 1](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf)
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>- [text 1](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf)
 - [text 2](http://static.stevereads.com/papers_to_read/all_of_statistics.pdf)
 - [Amazon](https://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/0387402721)
 </pre></div>
 </div>
-<p>Peter M. Aronow, Benjamin T. Miller. Foundations of Agnostic Statistics.</p>
-<div class="highlight-guess"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="p">[</span><span class="n">Google</span> <span class="n">Book</span> <span class="p">(</span><span class="n">fragments</span><span class="p">)](</span><span class="nl">https</span><span class="p">:</span><span class="c1">//books.google.ru/books?id=u1N-DwAAQBAJ&amp;printsec=frontcover&amp;hl=ru&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false)</span>
-<span class="o">-</span> <span class="p">[</span><span class="n">book</span> <span class="n">proposal</span><span class="p">](</span><span class="nl">http</span><span class="p">:</span><span class="c1">//aronow.research.yale.edu/aronowmillerproposal.pdf)</span>
-<span class="o">-</span> <span class="n">Amazon</span> <span class="p">(</span><span class="n">Jan</span> <span class="mi">2019</span><span class="p">)</span>
-</pre></div>
-</div>
 <p>Efron, Hastie. Computer Age Statistical Inference: Algorithms, Evidence and Data Science.</p>
-<div class="highlight-guess"><div class="highlight"><pre><span></span>- https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>- https://web.stanford.edu/~hastie/CASI_files/PDF/casi.pdf
 </pre></div>
 </div>
 </div>
@@ -243,11 +265,24 @@
 <p><a class="reference external" href="https://bit.ly/2zWyyff">Herman J. Bierens. Introduction to the Mathematical and Statistical Foundations of Econometrics</a></p>
 <p>Aris Spanos. Probability Theory and Statistical Inference: Econometric Modeling
 with Observational Data.</p>
-<div class="highlight-guess"><div class="highlight"><pre><span></span>- [link](https://wilfridomtz.files.wordpress.com/2014/08/cambridge-university-press-probability-theory-and-statistical-inference-842pg.pdf)
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>- [link](https://wilfridomtz.files.wordpress.com/2014/08/cambridge-university-press-probability-theory-and-statistical-inference-842pg.pdf)
 </pre></div>
 </div>
+<p><a class="reference external" href="https://fac.ksu.edu.sa/sites/default/files/probability_and_statistics_for_engineers_and_scientisst.pdf">Probability and Statistics for Engineers and Scientists (PSES)</a></p>
+<!--
+Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye
+--></div>
+<div class="section" id="other-reading">
+<h2>Other reading<a class="headerlink" href="#other-reading" title="Permalink to this headline">¶</a></h2>
 <p>Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars</p>
-<div class="highlight-guess"><div class="highlight"><pre><span></span>- [Amazon](https://www.amazon.com/Statistical-Inference-Severe-Testing-Statistics/dp/1107664640)
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>- [Amazon](https://www.amazon.com/Statistical-Inference-Severe-Testing-Statistics/dp/1107664640)
+- very philosophic reading
+</pre></div>
+</div>
+<p>Peter M. Aronow, Benjamin T. Miller. Foundations of Agnostic Statistics.</p>
+<div class="highlight-guess notranslate"><div class="highlight"><pre><span></span>- [Google Book (fragments)](https://books.google.ru/books?id=u1N-DwAAQBAJ&amp;printsec=frontcover&amp;hl=ru&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false)
+- [book proposal](http://aronow.research.yale.edu/aronowmillerproposal.pdf)
+- simplictic
 </pre></div>
 </div>
 </div>
@@ -260,6 +295,7 @@ International Journal of Mathematical Education. January 2015. Kanadpriya Basu.<
 <div class="section" id="in-russian">
 <h2>In Russian<a class="headerlink" href="#in-russian" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="http://cyber.sibsutis.ru:82/Monarev/docs/nauka/MV_Probability/MVsa_Statistics%20and%20applications/0417.Kramer-Matem_Metodi_Statistiki.pdf">Cramer, 1946, Russian translation</a>, timeless! also has dataset if wheat yeilds.</p>
+<p>Also concise version of lectures <a class="reference external" href="http://math.csu.ru/new_files/students/lectures/teor_ver/solovev_teor_ver.pdf">here (in Russian)</a></p>
 </div>
 </div>
 
@@ -274,7 +310,7 @@ International Journal of Mathematical Education. January 2015. Kanadpriya Basu.<
         <a href="econometrics.html" class="btn btn-neutral float-right" title="Econometrics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="preliminaries.html" class="btn btn-neutral" title="Preliminaries" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="preliminaries.html" class="btn btn-neutral float-left" title="Mathematic preliminaries" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -283,7 +319,7 @@ International Journal of Mathematical Education. January 2015. Kanadpriya Basu.<
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Evgeny Pogrebnyak
+        &copy; Copyright 2018-2019, Evgeny Pogrebnyak
 
     </p>
   </div>
@@ -300,36 +336,16 @@ International Journal of Mathematical Education. January 2015. Kanadpriya Basu.<
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'../',
-              VERSION:'0.0.2',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="../_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

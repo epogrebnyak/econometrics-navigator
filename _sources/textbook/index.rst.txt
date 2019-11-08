@@ -1,4 +1,4 @@
-4. Textbooks and courses
+2. Textbooks and courses
 ========================
 
 .. toctree::
@@ -7,4 +7,6 @@
    preliminaries.md
    statistics.md
    econometrics.md
+   history.md
+   ml-dl.md
 

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Data &mdash; Econometrics Navigator 0.0.2 documentation</title>
+  <title>Data &mdash; Econometrics Navigator 0.0.5 documentation</title>
   
 
   
@@ -17,34 +17,37 @@
   
 
   
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
 
-  
-  
     
 
   
-
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Software" href="software.html" />
-    <link rel="prev" title="Econometrics" href="textbook/econometrics.html" /> 
-
-  
-  <script src="_static/js/modernizr.min.js"></script>
-
+    <link rel="prev" title="Econometrics mindmap" href="how-to-teach/mindmap.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
 
    
   <div class="wy-grid-for-nav">
-
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search">
+        <div class="wy-side-nav-search" >
           
 
           
@@ -58,7 +61,7 @@
             
             
               <div class="version">
-                0.0.2
+                0.0.5
               </div>
             
           
@@ -84,14 +87,18 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="topics/index.html">1. Concepts and techniques</a></li>
-<li class="toctree-l1"><a class="reference internal" href="applications/index.html">2. Applications</a></li>
-<li class="toctree-l1"><a class="reference internal" href="special/index.html">3. Special topics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="textbook/index.html">4. Textbooks and courses</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="textbook/index.html">2. Textbooks and courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="how-to-teach/index.html">3. The science of teaching</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#large-collections">Large collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#individual-datasets">Individual datasets</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
 <li class="toctree-l1"><a class="reference internal" href="blogs.html">Blogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tweets.html">Good clues from Twitter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="acronyms.html">Acronyms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">Roadmap</a></li>
 </ul>
 
             
@@ -158,21 +165,33 @@
             
   <div class="section" id="data">
 <h1>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="large-collections">
+<h2>Large collections<a class="headerlink" href="#large-collections" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
-<li>Python libraries <a class="reference external" href="https://kolesnikov.ga/Datasets_in_Python/">statsmodels, sci-learn and seaborn</a>
-and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html">R itself</a> have
-build-in datasets.</li>
-<li>gretl has extensive selection of datasets, including <a class="reference external" href="http://gretl.sourceforge.net/gretl_data.html">data from key textbooks</a>.</li>
-<li>Well known dataset repository is <a class="reference external" href="http://archive.ics.uci.edu/ml/datasets.html">UCI</a>.</li>
-<li><a class="reference external" href="https://www.kaggle.com/datasets">Kaggle</a> obviously has plenty of datasets.</li>
-<li>Sheffield University made a good  listing of <a class="reference external" href="https://www.sheffield.ac.uk/mash/data">datasets for teaching</a>.</li>
-<li>Australian National Centre for Econometric Research website has
+<li><p>Python libraries <a class="reference external" href="https://kolesnikov.ga/Datasets_in_Python/">statsmodels, sci-learn and seaborn</a>
+and <a class="reference external" href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html">R itself</a> have build-in datasets.</p></li>
+<li><p>gretl has extensive selection of datasets, including <a class="reference external" href="http://gretl.sourceforge.net/gretl_data.html">data from key textbooks</a>.</p></li>
+<li><p>Well known dataset repository is <a class="reference external" href="http://archive.ics.uci.edu/ml/datasets.html">UCI</a>.</p></li>
+<li><p><a class="reference external" href="https://www.kaggle.com/datasets">Kaggle</a> obviously has plenty of datasets.</p></li>
+<li><p>Sheffield University made a good  listing of <a class="reference external" href="https://www.sheffield.ac.uk/mash/data">datasets for teaching</a>.</p></li>
+<li><p>Australian National Centre for Econometric Research website has
 a useful <a class="reference external" href="http://www.ncer.edu.au/resources/data-and-code.php">Data and code</a>
-section.</li>
-<li><a class="reference external" href="https://github.com/rfordatascience/tidytuesday#datasets">Tidy Tuesday</a> publishes weekly
-datasets and accompanying articles.</li>
-<li>Expecting to add here FRED, sunspot data, dbnomics.</li>
+section.</p></li>
+<li><p><a class="reference external" href="https://toolbox.google.com/datasetsearch">Google Dataset search</a> is not yet as good as
+main Google search, but will surely improve.</p></li>
+<li><p><a class="reference external" href="https://fred.stlouisfed.org/">FRED</a>, <a class="reference external" href="https://www.quandl.com/">Quandl</a> and <a class="reference external" href="https://db.nomics.world/">dbnomics</a> are standard sources for macroeconomic data. My own effort for clean Russian macro time series - <a class="reference external" href="https://github.com/mini-kep">mini-kep</a>.</p></li>
 </ul>
+</div>
+<div class="section" id="individual-datasets">
+<h2>Individual datasets<a class="headerlink" href="#individual-datasets" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/rfordatascience/tidytuesday#datasets">Tidy Tuesday</a> publishes weekly
+datasets and accompanying articles.</p></li>
+<li><p>Nick Huntington-Klein provides a variety of extra examples of <a class="reference external" href="http://nickchk.com/econometrics.html#Rdata">data importable into R</a>.</p></li>
+<li><p>I extracted a small, but illustartive dataset about <a class="reference external" href="https://twitter.com/PogrebnyakE/status/1108438155554930688">lightbulb survival rate</a>.</p></li>
+<li><p><a class="reference external" href="https://www.google.com/search?client=firefox-b-d&amp;q=sunspot+data">Sunspot data</a> is listed at variety of sources.</p></li>
+</ul>
+</div>
 </div>
 
 
@@ -186,7 +205,7 @@ datasets and accompanying articles.</li>
         <a href="software.html" class="btn btn-neutral float-right" title="Software" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="textbook/econometrics.html" class="btn btn-neutral" title="Econometrics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="how-to-teach/mindmap.html" class="btn btn-neutral float-left" title="Econometrics mindmap" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
@@ -195,7 +214,7 @@ datasets and accompanying articles.</li>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2018, Evgeny Pogrebnyak
+        &copy; Copyright 2018-2019, Evgeny Pogrebnyak
 
     </p>
   </div>
@@ -212,36 +231,16 @@ datasets and accompanying articles.</li>
   
 
 
-  
-
-    
-    
-      <script type="text/javascript">
-          var DOCUMENTATION_OPTIONS = {
-              URL_ROOT:'./',
-              VERSION:'0.0.2',
-              LANGUAGE:'None',
-              COLLAPSE_INDEX:false,
-              FILE_SUFFIX:'.html',
-              HAS_SOURCE:  true,
-              SOURCELINK_SUFFIX: '.txt'
-          };
-      </script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    
-
-  
-
-  <script type="text/javascript" src="_static/js/theme.js"></script>
-
   <script type="text/javascript">
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script> 
+  </script>
+
+  
+  
+    
+   
 
 </body>
 </html>

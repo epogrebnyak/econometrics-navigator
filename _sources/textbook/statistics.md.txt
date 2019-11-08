@@ -1,9 +1,12 @@
 Statistical Inference
 =====================
 
+This page is a draft.
+
+
 Some discussions about a good book: 
-   - [mathoverflow](https://mathoverflow.net/questions/31655/statistics-for-mathematicians)
-   - [stackexchange](https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger)
+   - [Math Overflow: Statistics for Mathematicians](https://mathoverflow.net/questions/31655/statistics-for-mathematicians)
+   - [Stack Exchange: What to learn after Casella/Berger](https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger)
 
 Topics
 ------
@@ -13,7 +16,7 @@ Review of probability:
 - random variables, outcomes, probability
 - distributions, pdf/cdf
 
-Math stat itself:
+Mathematic statistics itself:
 
 - idea: learn about data generating process (DGP) from a sample
 - sample/realisation as a random vector 
@@ -29,15 +32,36 @@ Math stat itself:
 See an example of [stated learning objectives](http://comet.lehman.cuny.edu/owen/teaching/mat327/syllabus_mat327_782_2018fa.pdf)
 
 
-Also concise version [here (in Russian)](http://math.csu.ru/new_files/students/lectures/teor_ver/solovev_teor_ver.pdf)
+<!--
 
+https://www.amazon.com/Statistical-Inference-Monographs-Statistics-Probability-ebook/dp/B076M4Q3WH/ref=sr_1_fkmrnull_1?keywords=S.D.+Silvey&qid=1557747351&s=gateway&sr=8-1-fkmrnull
 
-Programming
------------
+----------
+
+May buy:
+
+https://www.amazon.com/gp/offer-listing/052100618X/ref=dp_olp_all_mbc?ie=UTF8&condition=all
+
+----------
+
+Programming:
 
 - [R infer package](https://infer.netlify.com/): 
 - [Julia - Statistical Primer]https://people.smp.uq.edu.au/YoniNazarathy/julia-stats/exploring-julia-a-statistical-primer-DRAFT.pdf
 
+----------
+
+Modern Applied Statistics with S. Venables & Ripley.
+http://www.bagualu.net/wordpress/wp-content/uploads/2015/10/Modern_Applied_Statistics_With_S.pdf
+
++ MASS package.
+
+----------
+
+http://greenteapress.com/thinkstats/thinkstats.pdf
+
+I  also  used  two  books,  David  MacKay’sInformation  Theory,  In-ference, and Learning Algorithms, which is the book that got me hooked onBayesian statistics, and Press et al.’sNumerical Recipes in C. But both booksare available online, so I don’t feel too bad
+-->
 
 Key textbook
 ------------
@@ -53,12 +77,6 @@ Larry Wasserman. All of Statistics: A Concise Course in Statistical Inference
     - [text 1](https://www.ic.unicamp.br/~wainer/cursos/1s2013/ml/livro.pdf)
     - [text 2](http://static.stevereads.com/papers_to_read/all_of_statistics.pdf)
     - [Amazon](https://www.amazon.com/All-Statistics-Statistical-Inference-Springer/dp/0387402721) 
-
-
-Peter M. Aronow, Benjamin T. Miller. Foundations of Agnostic Statistics. 
-    - [Google Book (fragments)](https://books.google.ru/books?id=u1N-DwAAQBAJ&printsec=frontcover&hl=ru&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
-    - [book proposal](http://aronow.research.yale.edu/aronowmillerproposal.pdf)
-    - Amazon (Jan 2019)
 
 
 Efron, Hastie. Computer Age Statistical Inference: Algorithms, Evidence and Data Science.
@@ -80,8 +98,25 @@ with Observational Data.
     - [link](https://wilfridomtz.files.wordpress.com/2014/08/cambridge-university-press-probability-theory-and-statistical-inference-842pg.pdf)
 
 
+[Probability and Statistics for Engineers and Scientists (PSES)][PSES]
+
+[PSES]: https://fac.ksu.edu.sa/sites/default/files/probability_and_statistics_for_engineers_and_scientisst.pdf
+
+<!--
+Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers, Keying Ye
+-->
+
+Other reading
+-------------
+
 Statistical Inference as Severe Testing: How to Get Beyond the Statistics Wars   
     - [Amazon](https://www.amazon.com/Statistical-Inference-Severe-Testing-Statistics/dp/1107664640)
+    - very philosophic reading
+
+Peter M. Aronow, Benjamin T. Miller. Foundations of Agnostic Statistics. 
+    - [Google Book (fragments)](https://books.google.ru/books?id=u1N-DwAAQBAJ&printsec=frontcover&hl=ru&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false)
+    - [book proposal](http://aronow.research.yale.edu/aronowmillerproposal.pdf)
+    - simplictic
 
 
 Papers
@@ -97,3 +132,5 @@ In Russian
 ----------
 
 [Cramer, 1946, Russian translation](http://cyber.sibsutis.ru:82/Monarev/docs/nauka/MV_Probability/MVsa_Statistics%20and%20applications/0417.Kramer-Matem_Metodi_Statistiki.pdf), timeless! also has dataset if wheat yeilds.
+
+Also concise version of lectures [here (in Russian)](http://math.csu.ru/new_files/students/lectures/teor_ver/solovev_teor_ver.pdf)

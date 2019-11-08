@@ -29,6 +29,8 @@ Code examples
 Links
 -----
 
+Intro by [Jim](http://statisticsbyjim.com/anova/)
+
 Cross-Validated has several general discussions:
 
 - [why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared](https://stats.stackexchange.com/questions/555/why-is-anova-taught-used-as-if-it-is-a-different-research-methodology-compared)
