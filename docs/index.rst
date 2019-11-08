@@ -23,14 +23,13 @@ Welcome to Econometrics Navigator!
 Goals
 -----
 
-The Econometrics Navigator (EN) is a guide for statistics and econometrics 
-learners that aims to provide you with:
+The Econometrics Navigator (EN) is aims to provide you with:
 
-- list of open access textbooks
+- open access textbooks 
 - community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads)
 - minimal code examples in Python, R, gretl or Julia
-- sense of human touch and accessibility of statistics topics
-- self-study plans and checklists
+
+for better understanding of statistics and econometrics topics.
 
 
 Changelog
