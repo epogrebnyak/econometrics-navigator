@@ -42,9 +42,9 @@ def remove(path):
 def wipe_folder(folder, exclude=[".git", ".nojekyll"]):
     for path in os.listdir(folder):
         if path not in exclude:
-            fullpath = os.path.join(folder, path)
-            print("Deleting:", fullpath)
+            fullpath = os.path.join(folder, path)            
             remove(fullpath)
+            print("Deleted", fullpath)
 
 
 def run(ctx, cmd):
