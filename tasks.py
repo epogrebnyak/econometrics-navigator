@@ -2,7 +2,7 @@
 
 Workflow:
 
-    inv html - builds html files from markdown source 
+    inv html - builds html files from markdown source
     inv show - display local version of the web site
     inv push <message> - publish website to github pages
 
@@ -11,7 +11,7 @@ Based on tasks.py from:
     https://github.com/mini-kep/parser-rosstat-kep/blob/dev/tasks.py
 
 Original advice about Windows workaround for invoke:
-    
+
     https://github.com/pyinvoke/invoke/issues/371#issuecomment-259711426
 
 """
@@ -24,14 +24,15 @@ from invoke import Collection, task
 
 GH_PAGES_FOLDER = "site"
 
+
 def remove(path):
     if os.path.isfile(path):
         os.unlink(path)
-    elif os.path.isdir(path): 
+    elif os.path.isdir(path):
         shutil.rmtree(path)
 
 
-def remove_folder(folder, exclude = [".git", ".nojekyll"]):
+def remove_folder(folder, exclude=[".git", ".nojekyll"]):
     for path in os.listdir(folder):
         if path not in exclude:
             fullpath = os.path.join(folder, path)
@@ -40,7 +41,7 @@ def remove_folder(folder, exclude = [".git", ".nojekyll"]):
 
 
 def run(ctx, cmd):
-    return ctx.run(cmd, hide=False, warn=True) 
+    return ctx.run(cmd, hide=False, warn=True)
 
 
 def run_all(ctx, commands):
@@ -79,15 +80,18 @@ def quote(s):
 @task
 # create branch + https://gist.github.com/cobyism/4730490#gistcomment-2375522
 # see also https://webapps.stackexchange.com/a/103336/216781
-# and https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+# and
+# https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
 def push(ctx, message="Deploy to gh-pages"):
     """Build html documentation"""
-    commands = [f"cd {GH_PAGES_FOLDER}", 
-                "git add --all", 
-                "git commit -m%s" % quote(message), # git commit -m "Deploy to gh-pages"
-                "git push origin gh-pages", #remote must be set
+    commands = [f"cd {GH_PAGES_FOLDER}",
+                "git add --all",
+                # git commit -m "Deploy to gh-pages"
+                "git commit -m%s" % quote(message),
+                "git push origin gh-pages",  # remote must be set
                 "cd .."]
     run_all(ctx, commands)
+
 
 @task
 def show(ctx):
@@ -98,16 +102,15 @@ def show(ctx):
 @task
 def help(ctx):
     """Print this file doctsring at console."""
-    print (__doc__)
-    
+    print(__doc__)
+
 
 ns = Collection()
-for t in [ls, clean, html, show, push, pdf, help]: 
-   ns.add_task(t)
+for t in [ls, clean, html, show, push, pdf, help]:
+    ns.add_task(t)
 
 
 # Workaround for Windows execution
 if sys.platform == 'win32':
     # This is path to cmd.exe
     ns.configure({'run': {'shell': os.environ['COMSPEC']}})
-

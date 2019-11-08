@@ -1,0 +1,1 @@
+http://www.greenteapress.com/thinkstats2/html/thinkstats2010.html#sec91
