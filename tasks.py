@@ -1,18 +1,25 @@
-"""Task automation for Windows using python invoke, similar to 'make'
+"""Invoke is cross-platform task automation for Windows, similar to C 'make'.
 
-Workflow:
+This project workflow:
 
-    inv html - builds html files from markdown source
-    inv show - display local version of the web site
-    inv push <message> - publish website to github pages
+    `inv --list` - refresh available commands
+    make changes in source files
+    `inv html` - builds html files locally from markdown source
+    `inv show` - display local version of the web site in browser
+    `inv push <message>` - publish website to github pages
+    commit changes in source files to different repo.
 
-Based on tasks.py from:
+This invoke file is based on tasks.py from:
 
     https://github.com/mini-kep/parser-rosstat-kep/blob/dev/tasks.py
 
 Original advice about Windows workaround for invoke:
 
     https://github.com/pyinvoke/invoke/issues/371#issuecomment-259711426
+
+Intended to adopt best practice:
+
+    https://github.com/pyinvoke/invocations
 
 """
 import sys
@@ -22,7 +29,7 @@ from pathlib import Path
 
 from invoke import Collection, task
 
-GH_PAGES_FOLDER = "site"
+GH_PAGES_FOLDER = "gh-pages"
 
 
 def remove(path):
@@ -32,7 +39,7 @@ def remove(path):
         shutil.rmtree(path)
 
 
-def remove_folder(folder, exclude=[".git", ".nojekyll"]):
+def wipe_folder(folder, exclude=[".git", ".nojekyll"]):
     for path in os.listdir(folder):
         if path not in exclude:
             fullpath = os.path.join(folder, path)
@@ -51,39 +58,35 @@ def run_all(ctx, commands):
 
 @task
 def clean(ctx):
-    """Wipe html documentation"""
-    remove_folder(GH_PAGES_FOLDER)
-
-
-@task
-def ls(ctx):
-    """List current directory"""
-    run(ctx, "dir /b")
+    """Wipe html documentation. Sometimes you need this to restart a build."""
+    wipe_folder(GH_PAGES_FOLDER)
 
 
 @task
 def html(ctx):
-    """Build html documentation with `sphinx-build`"""
-    # WONT FIX: console output is colorless
+    """Build html documentation with `sphinx-build`.
+       Same as `sphinx-build -b html docs gh-pages -c .`"""
+    # WONTFIX: console output is colorless, errors do not show in red
     run(ctx, f"sphinx-build -b html docs {GH_PAGES_FOLDER} -c .")
 
 
 @task
 def pdf(ctx):
+    """Make a pdf file of the documentation (not implemented)."""
     pass
 
 
-def quote(s):
-    return f'"{s}"'
+def quote(s: str) -> str:
+    return '"' + s + '"'
 
 
-@task
 # create branch + https://gist.github.com/cobyism/4730490#gistcomment-2375522
 # see also https://webapps.stackexchange.com/a/103336/216781
 # and
 # https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+@task
 def push(ctx, message="Deploy to gh-pages"):
-    """Build html documentation"""
+    """Push site content to Github Pages. Use `html` command to build content."""
     commands = [f"cd {GH_PAGES_FOLDER}",
                 "git add --all",
                 # git commit -m "Deploy to gh-pages"
@@ -95,18 +98,20 @@ def push(ctx, message="Deploy to gh-pages"):
 
 @task
 def show(ctx):
-    """Show documentation in default browser."""
+    """Show local documentation in default browser."""
     run(ctx, f"start {GH_PAGES_FOLDER}/index.html")
 
 
 @task
 def help(ctx):
-    """Print this file doctsring at console."""
+    """Print this extended doctsring at console."""    
+    run(ctx, "invoke --list")
+    print()
     print(__doc__)
 
 
 ns = Collection()
-for t in [ls, clean, html, show, push, pdf, help]:
+for t in [clean, html, show, push, pdf, help]:
     ns.add_task(t)
 
 
