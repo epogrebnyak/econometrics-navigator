@@ -5,5 +5,9 @@
 ## Tech stack
 
 I write in markdown and put documentation together into HTML using [sphinx](http://www.sphinx-doc.org/en/master/). 
-The HTML output is pushed to Github Pages. I'm hopeful to produce a nicely looking PDF using [pandoc](https://pandoc.org/) 
-and LaTeX.
+The HTML output is pushed to Github Pages. I'm hopeful to produce a nicely looking PDF.
+
+
+Run `pip install --upgrade -r requirements.txt` to install dependencies.
+
+
