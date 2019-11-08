@@ -6,7 +6,7 @@ Analysis of variance (ANOVA)
 - Heavy traction in terminolgy from design of exepriments (see definitons section [here](https://en.wikipedia.org/wiki/Analysis_of_variance))
 - Standartised result tables with `SS`, `DF`, `MSS`, `F`, `p`
 - Frightening multitude of R packages
-- May want to look at a simple reference case [here](https://www.itl.nist.gov/div898/strd/anova/SiRstv.html)
+- May want to look at [a simple reference case](https://www.itl.nist.gov/div898/strd/anova/SiRstv.html)
 
 
 Quote:
