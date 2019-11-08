@@ -1,0 +1,121 @@
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Analysis of variance (ANOVA)}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Code examples}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Links}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}References}{2}{section.1.3}
+\contentsline {chapter}{\numberline {2}Bias-variance tradeoff}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Bootstrap}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Toy example}{5}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Bootstrap do\IeC {\textquoteright }s and don\IeC {\textquoteright }ts by Anna Mikusheva}{6}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}More links (preliminary)}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}Editor notes}{6}{section.3.3}
+\contentsline {chapter}{\numberline {4}Causation, causality}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Book of Why by Judea Pearl}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}History}{7}{section.4.2}
+\contentsline {chapter}{\numberline {5}Central limit theorem, CLT}{9}{chapter.5}
+\contentsline {chapter}{\numberline {6}Maximum likelihood}{11}{chapter.6}
+\contentsline {section}{\numberline {6.1}Lead by example}{11}{section.6.1}
+\contentsline {section}{\numberline {6.2}Generalisation}{11}{section.6.2}
+\contentsline {section}{\numberline {6.3}Code}{11}{section.6.3}
+\contentsline {section}{\numberline {6.4}Links}{13}{section.6.4}
+\contentsline {chapter}{\numberline {7}Mode}{15}{chapter.7}
+\contentsline {chapter}{\numberline {8}Ordinary least squares, OLS}{17}{chapter.8}
+\contentsline {chapter}{\numberline {9}Principal components analysis, PCA}{19}{chapter.9}
+\contentsline {chapter}{\numberline {10}Simulation}{21}{chapter.10}
+\contentsline {chapter}{\numberline {11}2. Textbooks and courses}{23}{chapter.11}
+\contentsline {section}{\numberline {11.1}Mathematic preliminaries}{23}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.1}Linear Algebra}{23}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.2}Probability and statistics}{23}{subsection.11.1.2}
+\contentsline {subsection}{\numberline {11.1.3}Numerical computing}{23}{subsection.11.1.3}
+\contentsline {section}{\numberline {11.2}Statistical Inference}{23}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.1}Topics}{24}{subsection.11.2.1}
+\contentsline {subsection}{\numberline {11.2.2}Key textbook}{24}{subsection.11.2.2}
+\contentsline {subsection}{\numberline {11.2.3}Other choices}{24}{subsection.11.2.3}
+\contentsline {subsection}{\numberline {11.2.4}Supplements}{24}{subsection.11.2.4}
+\contentsline {subsection}{\numberline {11.2.5}Other reading}{25}{subsection.11.2.5}
+\contentsline {subsection}{\numberline {11.2.6}Papers}{25}{subsection.11.2.6}
+\contentsline {subsection}{\numberline {11.2.7}In Russian}{25}{subsection.11.2.7}
+\contentsline {section}{\numberline {11.3}Econometrics}{25}{section.11.3}
+\contentsline {subsection}{\numberline {11.3.1}General textbooks}{25}{subsection.11.3.1}
+\contentsline {subsection}{\numberline {11.3.2}Cross Section and Panel Data}{26}{subsection.11.3.2}
+\contentsline {subsection}{\numberline {11.3.3}Time Series}{26}{subsection.11.3.3}
+\contentsline {section}{\numberline {11.4}Machine learning and deep learning}{26}{section.11.4}
+\contentsline {subsection}{\numberline {11.4.1}Books}{26}{subsection.11.4.1}
+\contentsline {subsubsection}{ML}{26}{subsubsection*.3}
+\contentsline {subsubsection}{DL}{26}{subsubsection*.4}
+\contentsline {subsection}{\numberline {11.4.2}Courses}{27}{subsection.11.4.2}
+\contentsline {subsubsection}{ML}{27}{subsubsection*.5}
+\contentsline {subsubsection}{DL}{27}{subsubsection*.6}
+\contentsline {chapter}{\numberline {12}3. The science of teaching}{29}{chapter.12}
+\contentsline {section}{\numberline {12.1}Technical pedagogy}{29}{section.12.1}
+\contentsline {subsection}{\numberline {12.1.1}Ideas}{29}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Links}{29}{subsection.12.1.2}
+\contentsline {section}{\numberline {12.2}Econometrics body of knowledge}{29}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}1. Textbook structure}{29}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}2. Econometric software manuals}{30}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}3. Handbook of Econometrics}{31}{subsection.12.2.3}
+\contentsline {section}{\numberline {12.3}Econometrics mindmap}{31}{section.12.3}
+\contentsline {subsection}{\numberline {12.3.1}An (over)simplified view of econometrics curriculum}{31}{subsection.12.3.1}
+\contentsline {subsection}{\numberline {12.3.2}Key areas}{31}{subsection.12.3.2}
+\contentsline {subsection}{\numberline {12.3.3}Additional topics 1}{31}{subsection.12.3.3}
+\contentsline {subsection}{\numberline {12.3.4}Additional topics 2}{32}{subsection.12.3.4}
+\contentsline {subsection}{\numberline {12.3.5}User profiles}{32}{subsection.12.3.5}
+\contentsline {subsection}{\numberline {12.3.6}Discussion}{32}{subsection.12.3.6}
+\contentsline {chapter}{\numberline {13}4. History of econometrics}{33}{chapter.13}
+\contentsline {section}{\numberline {13.1}Landmark events}{33}{section.13.1}
+\contentsline {section}{\numberline {13.2}Overviews}{33}{section.13.2}
+\contentsline {section}{\numberline {13.3}By topic}{33}{section.13.3}
+\contentsline {chapter}{\numberline {14}Data}{35}{chapter.14}
+\contentsline {section}{\numberline {14.1}Large collections}{35}{section.14.1}
+\contentsline {section}{\numberline {14.2}Individual datasets}{35}{section.14.2}
+\contentsline {chapter}{\numberline {15}Software}{37}{chapter.15}
+\contentsline {section}{\numberline {15.1}SAS and terminology}{37}{section.15.1}
+\contentsline {section}{\numberline {15.2}Example: software used in black hole discovery}{38}{section.15.2}
+\contentsline {chapter}{\numberline {16}Blogs}{39}{chapter.16}
+\contentsline {chapter}{\numberline {17}Good clues from Twitter}{41}{chapter.17}
+\contentsline {section}{\numberline {17.1}No links between leading macrotextbooks}{41}{section.17.1}
+\contentsline {section}{\numberline {17.2}OLS interactively exposed}{41}{section.17.2}
+\contentsline {section}{\numberline {17.3}R language guide is an econometrics guide}{41}{section.17.3}
+\contentsline {section}{\numberline {17.4}OLS, MML, Bayes and MCMC(!) for linear regression}{41}{section.17.4}
+\contentsline {section}{\numberline {17.5}Very true on R2}{43}{section.17.5}
+\contentsline {section}{\numberline {17.6}Instrumental variables}{43}{section.17.6}
+\contentsline {section}{\numberline {17.7}Interpreting coefficients 1}{43}{section.17.7}
+\contentsline {section}{\numberline {17.8}Interpreting coefficients 2}{43}{section.17.8}
+\contentsline {section}{\numberline {17.9}Doing PCA approach}{43}{section.17.9}
+\contentsline {section}{\numberline {17.10}OLS explained for social scientists}{43}{section.17.10}
+\contentsline {section}{\numberline {17.11}Suggested stat excercises}{43}{section.17.11}
+\contentsline {section}{\numberline {17.12}Coding a tree}{43}{section.17.12}
+\contentsline {section}{\numberline {17.13}Consumer demand modelling}{43}{section.17.13}
+\contentsline {section}{\numberline {17.14}Scott Cameron learning method}{43}{section.17.14}
+\contentsline {section}{\numberline {17.15}Model evaluation compendium (on classifier)}{43}{section.17.15}
+\contentsline {section}{\numberline {17.16}Causality by Judea Pearl}{43}{section.17.16}
+\contentsline {section}{\numberline {17.17}A thesis turned tutorial on probabilistic programming and MC inference by Tom Rainforth}{43}{section.17.17}
+\contentsline {section}{\numberline {17.18}Value of logit}{43}{section.17.18}
+\contentsline {section}{\numberline {17.19}Traditional statistics vs ML}{43}{section.17.19}
+\contentsline {section}{\numberline {17.20}Program evaluation by John Holbein}{43}{section.17.20}
+\contentsline {section}{\numberline {17.21}218 pages on probabilistic programming}{43}{section.17.21}
+\contentsline {section}{\numberline {17.22}A4 econometric art}{43}{section.17.22}
+\contentsline {section}{\numberline {17.23}A 1910 must-read}{43}{section.17.23}
+\contentsline {section}{\numberline {17.24}Amazing statistics animation}{43}{section.17.24}
+\contentsline {section}{\numberline {17.25}Undergrad econometrics condensed to 3 pages}{43}{section.17.25}
+\contentsline {chapter}{\numberline {18}Acronyms}{45}{chapter.18}
+\contentsline {chapter}{\numberline {19}Roadmap}{47}{chapter.19}
+\contentsline {section}{\numberline {19.1}Labels}{47}{section.19.1}
+\contentsline {subsection}{\numberline {19.1.1}General}{47}{subsection.19.1.1}
+\contentsline {subsection}{\numberline {19.1.2}Interactivity}{47}{subsection.19.1.2}
+\contentsline {subsection}{\numberline {19.1.3}Data science textbooks}{47}{subsection.19.1.3}
+\contentsline {subsection}{\numberline {19.1.4}Articles and code}{47}{subsection.19.1.4}
+\contentsline {subsection}{\numberline {19.1.5}Reproducibility}{48}{subsection.19.1.5}
+\contentsline {subsection}{\numberline {19.1.6}How to publish a textbook}{48}{subsection.19.1.6}
+\contentsline {subsection}{\numberline {19.1.7}Our publishing process}{48}{subsection.19.1.7}
+\contentsline {subsection}{\numberline {19.1.8}Other goals}{48}{subsection.19.1.8}
+\contentsline {chapter}{\numberline {20}Welcome to Econometrics Navigator!}{49}{chapter.20}
+\contentsline {section}{\numberline {20.1}Goals}{49}{section.20.1}
+\contentsline {section}{\numberline {20.2}Changelog}{49}{section.20.2}
+\contentsline {section}{\numberline {20.3}Content}{49}{section.20.3}
+\contentsline {subsection}{\numberline {20.3.1}1. Collection of own articles}{49}{subsection.20.3.1}
+\contentsline {subsection}{\numberline {20.3.2}2. Textbooks guide}{50}{subsection.20.3.2}
+\contentsline {subsection}{\numberline {20.3.3}3. Instructor resources}{50}{subsection.20.3.3}
+\contentsline {section}{\numberline {20.4}Twitter}{50}{section.20.4}
+\contentsline {section}{\numberline {20.5}Contacts}{50}{section.20.5}
+\contentsline {section}{\numberline {20.6}Source}{50}{section.20.6}
