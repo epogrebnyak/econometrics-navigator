@@ -34,7 +34,9 @@ Changelog
 
 **v.0.0.5 (November 2019)**:
 
-
+- generated a rough pdf
+- zero content-related errors for sphinx
+- tasks.py for invoke renewed
 
 
 **v.0.0.4 (May 2019)**:   

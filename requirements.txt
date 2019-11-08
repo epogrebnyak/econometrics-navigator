@@ -1,4 +1,4 @@
-m2r
+git+https://github.com/miyakogi/m2r.git
 sphinx
 sphinx_rtd_theme 
 invoke
