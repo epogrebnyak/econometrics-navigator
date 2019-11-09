@@ -1,17 +1,47 @@
+Changelog
+=========
+
+**v.0.0.5 (November 2019)**:
+
+- new TOC and flatter stucture
+- generated a `rough
+pdf <https://github.com/epogrebnyak/econometrics-navigator/blob/master/latex/EconometricsNavigator.pdf>`__
+- minimised errors for sphinx builds
+- tasks.py for invoke renewed
+
+
+**v.0.0.4 (May 2019)**:   
+
+- Science of teaching: quoting @gvwilson, @nickchk, @AllenDowney, @RochelleTerman at https://tinyurl.com/em-nav-teach
+- Data: added data from @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk at https://tinyurl.com/em-nav-da
+- Books: 
+
+   - `WM Venables. Exegeses on Linear Models <software.html#sas-and-terminology>`__
+   - Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
+
+
+**v.0.0.3 (April 2019)** scraps several unfinished articles, including 
+a section on applications (hard to fill it quickly). Three main parts
+in content established (own articles, textbook annotations and how to 
+teach resources).
+
+**v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
+had sample articles on max likelihood, bootstrap, ANOVA.
+
 Roadmap 
-=======
+-------
 
 ## November 09, 2019
 
+- drafts for cases and excercises
 - add more tweets
 - add from twitter personalities - links to them
 - Section 4 History may go somewhere else
 - logit models, tweets about them
 - add presentation about reproducibility
-
+- Statistical inference section is still a draft
 
 ## May 13, 2019
-
 
 ### General 
 

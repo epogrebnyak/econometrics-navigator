@@ -1,13 +1,13 @@
-Econometrics body of knowledge
-===============================
+# ... body of knowledge
+
 
 What exactly is a body of knowledge of econometrics? Surely it is a set of 
 teaching curricula at universities and accompaigning textbooks and reading lists, 
 but what if you needed construct a review of the field rather quickly? 
 The following approaches might be useful.
 
-1. Textbook structure
----------------------
+## 1. Textbook structure
+
 
 The undergraduate textbook structure often repeats itself: OLS, estimator
 properties, some of OLS deviations/extensions, logit/probit + maximum likelihood, 
@@ -18,8 +18,7 @@ More textbook analysis may be found in 2017 Angrist and Pischke article [Undergr
 ![](../../_static/darkly.jpg)
 
 
-2. Econometric software manuals 
--------------------------------
+## 2. Econometric software manuals 
 
 Gretl and EViews have quite comprehensive manuals covering 
 principal applications of the software. They both qualify as 
@@ -40,11 +39,11 @@ Manulas of some less popular packages:
 - [econtools (STATA flavour)](https://www.danielmsullivan.com/econtools/metrics.html)		
 
 
-3. Handbook of Econometrics
----------------------------
+## 3. Handbook of Econometrics
 
-Elsievier [Handbook of Econometrics](https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C) 
-is a renowned publication series runniing since 1983. It now 
+Elsevier [Handbook of Econometrics](https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C) 
+is a  publication series running since 1983. It now 
 features 77 chapters in 6 volumes. Many earlier articles are 
-foundational, but quite a few are about some are really narrow 
-subjects areas. 
+foundational, but quite a few recent ones are about some really narrow 
+subjects areas. I think the volume TOC is great, but publications are 
+overpriced.

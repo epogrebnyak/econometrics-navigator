@@ -43,9 +43,15 @@ Discussion:
 
 Implementations:
 
-- [lm function in R](https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R) 
-- [OLS class in python statsmodels](https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py)
-- [python scypi least squares](https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265)
-- julia [Alistair](https://github.com/giob1994/Alistair.jl), GLM.jl, Regression.jl
-- [Replication examples](https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression)
-- check unsorted [links about OLS](ols_links.txt) - but it is not better than googling on your own
+-  `lm function in
+   R <https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R>`__
+-  `OLS class in python
+   statsmodels <https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear_model.py>`__
+-  `python scypi least
+   squares <https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py#L1048-L1265>`__
+-  julia `Alistair <https://github.com/giob1994/Alistair.jl>`__, GLM.jl,
+   Regression.jl
+-  `Replication
+   examples <https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression>`__
+-  check unsorted `links about OLS <ols_links.txt>`__ - but it is not
+   better than googling on your own
