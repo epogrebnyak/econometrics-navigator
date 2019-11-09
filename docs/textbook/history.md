@@ -1,7 +1,7 @@
 ... and its history
-===================
+-------------------
 
-## Landmark events
+### Landmark events
 
 - [Galton](http://jse.amstat.org/v9n3/stanton.html) and Pearson 
 - Tinbergen, Haavelmo
@@ -9,14 +9,14 @@
 - Lucas and Sims critique
 
 
-## Overviews
+### Overviews
 
 - [Econometrics: A Bird's Eye View](http://ftp.iza.org/dp2458.pdf)
 - [Econometrics: An Historical Guide for the Uninitiated](https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf)
 - [The First Fifty Years of Modern Econometrics](https://www.researchgate.net/publication/24119912_The_First_Fifty_Years_of_Modern_Econometrics)
 
 
-## By topic
+### By topic
 
 - [Pearl, J. (2014). Tygve Haavelmo and the emergence of causal calculus. Econometric Theory, 31(1), 152–179.](ucla.in/2mhxKdO) 
 
