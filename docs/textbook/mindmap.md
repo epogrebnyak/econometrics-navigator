@@ -1,17 +1,18 @@
-Econometrics mindmap
-====================
+# ... mindmap
 
-It would be great to show a modern roadmaps in econometrics starting 
+
+It would be great to show a modern roadmap in econometrics starting 
 from mathematic foundations (linear algebra, calculus, probability) to 
 econometrics to computationally intensive data processing tasks. 
-I've seen this being approachesd as [clusters of courses][hacla], but I think there 
-is more that can be done. 
+I've seen this being approached as [clusters of courses][hacla], 
+Khan Academy has goals by subject, but I think there is more that 
+can be done. 
 
 [hacla]: https://www.quora.com/How-do-I-design-a-curriculum-to-teach-myself-statistics
 
 
-An (over)simplified view of econometrics curriculum
----------------------------------------------------
+## An (over)simplified view of econometrics curriculum
+
 
 - linear algebra, calculus, probability and statistical inference 
 - OLS (assumptions, violations, fixes + estimatore quality)
@@ -22,8 +23,7 @@ An (over)simplified view of econometrics curriculum
 - classifications
 - systems of equations
 
-Key areas
-----------
+## Key areas
 
 - data structures (crosssection, time series, panel)
 - inference methods 
@@ -32,20 +32,14 @@ Key areas
    - model evaluation 
 - use cases 
 
-Additional topics 1
---------------------
+## Additional topics
 
 - simulation (Monte Carlo, bootstrap)
 - transformations (PCA)
-- darker side of macro (DSGE)
-- bayesian estimation
-
-Additional topics 2
--------------------
 
 OLS Extensions:
 
-- GMM, 
+- GMM
 - 2,3 stage OLS
 - quantile regressions 
 - lasso, rigde
@@ -65,8 +59,8 @@ Time series:
 - (vector) error correction model, VECM
 - structural breaks 
 
-User profiles 
--------------
+## User profiles 
+
 
 1. "Numerate biologists" - solve a domain problem in biology, psychology, social sciences
 2. "Want to hit a 'Run' button" - quick results without thinking, typical of students
@@ -77,4 +71,4 @@ User profiles
 Discussion
 ----------
 
-Review: [Undergraduate Econometrics Instruction: Through Our Classes, Darkly. NBER/IZA](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwju2Oz0mrrdAhXvsIsKHXWcDdgQFjAAegQIARAC&url=http%3A%2F%2Fftp.iza.org%2Fdp10535.pdf&usg=AOvVaw1P3mT5tEcUak_g0W1ai7xR) and a criticism of [G1/G2 goals](https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html)
+[Undergraduate Econometrics Instruction: Through Our Classes, Darkly. NBER/IZA](https://www.nber.org/papers/w23144) and a criticism of [G1/G2 goals](https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html)

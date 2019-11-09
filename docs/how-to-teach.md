@@ -1,11 +1,13 @@
-Technical pedagogy
-==================
+3. The science of teaching 
+==========================
+
+Notes on technical pedagogy.
 
 Ideas
 -----
 
 - "Overarching education" (plenty of math and fundimentals, aimed at systemic thinking,      
-  practical applications derived later) is expensive methoid of teaching
+  practical applications derived later) is expensive method of teaching.
 - Student motivation is scarce, information is abundant. Teaching is a guidance (esp masters level). 
 - Can teach programming first, and followup with more solid math second, if ever (programming allows experimenting).
 - Need open source textbooks, able to update and share parts of text as well as 

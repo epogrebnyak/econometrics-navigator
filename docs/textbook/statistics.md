@@ -1,4 +1,4 @@
-Statistical Inference
+Statistical inference
 =====================
 
 This page is a draft.

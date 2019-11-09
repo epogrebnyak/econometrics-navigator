@@ -8,11 +8,11 @@
    
    topics/index.rst
    textbook/index.rst
-   how-to-teach/index.rst
+   how-to-teach.md
    data.md
    software.rst
-   blogs.md
    tweets.md 
+   blogs.md
    acronyms.md
    roadmap.md
 
@@ -22,49 +22,19 @@ Welcome to Econometrics Navigator!
 Goals
 -----
 
-The Econometrics Navigator (EN) is aims to provide you with:
+The Econometrics Navigator (EN) aims to provide you with:
 
-- open access textbooks;
-- community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads);
-- minimal code examples in Python, R, gretl or Julia.
+- open access textbooks,
+- community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads),
+- minimal code examples in Python, R, gretl or Julia,
+- datasets and cases for quantative analysis, 
+- ideas on how to structure your own (or your students') learning paths.
 
+1. Own articles
+~~~~~~~~~~~~~~~
 
-Changelog
----------
-
-**v.0.0.5 (November 2019)**:
-
-- generated a rough pdf
-- zero content-related errors for sphinx
-- tasks.py for invoke renewed
-
-
-**v.0.0.4 (May 2019)**:   
-
-- Science of teaching: quoting @gvwilson, @nickchk, @AllenDowney, @RochelleTerman at https://tinyurl.com/em-nav-teach
-- Data: added data from @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk at https://tinyurl.com/em-nav-da
-- Books: 
-
-   - `WM Venables. Exegeses on Linear Models <software.html#sas-and-terminology>`__
-   - Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
-
-
-**v.0.0.3 (April 2019)** scraps several unfinished articles, including 
-a section on applications (hard to fill it quickly). Three main parts
-in content established (own articles, textbook annotations and how to 
-teach resources).
-
-**v.0.0.2 (November 2018)** original version of EN nobody understood what it is good for,
-had sample articles on max likelihood, bootstrap, ANOVA.
-
-
-Content
--------
-
-1. Collection of own articles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The main body of Econometrics Navigator articles is `Concepts and techniques section <topics/index.rst>`__,  organised alphabetically. Finished examples are: 
+The articles are in `Concepts and techniques section <topics/index.rst>`__,  
+organised alphabetically. Finished examples are: 
 
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
@@ -74,22 +44,25 @@ The main body of Econometrics Navigator articles is `Concepts and techniques sec
 ~~~~~~~~~~~~~~~~~~
 
 `Textbooks review <textbook/index.html>`__ attempts to sort out and annotate textbooks and 
-reference texts by several categories. 
+reference texts by several categories, starting from math preliminaries and up to ML/DL 
+applications.
 
-For example, I praise Kennedy's textbook and 
-collect (constructive) criticisms of Mostly Harmless Econometrics there. The categories 
-in econometrics are 'general' textbooks, cross-section/panel and time series texts.
+The econometrics categories are 'general' textbooks, cross-section/panel and time series 
+and bayesian texts. Whatever I could not document well, I did put in the 
+`mindmap <textbook/mindmap.html>`__ section.
 
-3. Instructor resources
-~~~~~~~~~~~~~~~~~~~~~~~
+The backstage workings of the Navigator are `History of econometrics <textbook/history.html>`__, 
+`Ways to review econometrics <textbook/ways-into-econometrics.html>`__. 
 
-The backstage workings of the Navigator are `History of econometrics <history.html>`__, 
-`Ways to review econometrics <how-to-teach/ways-into-econometrics.html>`__ and 
-`econometrics mindmap (draft) <how-to-teach/mindmap.html>`__. 
+Review of books about statistics are still a `draft <textbook/statistics.html>`__.
+
+3. Better teaching
+~~~~~~~~~~~~~~~~~~
 
 These documents aim to organise thinking about better teaching of 
 econometrics in terms of sequence of topics, better analogies for the learner and 
-a faster bridge to coding from formulas. 
+a faster bridge to coding from formulas. Specifically I collected links about 
+`technical pedagogy <textbook/how-to-teach.html>`__.
 
 
 Twitter 
