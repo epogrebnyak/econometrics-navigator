@@ -1,1 +1,1 @@
-sphinx-build -b html docs gh-pages -c .
+sphinx-build -b html docs gh-pages -c . 2> error.txt
