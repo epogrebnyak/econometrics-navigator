@@ -6,8 +6,8 @@ This project workflow:
     make changes in source files
     `inv html` - builds html files locally from markdown source
     `inv show` - display local version of the web site in browser
-    `inv push <message>` - publish website to github pages
-    commit changes in source files to different repo.
+    `inv push` - publish website to github pages
+    commit changes in source files in source repo with usual git commands
 
 This invoke file is based on tasks.py from:
 
@@ -65,7 +65,8 @@ def clean(ctx):
 @task
 def html(ctx):
     """Build html documentation with `sphinx-build`.
-       Same as `sphinx-build -b html docs gh-pages -c .`"""
+       Same as `sphinx-build -b html docs gh-pages -c .`,
+       run at project root."""
     # WONTFIX: console output is colorless, errors do not show in red
     run(ctx, f"sphinx-build -b html docs {GH_PAGES_FOLDER} -c .")
 
