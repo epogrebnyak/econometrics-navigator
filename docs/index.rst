@@ -69,8 +69,9 @@ Review of resources about mathematic statistics are still a `draft <textbook/sta
 
 These documents organise thinking about better teaching of 
 econometrics in terms of sequence of topics, better analogies 
-for the learner and a faster bridge to coding from formulas. 
-Specifically I collected links about `technical pedagogy <textbook/how-to-teach.html>`__.
+for the learner and a faster bridge to coding and working 
+with real data from formulas and concepts. Specifically I collected
+the links about `technical pedagogy here <textbook/how-to-teach.html>`__.
 
 
 Twitter 
