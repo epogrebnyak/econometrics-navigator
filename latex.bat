@@ -1,0 +1,1 @@
+sphinx-build -b latex docs latex -c .

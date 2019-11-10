@@ -71,7 +71,7 @@
 
 
 \title{Econometrics Navigator Documentation}
-\date{Nov 08, 2019}
+\date{Nov 10, 2019}
 \release{0.0.5}
 \author{Evgeny Pogrebnyak}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -106,7 +106,7 @@ Standartised result tables with \sphinxcode{\sphinxupquote{SS}}, \sphinxcode{\sp
 Frightening multitude of R packages
 
 \item {} 
-May want to look at a simple reference case \sphinxhref{https://www.itl.nist.gov/div898/strd/anova/SiRstv.html}{here}
+May want to look at \sphinxhref{https://www.itl.nist.gov/div898/strd/anova/SiRstv.html}{a simple reference case}
 
 \end{itemize}
 
@@ -525,7 +525,7 @@ The usual way to teach OLS is to present assumptions and show how to deal
 with their violations as indicated below in a review chart from Kennedy’s
 textbook.
 
-\noindent\sphinxincludegraphics{{topics\._staticpeter_kennedy_on_ols}.png}
+\noindent\sphinxincludegraphics{{peter_kennedy_on_ols}.png}
 
 Math:
 
@@ -589,125 +589,31 @@ is R2 useful or dangerous?
 
 \end{itemize}
 
-Replication examples:
-\begin{itemize}
-\item {} 
-\sphinxurl{https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression}
-
-\end{itemize}
-
 Implementations:
 \begin{itemize}
 \item {} 
-{[}lm function in R{]}(\sphinxurl{https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R})
+\sphinxhref{https://github.com/wch/r-source/blob/0f07757ad10ca31251b28a2c332812e63c0acf38/src/library/stats/R/lm.R}{lm function in
+R}
 
 \item {} 
-{[}OLS class in python statsmodels{]}(\sphinxurl{https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear\_model.py})
+\sphinxhref{https://github.com/statsmodels/statsmodels/blob/master/statsmodels/regression/linear\_model.py}{OLS class in python
+statsmodels}
 
 \item {} 
-{[}python scypi least squares{]}(\sphinxurl{https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py\#L1048-L1265})
+\sphinxhref{https://github.com/scipy/scipy/blob/v1.1.0/scipy/linalg/basic.py\#L1048-L1265}{python scypi least
+squares}
 
 \item {} 
-julia {[}Alistair{]}(\sphinxurl{https://github.com/giob1994/Alistair.jl}), GLM.jl, Regression.jl
-
-\end{itemize}
-
-Links (preliminary):
-\begin{itemize}
-\item {} 
-\sphinxurl{https://stats.stackexchange.com/questions/296514/is-ols-estimator-the-only-blue-estimator}
+julia \sphinxhref{https://github.com/giob1994/Alistair.jl}{Alistair}, GLM.jl,
+Regression.jl
 
 \item {} 
-\sphinxurl{https://cran.r-project.org/doc/contrib/Faraway-PRA.pdf}
+\sphinxhref{https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression}{Replication
+examples}
 
 \item {} 
-\sphinxurl{https://github.com/marcoalt/Regression-parameter-estimates}
-
-\item {} 
-\sphinxurl{https://blog.minitab.com/blog/how-to-choose-the-best-regression-model}
-
-\item {} 
-\sphinxurl{https://towardsdatascience.com/simple-linear-regression-2421076a5892}
-
-\item {} 
-\sphinxurl{https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=1736184}
-
-\item {} 
-\sphinxurl{https://cfss.uchicago.edu/persp012\_regression\_diagnostics.html}
-
-\item {} 
-\sphinxurl{https://stats.stackexchange.com/questions/218156/what-are-some-of-the-most-common-misconceptions-about-linear-regression}
-
-\item {} 
-\sphinxurl{https://pdfs.semanticscholar.org/a410/ec58bd5ff80a4e7978955ab11d096af6d138.pdf}
-
-\item {} 
-\sphinxhref{https://web.ma.utexas.edu/users/mks/statmistakes/StatisticsMistakes.html}{COMMON MISTEAKS MISTAKES IN USING STATISTICS: Spotting and Avoiding
-Them}
-
-\item {} 
-\sphinxurl{http://www2.sas.com/proceedings/sugi22/STATS/PAPER267.PDF}
-
-\item {} 
-\sphinxurl{https://towardsdatascience.com/simple-linear-regression-2421076a5892}
-
-\item {} 
-\sphinxurl{http://jeromyanglim.blogspot.com/2013/12/using-r-to-replicate-common-spss.html}
-
-\item {} 
-\sphinxurl{https://stat.hevra.haifa.ac.il/~gweiss/courses/Forecasting/CarPricesAnalysis.pdf}
-
-\item {} 
-\sphinxurl{http://www.nrcresearchpress.com/doi/10.1139/f73-072\#.W-SvWuK\_Pcs}
-
-\item {} 
-\sphinxurl{https://www.nejm.org/doi/full/10.1056/NEJM198512263132604}
-
-\item {} 
-\sphinxurl{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2992018/} - medicine,
-nice!
-
-\item {} 
-\sphinxurl{http://replication.uni-goettingen.de/wiki/index.php/Ordinary\_least\_squares\_(OLS})
-- list of replications
-
-\item {} 
-\sphinxurl{https://stats.stackexchange.com/questions/211707/replicating-a-linear-regression-example-from-hastie-tibshirani-and-friedman}
-(replication from Hastie)
-
-\end{itemize}
-
-Intuitive learning for OLS
-\begin{itemize}
-\item {} 
-{\color{red}\bfseries{}{}`}Stackoverflow hot
-
-\end{itemize}
-
-topics \textless{}\sphinxurl{https://stats.stackexchange.com/questions/tagged/linear-model?sort=votes\&pageSize=15}\textgreater{}{}`\_\_
-- \sphinxhref{https://jakevdp.github.io/PythonDataScienceHandbook/05.06-linear-regression.html}{In Depth: Linear
-Regression}
-- Stachurski math intro:
-\begin{itemize}
-\item {} 
-\sphinxhref{https://mitpress.mit.edu/sites/default/files/Stachurski\_final\_TOC.pdf}{TOC}
-
-\item {} 
-\sphinxhref{https://github.com/jstac/econometric\_theory\_slides}{slides}
-
-\end{itemize}
-\begin{itemize}
-\item {} 
-\sphinxurl{https://lectures.quantecon.org/py/ols.html}
-
-\item {} 
-\sphinxurl{http://www.statsmodels.org/stable/examples/index.html\#regression}
-
-\item {} 
-\sphinxurl{https://docs.scipy.org/doc/scipy/reference/generated/scipy.linalg.lstsq.html}
-
-\item {} 
-\sphinxurl{https://stats.stackexchange.com/questions/1829/what-algorithm-is-used-in-linear-regression}
+check unsorted \sphinxhref{ols\_links.txt}{links about OLS} - but it is not
+better than googling on your own
 
 \end{itemize}
 
@@ -823,7 +729,9 @@ probability
 \end{itemize}
 
 They usually take 2-4 semester in college. Linear algebra is fully covered by
-\sphinxhref{http://vmls-book.stanford.edu}{VMLS}, and probability is exposed in \sphinxhref{http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pd}{PSC}, even though latter is a compact reference, not formally a textbook. Scipy lectures is a great one-stop resource for numerical computing basics. I do not have a one single source to recommend for calculus yet.
+\sphinxhref{http://vmls-book.stanford.edu}{VMLS}, and probability is exposed in \sphinxhref{http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pd}{PSC}, even though it is a compact reference, not formally a textbook. \sphinxhref{http://www.scipy-lectures.org}{Scipy lectures} are a great one-stop resource for numerical computing basics.
+
+I do not have a one single source to recommend for calculus yet.
 
 
 \subsection{Linear Algebra}
@@ -831,7 +739,18 @@ They usually take 2-4 semester in college. Linear algebra is fully covered by
 \item {} 
 \sphinxhref{http://vmls-book.stanford.edu}{Vectors, Matrices, and Least Squares (VLMS)}
 
+\item {} 
+You can also check Computational Linear Algebra repository from \sphinxstyleemphasis{fast.ai} \sphinxhref{https://github.com/fastai/numerical-linear-algebra}{here}.
+
 \end{itemize}
+
+
+\subsection{Calculus}
+\label{\detokenize{textbook/preliminaries:calculus}}
+\sphinxhref{https://arxiv.org/abs/1802.01528}{The Matrix Calculus You Need For Deep Learning}
+recommends \sphinxhref{https://www.khanacademy.org/math/differential-calculus}{Khan Academy differential calculus course}, but it is not a single downloadable reference. \sphinxstyleemphasis{fast.ai}
+also has a \sphinxhref{http://wiki.fast.ai/index.php/Calculus\_for\_Deep\_Learning}{calculus intro},
+going from start to derivatives in deep learning quickly.
 
 
 \subsection{Probability and statistics}
@@ -850,7 +769,7 @@ They usually take 2-4 semester in college. Linear algebra is fully covered by
 \end{itemize}
 
 
-\section{Statistical Inference}
+\section{Statistical inference}
 \label{\detokenize{textbook/statistics:statistical-inference}}\label{\detokenize{textbook/statistics::doc}}
 This page is a draft.
 
@@ -877,7 +796,7 @@ distributions, pdf/cdf
 
 \end{itemize}
 
-Math.stat itself:
+Mathematic statistics itself:
 \begin{itemize}
 \item {} 
 idea: learn about data generating process (DGP) from a sample
@@ -1057,6 +976,19 @@ Diebold: \sphinxhref{https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econ
 
 Note that MHE is one of few books with excercises \sphinxhref{https://github.com/vikjam/mostly-harmless-replication}{reproduced on github}.
 
+Criticism of MHE:
+\begin{quote}
+
+Rather, it’s a companion for a highly-specialized group of applied non-structural micro-econometricians hoping to estimate causal effects using non-experimental data and largely-static, linear, regression-based methods. It’s a novel treatment of that sub-sub-sub-area of applied econometrics, but pretending to be anything more is most definitely harmful, particularly to students, who have no way to recognize the charade as a charade.
+\end{quote}
+
+\sphinxurl{https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html}
+\begin{itemize}
+\item {} 
+\sphinxhref{https://www.schmidheiny.name/teaching/shortguides.htm}{Lecture Notes in Microeconometrics} - nicely presented topics in econometrics for microeconomics from OLS to Bootstrap. Guides to software.
+
+\end{itemize}
+
 
 \subsection{Time Series}
 \label{\detokenize{textbook/econometrics:time-series}}\begin{itemize}
@@ -1100,106 +1032,77 @@ has MATLAB code)
 
 
 
-\section{Machine learning and deep learning}
-\label{\detokenize{textbook/ml-dl:machine-learning-and-deep-learning}}\label{\detokenize{textbook/ml-dl::doc}}
-
-\subsection{Books}
-\label{\detokenize{textbook/ml-dl:books}}
-
-\subsubsection{ML}
-\label{\detokenize{textbook/ml-dl:ml}}\begin{itemize}
+\subsection{Вayesian Methods}
+\label{\detokenize{textbook/econometrics:ayesian-methods}}\begin{itemize}
 \item {} 
-\sphinxhref{https://www-bcf.usc.edu/~gareth/ISL/ISLR\%20First\%20Printing.pdf}{An Introduction to Statistical Learning. Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani}
+\sphinxhref{http://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/}{Bayesian Methods for Hackers} has programming-first approach.
+
+\item {} 
+\sphinxhref{https://twitter.com/canyon289/status/1148709146478465025}{SciPy 2019 Lecture on Bayesian Model Evaluation and Criticism}.
+
+\item {} 
+\sphinxhref{https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification}{A simple explanation of Naive Bayes Classification}, an overwhelmingly popular
+StackOverflow answer.
 
 \end{itemize}
 
 
-\subsubsection{DL}
-\label{\detokenize{textbook/ml-dl:dl}}\begin{itemize}
+\section{… and its history}
+\label{\detokenize{textbook/history:and-its-history}}\label{\detokenize{textbook/history::doc}}
+
+\subsection{Landmark events}
+\label{\detokenize{textbook/history:landmark-events}}\begin{itemize}
 \item {} 
-\sphinxhref{https://www.deeplearningbook.org/}{Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville}
+\sphinxhref{http://jse.amstat.org/v9n3/stanton.html}{Galton} and Pearson
+
+\item {} 
+Tinbergen, Haavelmo
+
+\item {} 
+Cowles Commission
+
+\item {} 
+Lucas and Sims critique
 
 \end{itemize}
 
 
-\subsection{Courses}
-\label{\detokenize{textbook/ml-dl:courses}}
-
-\subsubsection{ML}
-\label{\detokenize{textbook/ml-dl:id1}}\begin{itemize}
+\subsection{Overviews}
+\label{\detokenize{textbook/history:overviews}}\begin{itemize}
 \item {} 
-\sphinxhref{https://github.com/Yorko/mlcourse.ai}{ods}
+\sphinxhref{http://ftp.iza.org/dp2458.pdf}{Econometrics: A Bird’s Eye View}
 
 \item {} 
-\sphinxhref{https://www.coursera.org/learn/machine-learning}{Andrew Ng course}
+\sphinxhref{https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf}{Econometrics: An Historical Guide for the Uninitiated}
+
+\item {} 
+\sphinxhref{https://www.researchgate.net/publication/24119912\_The\_First\_Fifty\_Years\_of\_Modern\_Econometrics}{The First Fifty Years of Modern Econometrics}
 
 \end{itemize}
 
 
-\subsubsection{DL}
-\label{\detokenize{textbook/ml-dl:id2}}\begin{itemize}
+\subsection{By topic}
+\label{\detokenize{textbook/history:by-topic}}\begin{itemize}
 \item {} 
-\sphinxhref{https://www.fast.ai/}{fast.ai}
+\sphinxhref{ucla.in/2mhxKdO}{Pearl, J. (2014). Tygve Haavelmo and the emergence of causal calculus. Econometric Theory, 31(1), 152\textendash{}179.}
 
 \item {} 
-\sphinxhref{https://www.deeplearning.ai/deep-learning-specialization}{deeplearning.ai}
+\sphinxhref{https://arxiv.org/pdf/0808.2902.pdf}{A Short History of Markov Chain Monte Carlo (arxiv)}
+
+\item {} 
+\sphinxhref{https://beatricecherrier.wordpress.com/2018/10/15/working-on-1960s-macroeconometrics-theres-an-echo-on-the-line}{Working on 1960s macroeconometrics (blog)}
+
+\item {} 
+\sphinxhref{https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2837766}{Criticizing the Lucas Critique: Macroeconometricians’ Response to Robert Lucas}
+
+\item {} 
+\sphinxhref{https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf}{W N Venables. Exegeses on Linear Models (1998)}
 
 \end{itemize}
 
 
-\chapter{3. The science of teaching}
-\label{\detokenize{how-to-teach/index:the-science-of-teaching}}\label{\detokenize{how-to-teach/index::doc}}
-
-\section{Technical pedagogy}
-\label{\detokenize{how-to-teach/pedagogy:technical-pedagogy}}\label{\detokenize{how-to-teach/pedagogy::doc}}
-
-\subsection{Ideas}
-\label{\detokenize{how-to-teach/pedagogy:ideas}}\begin{itemize}
-\item {} 
-“Overarching education” (plenty of math and fundimentals, aimed at systemic thinking,
-practical applications derived later) is expensive methoid of teaching
-
-\item {} 
-Student motivation is scarce, information is abundant. Teaching is a guidance (esp masters level).
-
-\item {} 
-Can teach programming first, and followup with more solid math second, if ever (programming allows experimenting).
-
-\item {} 
-Need open source textbooks, able to update and share parts of text as well as
-interactive excercises. Static site generators are not fully there yet.
-
-\end{itemize}
-
-
-\subsection{Links}
-\label{\detokenize{how-to-teach/pedagogy:links}}\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\item {} 
-\sphinxhref{http://third-bit.com/10rules/\#teaching}{10 rules of teaching} by Greg Wilson (@gvwilson) starts with rule \#1 “Be kind: all else is details.” More detail is at \sphinxhref{http://teachtogether.tech/en/}{teachtogether.tech}.
-
-\item {} 
-Nick Huntington-Klein \sphinxhref{https://twitter.com/nickchk/status/1114956341913645058}{proposes a course structure} based on statistical programming, and causal inference/research design, with regressions postponed.
-
-\end{enumerate}
-
- 
-\begin{enumerate}
-\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
-\setcounter{enumi}{2}
-\item {} 
-Allen Downey has a \sphinxhref{https://twitter.com/AllenDowney/status/1118255413575680000}{presentation about teaching physical modelling} and sequencing of math and programming.
-
-\end{enumerate}
-
- 
-
-4. Very introductory courses are good for building student confidence and making simple things simple. They prevent gate-keeping (maybe a reason why they are attacked). See a thread by
-\sphinxhref{https://twitter.com/RochelleTerman/status/1126642900006252544}{Rochelle Terman on teaching computational social science}.
-
-
-\section{Econometrics body of knowledge}
-\label{\detokenize{how-to-teach/ways-into-econometrics:econometrics-body-of-knowledge}}\label{\detokenize{how-to-teach/ways-into-econometrics::doc}}
+\section{… body of knowledge}
+\label{\detokenize{textbook/ways-into-econometrics:body-of-knowledge}}\label{\detokenize{textbook/ways-into-econometrics::doc}}
 What exactly is a body of knowledge of econometrics? Surely it is a set of
 teaching curricula at universities and accompaigning textbooks and reading lists,
 but what if you needed construct a review of the field rather quickly?
@@ -1207,18 +1110,18 @@ The following approaches might be useful.
 
 
 \subsection{1. Textbook structure}
-\label{\detokenize{how-to-teach/ways-into-econometrics:textbook-structure}}
+\label{\detokenize{textbook/ways-into-econometrics:textbook-structure}}
 The undergraduate textbook structure often repeats itself: OLS, estimator
 properties, some of OLS deviations/extensions, logit/probit + maximum likelihood,
 time series and maybe a bit of panels and simultaneous equations.
 
-More textbook analysis may be found in 2017 Angrist and Pischke article \sphinxhref{https://pubs.aeaweb.org/doi/pdf/10.1257/jep.31.2.125}{Undergraduate Econometrics Instruction: Through Our Classes, Darkly}, below is a summary table.
+More textbook analysis may be found in 2017 Angrist and Pischke article \sphinxhref{https://pubs.aeaweb.org/doi/pdf/10.1257/jep.31.2.125}{Undergraduate Econometrics Instruction: Through Our Classes, Darkly}, below is a summary table (some of it does not escape \sphinxhref{https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html}{criticism}).
 
 \sphinxhref{../../\_static/darkly.jpg}{\sphinxincludegraphics{{darkly}.jpg}}
 
 
 \subsection{2. Econometric software manuals}
-\label{\detokenize{how-to-teach/ways-into-econometrics:econometric-software-manuals}}
+\label{\detokenize{textbook/ways-into-econometrics:econometric-software-manuals}}
 Gretl and EViews have quite comprehensive manuals covering
 principal applications of the software. They both qualify as
 textbooks in econometrics:
@@ -1257,25 +1160,25 @@ Manulas of some less popular packages:
 
 
 \subsection{3. Handbook of Econometrics}
-\label{\detokenize{how-to-teach/ways-into-econometrics:handbook-of-econometrics}}
-Elsivier \sphinxhref{https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C}{Handbook of Econometrics}
-is a renowned publication series runniing since 1983. It now
-features 77 chapters in 6 volumes. Many earlier articles are
-foundational, but quite a few are about some are really narrow
-subjects areas.
+\label{\detokenize{textbook/ways-into-econometrics:handbook-of-econometrics}}
+Elsevier \sphinxhref{https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C}{Handbook of Econometrics}
+is a  publication series running since 1983. It now features 77 chapters in 6 volumes. Many earlier articles are foundational, but quite a few recent ones are about some really narrow
+subjects areas. I think the volume TOC is great, but publications are overpriced
+(it’s Elsevier).
 
 
-\section{Econometrics mindmap}
-\label{\detokenize{how-to-teach/mindmap:econometrics-mindmap}}\label{\detokenize{how-to-teach/mindmap::doc}}
-It would be great to show a modern roadmaps in econometrics starting
+\section{… mindmap}
+\label{\detokenize{textbook/mindmap:mindmap}}\label{\detokenize{textbook/mindmap::doc}}
+It would be great to show a modern roadmap in econometrics starting
 from mathematic foundations (linear algebra, calculus, probability) to
 econometrics to computationally intensive data processing tasks.
-I’ve seen this being approachesd as \sphinxhref{https://www.quora.com/How-do-I-design-a-curriculum-to-teach-myself-statistics}{clusters of courses}, but I think there
-is more that can be done.
+I’ve seen this being approached as \sphinxhref{https://www.quora.com/How-do-I-design-a-curriculum-to-teach-myself-statistics}{clusters of courses},
+Khan Academy has goals by subject, but I think there is more that
+can be done.
 
 
 \subsection{An (over)simplified view of econometrics curriculum}
-\label{\detokenize{how-to-teach/mindmap:an-over-simplified-view-of-econometrics-curriculum}}\begin{itemize}
+\label{\detokenize{textbook/mindmap:an-over-simplified-view-of-econometrics-curriculum}}\begin{itemize}
 \item {} 
 linear algebra, calculus, probability and statistical inference
 
@@ -1304,7 +1207,7 @@ systems of equations
 
 
 \subsection{Key areas}
-\label{\detokenize{how-to-teach/mindmap:key-areas}}\begin{itemize}
+\label{\detokenize{textbook/mindmap:key-areas}}\begin{itemize}
 \item {} 
 data structures (crosssection, time series, panel)
 
@@ -1328,29 +1231,20 @@ use cases
 \end{itemize}
 
 
-\subsection{Additional topics 1}
-\label{\detokenize{how-to-teach/mindmap:additional-topics-1}}\begin{itemize}
+\subsection{Additional topics}
+\label{\detokenize{textbook/mindmap:additional-topics}}\begin{itemize}
 \item {} 
 simulation (Monte Carlo, bootstrap)
 
 \item {} 
 transformations (PCA)
 
-\item {} 
-darker side of macro (DSGE)
-
-\item {} 
-bayesian estimation
-
 \end{itemize}
 
-
-\subsection{Additional topics 2}
-\label{\detokenize{how-to-teach/mindmap:additional-topics-2}}
 OLS Extensions:
 \begin{itemize}
 \item {} 
-GMM,
+GMM
 
 \item {} 
 2,3 stage OLS
@@ -1400,7 +1294,7 @@ structural breaks
 
 
 \subsection{User profiles}
-\label{\detokenize{how-to-teach/mindmap:user-profiles}}\begin{enumerate}
+\label{\detokenize{textbook/mindmap:user-profiles}}\begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 “Numerate biologists” - solve a domain problem in biology, psychology, social sciences
@@ -1421,62 +1315,119 @@ structural breaks
 
 
 \subsection{Discussion}
-\label{\detokenize{how-to-teach/mindmap:discussion}}
-Review: \sphinxhref{https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=1\&cad=rja\&uact=8\&ved=2ahUKEwju2Oz0mrrdAhXvsIsKHXWcDdgQFjAAegQIARAC\&url=http\%3A\%2F\%2Fftp.iza.org\%2Fdp10535.pdf\&usg=AOvVaw1P3mT5tEcUak\_g0W1ai7xR}{Undergraduate Econometrics Instruction: Through Our Classes, Darkly. NBER/IZA} and a criticism of \sphinxhref{https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html}{G1/G2 goals}
+\label{\detokenize{textbook/mindmap:discussion}}
+\sphinxhref{https://www.nber.org/papers/w23144}{Undergraduate Econometrics Instruction: Through Our Classes, Darkly. NBER/IZA} and a criticism of \sphinxhref{https://fxdiebold.blogspot.com/2017/02/econometrics-angrist-and-pischke-are-at.html}{G1/G2 goals}
 
 
-\chapter{4. History of econometrics}
-\label{\detokenize{references/history:history-of-econometrics}}\label{\detokenize{references/history::doc}}
+\section{Machine learning (ML) and deep learning (DL)}
+\label{\detokenize{textbook/ml-dl:machine-learning-ml-and-deep-learning-dl}}\label{\detokenize{textbook/ml-dl::doc}}
 
-\section{Landmark events}
-\label{\detokenize{references/history:landmark-events}}\begin{itemize}
+\subsection{Books}
+\label{\detokenize{textbook/ml-dl:books}}
+
+\subsubsection{ML}
+\label{\detokenize{textbook/ml-dl:ml}}\begin{itemize}
 \item {} 
-\sphinxhref{http://jse.amstat.org/v9n3/stanton.html}{Galton} and Pearson
-
-\item {} 
-Tinbergen, Haavelmo
-
-\item {} 
-Cowles Commission
-
-\item {} 
-Lucas and Sims critique
+\sphinxhref{https://www-bcf.usc.edu/~gareth/ISL/ISLR\%20First\%20Printing.pdf}{An Introduction to Statistical Learning. Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani}
 
 \end{itemize}
 
 
-\section{Overviews}
-\label{\detokenize{references/history:overviews}}\begin{itemize}
+\subsubsection{DL}
+\label{\detokenize{textbook/ml-dl:dl}}\begin{itemize}
 \item {} 
-\sphinxhref{http://ftp.iza.org/dp2458.pdf}{Econometrics: A Bird’s Eye View}
-
-\item {} 
-\sphinxhref{https://www.le.ac.uk/economics/research/RePEc/lec/leecon/dp14-05.pdf}{Econometrics: An Historical Guide for the Uninitiated}
-
-\item {} 
-\sphinxhref{https://www.researchgate.net/publication/24119912\_The\_First\_Fifty\_Years\_of\_Modern\_Econometrics}{The First Fifty Years of Modern Econometrics}
+\sphinxhref{https://www.deeplearningbook.org/}{Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville}
 
 \end{itemize}
 
 
-\section{By topic}
-\label{\detokenize{references/history:by-topic}}\begin{itemize}
+\subsubsection{Slightly overcomplicated extras}
+\label{\detokenize{textbook/ml-dl:slightly-overcomplicated-extras}}\begin{itemize}
 \item {} 
-\sphinxhref{ucla.in/2mhxKdO}{Pearl, J. (2014). Tygve Haavelmo and the emergence of causal calculus. Econometric Theory, 31(1), 152\textendash{}179.}
+\sphinxhref{https://www.microsoft.com/en-us/research/publication/foundations-of-data-science/}{Foundations of Data Science}
 
 \item {} 
-\sphinxhref{https://arxiv.org/pdf/0808.2902.pdf}{A Short History of Markov Chain Monte Carlo (arxiv)}
-
-\item {} 
-\sphinxhref{https://beatricecherrier.wordpress.com/2018/10/15/working-on-1960s-macroeconometrics-theres-an-echo-on-the-line}{Working on 1960s macroeconometrics (blog)}
-
-\item {} 
-\sphinxhref{https://papers.ssrn.com/sol3/papers.cfm?abstract\_id=2837766}{Criticizing the Lucas Critique: Macroeconometricians’ Response to Robert Lucas}
-
-\item {} 
-\sphinxhref{https://www.stats.ox.ac.uk/pub/MASS3/Exegeses.pdf}{W N Venables. Exegeses on Linear Models (1998)}
+\sphinxhref{https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html}{Understanding Machine Learning: From Theory to Algorithms}
 
 \end{itemize}
+
+
+\subsection{Courses}
+\label{\detokenize{textbook/ml-dl:courses}}
+
+\subsubsection{ML}
+\label{\detokenize{textbook/ml-dl:id1}}\begin{itemize}
+\item {} 
+\sphinxhref{https://github.com/Yorko/mlcourse.ai}{ods}
+
+\item {} 
+\sphinxhref{https://www.coursera.org/learn/machine-learning}{Andrew Ng course}
+
+\item {} 
+\sphinxhref{https://datascience.quantecon.org/applications/}{QuantEcon ML application}
+
+\end{itemize}
+
+
+\subsubsection{DL}
+\label{\detokenize{textbook/ml-dl:id2}}\begin{itemize}
+\item {} 
+\sphinxhref{https://www.fast.ai/}{fast.ai}
+
+\item {} 
+\sphinxhref{https://www.deeplearning.ai/deep-learning-specialization}{deeplearning.ai}
+
+\end{itemize}
+
+
+\chapter{3. The science of teaching}
+\label{\detokenize{how-to-teach:the-science-of-teaching}}\label{\detokenize{how-to-teach::doc}}
+Notes on technical pedagogy.
+
+
+\section{Ideas}
+\label{\detokenize{how-to-teach:ideas}}\begin{itemize}
+\item {} 
+“Overarching education” (plenty of math and fundimentals, aimed at systemic thinking,
+practical applications derived later) is expensive method of teaching.
+
+\item {} 
+Student motivation is scarce, information is abundant. Teaching is a guidance (esp masters level).
+
+\item {} 
+Can teach programming first, and followup with more solid math second, if ever (programming allows experimenting).
+
+\item {} 
+Need open source textbooks, able to update and share parts of text as well as
+interactive excercises. Static site generators are not fully there yet.
+
+\end{itemize}
+
+
+\section{Links}
+\label{\detokenize{how-to-teach:links}}\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\item {} 
+\sphinxhref{http://third-bit.com/10rules/\#teaching}{10 rules of teaching} by Greg Wilson (@gvwilson) starts with rule \#1 “Be kind: all else is details.” More detail is at \sphinxhref{http://teachtogether.tech/en/}{teachtogether.tech}.
+
+\item {} 
+Nick Huntington-Klein \sphinxhref{https://twitter.com/nickchk/status/1114956341913645058}{proposes a course structure} based on statistical programming, and causal inference/research design, with regressions postponed.
+
+\end{enumerate}
+
+ 
+\begin{enumerate}
+\sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
+\setcounter{enumi}{2}
+\item {} 
+Allen Downey has a \sphinxhref{https://twitter.com/AllenDowney/status/1118255413575680000}{presentation about teaching physical modelling} and sequencing of math and programming.
+
+\end{enumerate}
+
+ 
+
+4. Very introductory courses are good for building student confidence and making simple things simple. They prevent gate-keeping (maybe a reason why they are attacked). See a thread by
+\sphinxhref{https://twitter.com/RochelleTerman/status/1126642900006252544}{Rochelle Terman on teaching computational social science}.
 
 
 \chapter{Data}
@@ -1645,35 +1596,6 @@ Reading \sphinxstyleemphasis{First M87 Event Horizon Telescope Results. III. Dat
 
 
 
-\chapter{Blogs}
-\label{\detokenize{blogs:blogs}}\label{\detokenize{blogs::doc}}
-Blogs may seem as an outdated fashion of communication, but they often present
-a wider story than a twitter post.
-
-Below there are some personal blogs that enlight and inspire about statistics and econometrics.
-They are regularly updated.
-\begin{itemize}
-\item {} 
-\sphinxhref{http://econometricsense.blogspot.com/}{Matt Bogard}
-
-\item {} 
-\sphinxhref{https://fxdiebold.blogspot.com/}{Francis Diebold}
-
-\item {} 
-\sphinxhref{https://davegiles.blogspot.com/}{Dave Giles}
-
-\item {} 
-\sphinxhref{https://robjhyndman.com/}{Rob Hyndman}
-
-\end{itemize}
-
-\sphinxhref{https://simplystatistics.org/}{Simply Statistics} by biostatistics
-professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management,
-analysis and teaching stats.
-
-\sphinxhref{https://medium.com/tag/statistics}{Medium} has a variety of posts on statistics, but rarely tags econometrics. PCA is a widely popular topic.
-
-
 \chapter{Good clues from Twitter}
 \label{\detokenize{tweets:good-clues-from-twitter}}\label{\detokenize{tweets::doc}}
 A secret subtitle for this publication is \sphinxstyleemphasis{“Can you learn econometrics from Twitter and Stack Overflow alone without distracting yourself to data science tutorials”}.
@@ -1806,6 +1728,35 @@ Links collcted in no particular order, some will show in other sections of the N
  
 
 
+\chapter{Blogs}
+\label{\detokenize{blogs:blogs}}\label{\detokenize{blogs::doc}}
+Blogs may seem as an outdated fashion of communication, but they often present
+a wider story than a twitter post.
+
+Below there are some personal blogs that enlight and inspire about statistics and econometrics.
+They are regularly updated.
+\begin{itemize}
+\item {} 
+\sphinxhref{http://econometricsense.blogspot.com/}{Matt Bogard}
+
+\item {} 
+\sphinxhref{https://fxdiebold.blogspot.com/}{Francis Diebold}
+
+\item {} 
+\sphinxhref{https://davegiles.blogspot.com/}{Dave Giles}
+
+\item {} 
+\sphinxhref{https://robjhyndman.com/}{Rob Hyndman}
+
+\end{itemize}
+
+\sphinxhref{https://simplystatistics.org/}{Simply Statistics} by biostatistics
+professors Rafa Irizarry, Roger Peng, and Jeff Leek cover data management,
+analysis and teaching stats.
+
+\sphinxhref{https://medium.com/tag/statistics}{Medium} has a variety of posts on statistics, but rarely tags econometrics. PCA is a widely popular topic.
+
+
 \chapter{Acronyms}
 \label{\detokenize{acronyms:acronyms}}\label{\detokenize{acronyms::doc}}
 Econometrics is full of fancy abbreviations that one can juggle with.
@@ -1855,23 +1806,86 @@ weighted least squares
 \end{description}
 
 
-\chapter{Roadmap}
-\label{\detokenize{roadmap:roadmap}}\label{\detokenize{roadmap::doc}}
-Updated May 13, 2019.
-
-In next versions, I would like to do the following:
-
-
-\section{Labels}
-\label{\detokenize{roadmap:labels}}\begin{itemize}
+\chapter{Changelog}
+\label{\detokenize{roadmap:changelog}}\label{\detokenize{roadmap::doc}}
+\sphinxstylestrong{v.0.0.5 (November 2019)}:
+\begin{itemize}
 \item {} 
-label ‘heavy’ vs ‘easy’ content
+new TOC and flatter stucture
 
 \item {} 
-adjust structure accordingly
+generated a \sphinxhref{https://github.com/epogrebnyak/econometrics-navigator/blob/master/latex/EconometricsNavigator.pdf}{rough
+pdf}
+
+\item {} 
+minimised errors for sphinx builds
+
+\item {} 
+tasks.py for invoke renewed
 
 \end{itemize}
 
+\sphinxstylestrong{v.0.0.4 (May 2019)}:
+\begin{itemize}
+\item {} 
+Science of teaching: quoting @gvwilson, @nickchk, @AllenDowney, @RochelleTerman at \sphinxurl{https://tinyurl.com/em-nav-teach}
+
+\item {} 
+Data: added data from @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk at \sphinxurl{https://tinyurl.com/em-nav-da}
+
+\item {} 
+Books:
+\begin{itemize}
+\item {} 
+\sphinxhref{software.html\#sas-and-terminology}{WM Venables. Exegeses on Linear Models}
+
+\item {} 
+Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
+
+\end{itemize}
+
+\end{itemize}
+
+\sphinxstylestrong{v.0.0.3 (April 2019)} scraps several unfinished articles, including
+a section on applications (hard to fill it quickly). Three main parts
+in content established (own articles, textbook annotations and how to
+teach resources).
+
+\sphinxstylestrong{v.0.0.2 (November 2018)} original version of EN nobody understood what it is good for,
+had sample articles on max likelihood, bootstrap, ANOVA.
+
+
+\section{Roadmap}
+\label{\detokenize{roadmap:roadmap}}
+
+\section{November 09, 2019}
+\label{\detokenize{roadmap:november-09-2019}}\begin{itemize}
+\item {} 
+drafts for cases and excercises
+
+\item {} 
+add more tweets
+
+\item {} 
+add from twitter personalities - links to them
+
+\item {} 
+Section 4 History may go somewhere else
+
+\item {} 
+logit models, tweets about them
+
+\item {} 
+add presentation about reproducibility
+
+\item {} 
+Statistical inference section is still a draft
+
+\end{itemize}
+
+
+\section{May 13, 2019}
+\label{\detokenize{roadmap:may-13-2019}}
 
 \subsection{General}
 \label{\detokenize{roadmap:general}}\begin{itemize}
@@ -1887,25 +1901,8 @@ pay more attention to bayesian / causality
 \end{itemize}
 
 
-\subsection{Interactivity}
-\label{\detokenize{roadmap:interactivity}}\begin{itemize}
-\item {} 
-repl.it
-
-\item {} 
-colab (no Julia)
-
-\item {} 
-notebooks/binder
-
-\end{itemize}
-
-
 \subsection{Data science textbooks}
 \label{\detokenize{roadmap:data-science-textbooks}}\begin{itemize}
-\item {} 
-Add  \sphinxhref{https://github.com/epogrebnyak/learn/blob/master/deep\_learning.md}{deep learning links}
-
 \item {} 
 \sphinxhref{https://github.com/tyleransom/DScourseS18}{Data Science fo Economists}
 
@@ -1918,7 +1915,7 @@ Add  \sphinxhref{https://github.com/epogrebnyak/learn/blob/master/deep\_learning
 write more articles and code for the main section
 
 \item {} 
-translate some RATS/MATLAB code to open source (esp time series)
+translate some RATS/MATLAB code to open source (especially time series)
 
 \end{itemize}
 
@@ -1997,62 +1994,36 @@ review ‘depreciated’ folder, and ‘history’ page
 
 \section{Goals}
 \label{\detokenize{index:goals}}
-The Econometrics Navigator (EN) is aims to provide you with:
+The Econometrics Navigator (EN) goal is to make quality instruction in
+statictics and econometrics accessible.
+
+Let’s lower the barrier for entry and prevent gate-keeping!
+
+
+\section{Types of content}
+\label{\detokenize{index:types-of-content}}
+We aim to provide you with:
 \begin{itemize}
 \item {} 
-open access textbooks
+open access textbooks and community knowledge (reddit,
+StackOverflow, Twitter threads),
 
 \item {} 
-community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads)
+minimal code examples in Python, R, gretl or Julia,
 
 \item {} 
-minimal code examples in Python, R, gretl or Julia
+datasets and cases for quantative analysis,
+
+\item {} 
+ideas on how to structure your learning paths.
 
 \end{itemize}
 
-for better understanding of statistics and econometrics topics.
 
-
-\section{Changelog}
-\label{\detokenize{index:changelog}}
-\sphinxstylestrong{v.0.0.5 (November 2019)}:
-
-\sphinxstylestrong{v.0.0.4 (May 2019)}:
-\begin{itemize}
-\item {} 
-Science of teaching: quoting @gvwilson, @nickchk, @AllenDowney, @RochelleTerman at \sphinxurl{https://tinyurl.com/em-nav-teach}
-
-\item {} 
-Data: added data from @stlouisfed/@quandl/@DBnomics along with several R data sources by @nickchk at \sphinxurl{https://tinyurl.com/em-nav-da}
-
-\item {} 
-Books:
-\begin{itemize}
-\item {} 
-\sphinxhref{software.html\#sas-and-terminology}{WM Venables. Exegeses on Linear Models}
-
-\item {} 
-Walpole, Myers, Myers, Ye. Probability and Statistics for Engineers and Scientists
-
-\end{itemize}
-
-\end{itemize}
-
-\sphinxstylestrong{v.0.0.3 (April 2019)} scraps several unfinished articles, including
-a section on applications (hard to fill it quickly). Three main parts
-in content established (own articles, textbook annotations and how to
-teach resources).
-
-\sphinxstylestrong{v.0.0.2 (November 2018)} original version of EN nobody understood what it is good for,
-had sample articles on max likelihood, bootstrap, ANOVA.
-
-
-\section{Content}
-\label{\detokenize{index:content}}
-
-\subsection{1. Collection of own articles}
-\label{\detokenize{index:collection-of-own-articles}}
-The main body of Econometrics Navigator articles is \sphinxhref{topics/index.rst}{Concepts and techniques section},  organised alphabetically. Finished examples are:
+\subsection{1. Own articles}
+\label{\detokenize{index:own-articles}}
+The articles are in \sphinxhref{topics/index.rst}{Concepts and techniques section},
+organised alphabetically. Finished examples are:
 \begin{itemize}
 \item {} 
 \sphinxhref{topics/max-likelihood.html}{Maximum likelihood}
@@ -2069,22 +2040,25 @@ The main body of Econometrics Navigator articles is \sphinxhref{topics/index.rst
 \subsection{2. Textbooks guide}
 \label{\detokenize{index:textbooks-guide}}
 \sphinxhref{textbook/index.html}{Textbooks review} attempts to sort out and annotate textbooks and
-reference texts by several categories.
+references by several categories, starting from math preliminaries and up to ML/DL
+applications.
 
-For example, I praise Kennedy’s textbook and
-collect (constructive) criticisms of Mostly Harmless Econometrics there. The categories
-in econometrics are ‘general’ textbooks, cross-section/panel and time series texts.
+In econometrics the categories are ‘general’ textbooks, cross-section/panel, time series
+and bayesian texts. Whatever I could not document well, I did put in the
+\sphinxhref{textbook/mindmap.html}{mindmap} section.
+
+The backstage workings of the Navigator are \sphinxhref{textbook/history.html}{History of econometrics},
+\sphinxhref{textbook/ways-into-econometrics.html}{Ways to review econometrics}.
+
+Review of resources about mathematic statistics are still a \sphinxhref{textbook/statistics.html}{draft}.
 
 
-\subsection{3. Instructor resources}
-\label{\detokenize{index:instructor-resources}}
-The backstage workings of the Navigator are \sphinxhref{history.html}{History of econometrics},
-\sphinxhref{how-to-teach/ways-into-econometrics.html}{Ways to review econometrics} and
-\sphinxhref{how-to-teach/mindmap.html}{econometrics mindmap (draft)}.
-
-These documents aim to organise thinking about better teaching of
-econometrics in terms of sequence of topics, better analogies for the learner and
-a faster bridge to coding from formulas.
+\subsection{3. Better teaching}
+\label{\detokenize{index:better-teaching}}
+These documents organise thinking about better teaching of
+econometrics in terms of sequence of topics, better analogies
+for the learner and a faster bridge to coding from formulas.
+Specifically I collected links about \sphinxhref{textbook/how-to-teach.html}{technical pedagogy}.
 
 
 \section{Twitter}
@@ -2121,17 +2095,20 @@ I keep a \sphinxhref{tweets.html}{separate page with twitter posts}, some of my 
 
 
 
+\section{Changelog}
+\label{\detokenize{index:changelog}}
+Changelog and future steps outlined are outlined in \sphinxhref{roadmap.html}{roadmap}.
+
+
 \section{Contacts}
 \label{\detokenize{index:contacts}}
-Feel free to contact me \sphinxhref{https://twitter.com/PogrebnyakE}{@PogrebnyakE}.
-I need help in shaping this guide. Some future steps outlined in
-\sphinxhref{roadmap.html}{roadmap}.
+This publication is edited by \sphinxhref{https://twitter.com/PogrebnyakE}{@PogrebnyakE}.
 
 
 \section{Source}
 \label{\detokenize{index:source}}
 The source of this publication is available at \sphinxurl{https://github.com/epogrebnyak/econometrics-navigator}
-or \sphinxurl{https://tinyurl.com/emnavig}
+and the short URL for this page is \sphinxurl{https://tinyurl.com/emnavig}.
 
 
 

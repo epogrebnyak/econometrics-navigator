@@ -22,47 +22,55 @@ Welcome to Econometrics Navigator!
 Goals
 -----
 
-The Econometrics Navigator (EN) aims to provide you with:
+The Econometrics Navigator (EN) goal is to make quality instruction in 
+statictics and econometrics accessible.
 
-- open access textbooks,
-- community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads),
+Let's lower the barrier for entry and prevent gate-keeping!
+
+Types of content
+----------------
+
+We aim to provide you with:
+
+- open access textbooks and community knowledge (reddit, 
+  StackOverflow, Twitter threads),
 - minimal code examples in Python, R, gretl or Julia,
 - datasets and cases for quantative analysis, 
-- ideas on how to structure your own (or your students') learning paths.
+- ideas on how to structure your learning paths.
 
 1. Own articles
 ~~~~~~~~~~~~~~~
 
 The articles are in `Concepts and techniques section <topics/index.rst>`__,  
-organised alphabetically. Finished examples are: 
+organised alphabetically. Finished examples are:
 
 - `Maximum likelihood <topics/max-likelihood.html>`__
 - `Bootstrap <topics/bootstrap.html>`__
-- `ANOVA <topics/anova.html>`__ 
+- `ANOVA <topics/anova.html>`__
 
 2. Textbooks guide  
 ~~~~~~~~~~~~~~~~~~
 
 `Textbooks review <textbook/index.html>`__ attempts to sort out and annotate textbooks and 
-reference texts by several categories, starting from math preliminaries and up to ML/DL 
+references by several categories, starting from math preliminaries and up to ML/DL 
 applications.
 
-The econometrics categories are 'general' textbooks, cross-section/panel and time series 
+In econometrics the categories are 'general' textbooks, cross-section/panel, time series 
 and bayesian texts. Whatever I could not document well, I did put in the 
 `mindmap <textbook/mindmap.html>`__ section.
 
 The backstage workings of the Navigator are `History of econometrics <textbook/history.html>`__, 
 `Ways to review econometrics <textbook/ways-into-econometrics.html>`__. 
 
-Review of books about statistics are still a `draft <textbook/statistics.html>`__.
+Review of resources about mathematic statistics are still a `draft <textbook/statistics.html>`__.
 
 3. Better teaching
 ~~~~~~~~~~~~~~~~~~
 
-These documents aim to organise thinking about better teaching of 
-econometrics in terms of sequence of topics, better analogies for the learner and 
-a faster bridge to coding from formulas. Specifically I collected links about 
-`technical pedagogy <textbook/how-to-teach.html>`__.
+These documents organise thinking about better teaching of 
+econometrics in terms of sequence of topics, better analogies 
+for the learner and a faster bridge to coding from formulas. 
+Specifically I collected links about `technical pedagogy <textbook/how-to-teach.html>`__.
 
 
 Twitter 
@@ -104,15 +112,20 @@ I keep a `separate page with twitter posts <tweets.html>`__, some of my favorite
     </embed>
 
 
+Changelog
+---------
+
+Changelog and future steps outlined are outlined in `roadmap <roadmap.html>`__.
+
+
 Contacts
 --------
 
-Feel free to contact me `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
-I need help in shaping this guide. Some future steps outlined in 
-`roadmap <roadmap.html>`__.
+This publication is edited by `@PogrebnyakE <https://twitter.com/PogrebnyakE>`__.
+
 
 Source
 ------
 
 The source of this publication is available at https://github.com/epogrebnyak/econometrics-navigator
-or https://tinyurl.com/emnavig
+and the short URL for this page is https://tinyurl.com/emnavig.
