@@ -1,5 +1,5 @@
 git+https://github.com/miyakogi/m2r.git
 sphinx
-sphinx_rtd_theme 
+-e git+https://github.com/readthedocs/sphinx_rtd_theme.git@2b8717a3647cc650625c566259e00305f7fb60aa#egg=sphinx_rtd_theme
 invoke
 # rst2pdf -- it is python 2 application

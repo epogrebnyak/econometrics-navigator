@@ -1,4 +1,2 @@
 d:\anaconda3\lib\site-packages\m2r.py:652: RemovedInSphinx30Warning: app.add_source_parser() does not support suffix argument. Use app.add_source_suffix() instead.
   app.add_source_parser('.md', M2RParser)
-d:\anaconda3\lib\site-packages\sphinx_rtd_theme\search.html:20: RemovedInSphinx30Warning: To modify script_files in the theme is deprecated. Please insert a <script> tag directly in your theme instead.
-  {{ super() }}
