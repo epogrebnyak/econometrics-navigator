@@ -11,6 +11,7 @@ General textbooks
 - Very condensed synopsis of [undergrad econometrics](https://github.com/tyleransom/EconometricsLabs/blob/master/econometricsCheatSheet.pdf)
 
 Some well-known texts:
+
  - Greene 
  - Dougherty
  - Hayashi 
@@ -35,13 +36,18 @@ Criticism of MHE:
 
 <https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html>
 
-- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm) - nicely presented topics in econometrics for microeconomics from OLS to Bootstrap, guides to software.
+- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm) - nicely presented topics in econometrics for microeconomics from OLS to bootstrap, with guides to software.
 
 
 Time Series
 -----------
 
+Heavyweight:
+
  - [Hamilton](https://scholar.google.com/scholar?cluster=7489561659476003036&hl=en&as_sdt=0,5)  
+ 
+ Other:
+ 
  - [Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf)  
  - [Granger/Watson time series chapter in Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S1573441284020092) 
  - [Enders](http://time-series.net/yahoo_site_admin/assets/docs/enders4_pptsch04.684612.pdf)
