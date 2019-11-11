@@ -20,7 +20,11 @@ Linear Algebra
 [VMLS]: http://vmls-book.stanford.edu
 
 
-- You can also check Computational Linear Algebra repository from *fast.ai* [here](https://github.com/fastai/numerical-linear-algebra).
+<!--
+
+TODO: Another motivational book on linear algebra - from Moscow Programmers Club.
+
+-->
 
 
 Calculus
@@ -46,3 +50,11 @@ Numerical computing
 - [Scipy lectures: one document to learn numerics, science, and data with Python][Sci]
 
 [Sci]: http://www.scipy-lectures.org
+
+
+Other
+-----
+
+- [140 unsorted formulas with a bit of Portugese](https://drive.google.com/file/d/0B0RLknmL54khQlhGUzFUWEtncTA/view), nice for a bulk review. Prepared by [Rubens Zimbres](https://github.com/RubensZimbres).
+- [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) repository from *fast.ai*.
+

@@ -36,7 +36,8 @@ html_static_path = 'static'
 extensions = ['sphinx.ext.mathjax',
     'sphinx.ext.githubpages',
     'm2r',
-    'sphinxemoji.sphinxemoji']
+#    'sphinxemoji.sphinxemoji'
+    ]
 
 # Add any paths that contain templates here, relative to this directory.
 # templates_path = ['_templates']
