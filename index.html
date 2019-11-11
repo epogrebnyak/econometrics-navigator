@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -17,7 +16,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -50,7 +51,7 @@
           
 
           
-            <a href="#" class="icon icon-home"> Econometrics Navigator
+            <a href="#" class="icon icon-home" alt="Documentation Home"> Econometrics Navigator
           
 
           
@@ -77,6 +78,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -99,6 +101,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -137,7 +140,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="#">Docs</a> &raquo;</li>
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
         
       <li>Welcome to Econometrics Navigator!</li>
     
@@ -175,13 +178,19 @@
 <h1>Welcome to Econometrics Navigator!<a class="headerlink" href="#welcome-to-econometrics-navigator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="goals">
 <h2>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h2>
-<p>The Econometrics Navigator (EN) aims to provide you with:</p>
+<p>The Econometrics Navigator (EN) goal is to make quality instruction in
+statictics and econometrics accessible.</p>
+<p>Let’s lower the barrier for entry and prevent gate-keeping!</p>
+</div>
+<div class="section" id="types-of-content">
+<h2>Types of content<a class="headerlink" href="#types-of-content" title="Permalink to this headline">¶</a></h2>
+<p>We aim to provide you with:</p>
 <ul class="simple">
-<li><p>open access textbooks,</p></li>
-<li><p>community knowledge (reddit, StackOverflow/Cross Validated, Twitter threads),</p></li>
+<li><p>open access textbooks and community knowledge (reddit,
+StackOverflow, Twitter threads),</p></li>
 <li><p>minimal code examples in Python, R, gretl or Julia,</p></li>
 <li><p>datasets and cases for quantative analysis,</p></li>
-<li><p>ideas on how to structure your own (or your students’) learning paths.</p></li>
+<li><p>ideas on how to structure your learning paths.</p></li>
 </ul>
 <div class="section" id="own-articles">
 <h3>1. Own articles<a class="headerlink" href="#own-articles" title="Permalink to this headline">¶</a></h3>
@@ -196,21 +205,22 @@ organised alphabetically. Finished examples are:</p>
 <div class="section" id="textbooks-guide">
 <h3>2. Textbooks guide<a class="headerlink" href="#textbooks-guide" title="Permalink to this headline">¶</a></h3>
 <p><a class="reference external" href="textbook/index.html">Textbooks review</a> attempts to sort out and annotate textbooks and
-reference texts by several categories, starting from math preliminaries and up to ML/DL
+references by several categories, starting from math preliminaries and up to ML/DL
 applications.</p>
-<p>The econometrics categories are ‘general’ textbooks, cross-section/panel and time series
+<p>In econometrics the categories are ‘general’ textbooks, cross-section/panel, time series
 and bayesian texts. Whatever I could not document well, I did put in the
 <a class="reference external" href="textbook/mindmap.html">mindmap</a> section.</p>
 <p>The backstage workings of the Navigator are <a class="reference external" href="textbook/history.html">History of econometrics</a>,
 <a class="reference external" href="textbook/ways-into-econometrics.html">Ways to review econometrics</a>.</p>
-<p>Review of books about statistics are still a <a class="reference external" href="textbook/statistics.html">draft</a>.</p>
+<p>Review of resources about mathematic statistics are still a <a class="reference external" href="textbook/statistics.html">draft</a>.</p>
 </div>
 <div class="section" id="better-teaching">
 <h3>3. Better teaching<a class="headerlink" href="#better-teaching" title="Permalink to this headline">¶</a></h3>
-<p>These documents aim to organise thinking about better teaching of
-econometrics in terms of sequence of topics, better analogies for the learner and
-a faster bridge to coding from formulas. Specifically I collected links about
-<a class="reference external" href="textbook/how-to-teach.html">technical pedagogy</a>.</p>
+<p>These documents organise thinking about better teaching of
+econometrics in terms of sequence of topics, better analogies
+for the learner and a faster bridge to coding and working
+with real data from formulas and concepts. Specifically I collected
+the links about <a class="reference external" href="textbook/how-to-teach.html">technical pedagogy here</a>.</p>
 </div>
 </div>
 <div class="section" id="twitter">
@@ -238,16 +248,18 @@ I keep a <a class="reference external" href="tweets.html">separate page with twi
 <embed>
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve made this cheat sheet and I think it&#39;s important. Most stats 101 tests are simple linear models - including &quot;non-parametric&quot; tests. It&#39;s so simple we should only teach regression. Avoid confusing students with a zoo of named tests. <a href="https://t.co/9PFR1ly3lW">https://t.co/9PFR1ly3lW</a> 1/n</p>&mdash; Jonas K. Lindeløv (@jonaslindeloev) <a href="https://twitter.com/jonaslindeloev/status/1110907133833502721?ref_src=twsrc%5Etfw">March 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </embed></div>
+<div class="section" id="changelog">
+<h2>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h2>
+<p>Changelog and future steps outlined are outlined in <a class="reference external" href="roadmap.html">roadmap</a>.</p>
+</div>
 <div class="section" id="contacts">
 <h2>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">¶</a></h2>
-<p>Feel free to contact me <a class="reference external" href="https://twitter.com/PogrebnyakE">&#64;PogrebnyakE</a>.
-I need help in shaping this guide. Some future steps outlined in
-<a class="reference external" href="roadmap.html">roadmap</a>.</p>
+<p>This publication is edited by <a class="reference external" href="https://twitter.com/PogrebnyakE">&#64;PogrebnyakE</a>.</p>
 </div>
 <div class="section" id="source">
 <h2>Source<a class="headerlink" href="#source" title="Permalink to this headline">¶</a></h2>
 <p>The source of this publication is available at <a class="reference external" href="https://github.com/epogrebnyak/econometrics-navigator">https://github.com/epogrebnyak/econometrics-navigator</a>
-or <a class="reference external" href="https://tinyurl.com/emnavig">https://tinyurl.com/emnavig</a></p>
+and the short URL for this page is <a class="reference external" href="https://tinyurl.com/emnavig">https://tinyurl.com/emnavig</a>.</p>
 </div>
 </div>
 
@@ -269,11 +281,14 @@ or <a class="reference external" href="https://tinyurl.com/emnavig">https://tiny
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2018-2019, Evgeny Pogrebnyak
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+      Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -284,7 +299,6 @@ or <a class="reference external" href="https://tinyurl.com/emnavig">https://tiny
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

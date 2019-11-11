@@ -42,8 +42,6 @@ Manulas of some less popular packages:
 ## 3. Handbook of Econometrics
 
 Elsevier [Handbook of Econometrics](https://www.sciencedirect.com/handbook/handbook-of-econometrics/vol/1/suppl/C) 
-is a  publication series running since 1983. It now 
-features 77 chapters in 6 volumes. Many earlier articles are 
-foundational, but quite a few recent ones are about some really narrow 
-subjects areas. I think the volume TOC is great, but publications are 
-overpriced.
+is a  publication series running since 1983. It now features 77 chapters in 6 volumes. Many earlier articles are foundational, but quite a few recent ones are about some really narrow 
+subjects areas. I think the volume TOC is great, but publications are overpriced 
+(it's Elsevier).

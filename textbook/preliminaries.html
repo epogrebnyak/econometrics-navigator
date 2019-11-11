@@ -1,8 +1,7 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html lang="en" >
 <head>
   <meta charset="utf-8">
   
@@ -17,7 +16,9 @@
   
 
   
-  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
@@ -51,7 +52,7 @@
           
 
           
-            <a href="../index.html" class="icon icon-home"> Econometrics Navigator
+            <a href="../index.html" class="icon icon-home" alt="Documentation Home"> Econometrics Navigator
           
 
           
@@ -78,6 +79,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -93,6 +95,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#calculus">Calculus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#probability-and-statistics">Probability and statistics</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#numerical-computing">Numerical computing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#other">Other</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="statistics.html">Statistical inference</a></li>
@@ -109,12 +112,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../tweets.html">Good clues from Twitter</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../blogs.html">Blogs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../acronyms.html">Acronyms</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Roadmap</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roadmap.html">Changelog</a></li>
 </ul>
 
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -153,7 +157,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="../index.html">Docs</a> &raquo;</li>
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
           <li><a href="index.html">2. Textbooks and courses</a> &raquo;</li>
         
@@ -191,9 +195,12 @@
 <h2>Linear Algebra<a class="headerlink" href="#linear-algebra" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="http://vmls-book.stanford.edu">Vectors, Matrices, and Least Squares (VLMS)</a></p></li>
-<li><p>You can also check Computational Linear Algebra repository from <em>fast.ai</em> <a class="reference external" href="https://github.com/fastai/numerical-linear-algebra">here</a>.</p></li>
 </ul>
-</div>
+<!--
+
+TODO: Another motivational book on linear algebra - from Moscow Programmers Club.
+
+--></div>
 <div class="section" id="calculus">
 <h2>Calculus<a class="headerlink" href="#calculus" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference external" href="https://arxiv.org/abs/1802.01528">The Matrix Calculus You Need For Deep Learning</a>
@@ -211,6 +218,13 @@ going from start to derivatives in deep learning quickly.</p>
 <h2>Numerical computing<a class="headerlink" href="#numerical-computing" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.scipy-lectures.org">Scipy lectures: one document to learn numerics, science, and data with Python</a></p></li>
+</ul>
+</div>
+<div class="section" id="other">
+<h2>Other<a class="headerlink" href="#other" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://drive.google.com/file/d/0B0RLknmL54khQlhGUzFUWEtncTA/view">140 unsorted formulas with a bit of Portugese</a>, nice for a bulk review. Prepared by <a class="reference external" href="https://github.com/RubensZimbres">Rubens Zimbres</a>.</p></li>
+<li><p><a class="reference external" href="https://github.com/fastai/numerical-linear-algebra">Computational Linear Algebra</a> repository from <em>fast.ai</em>.</p></li>
 </ul>
 </div>
 </div>
@@ -235,11 +249,14 @@ going from start to derivatives in deep learning quickly.</p>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2018-2019, Evgeny Pogrebnyak
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+      Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -250,7 +267,6 @@ going from start to derivatives in deep learning quickly.</p>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {
