@@ -27,7 +27,7 @@ Cross Section and Panel Data
   - Diebold: ["sub-sub-sub-area of applied econometrics"](https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html)
   - [J. Pearl](https://p-hunermund.com/2017/02/22/judea-pearl-on-angrist-and-pischke)
 
-Note that MHE is one of few books with excercises [reproduced on github](https://github.com/vikjam/mostly-harmless-replication).
+MHE is one of few books with excercises [reproduced on github](https://github.com/vikjam/mostly-harmless-replication).
 
 Criticism of MHE:
 
@@ -35,7 +35,7 @@ Criticism of MHE:
 
 <https://fxdiebold.blogspot.com/2015/01/mostly-harmless-econometrics.html>
 
-- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm) - nicely presented topics in econometrics for microeconomics from OLS to Bootstrap. Guides to software.
+- [Lecture Notes in Microeconometrics](https://www.schmidheiny.name/teaching/shortguides.htm) - nicely presented topics in econometrics for microeconomics from OLS to Bootstrap, guides to software.
 
 
 Time Series
@@ -76,3 +76,5 @@ To add:
 
 - [A simple explanation of Naive Bayes Classification](https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification), an overwhelmingly popular 
 StackOverflow answer.
+
+- [Doing Bayesian Data Analysis in brms and the tidyverse](https://bookdown.org/ajkurz/DBDA_recoded/)
