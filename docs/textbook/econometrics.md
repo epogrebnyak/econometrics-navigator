@@ -84,3 +84,5 @@ To add:
 StackOverflow answer.
 
 - [Doing Bayesian Data Analysis in brms and the tidyverse](https://bookdown.org/ajkurz/DBDA_recoded/)
+
+- [Statistical Rethinking A Bayesian Course with Examples in R and Stan (& PyMC3 & brms & Julia too)]()

@@ -1,3 +1,22 @@
+<!--
+
+Math preliminaries, as of EM v0.0.5:
+
+Linear algebra: Vectors, Matrices, and Least Squares (VLMS)
+http://vmls-book.stanford.edu
+
+Probability and Statistics Cookbook (PSC)
+http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pd
+
+Calculus: no single best source yet
+
+Numerical computing: Scipy lectures
+http://www.scipy-lectures.org
+
+https://epogrebnyak.github.io/econometrics-navigator/textbook/preliminaries.html
+
+-->
+
 Mathematic preliminaries
 ========================
 
