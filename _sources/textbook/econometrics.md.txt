@@ -14,8 +14,8 @@ Some well-known texts:
 
  - Greene 
  - Dougherty
- - Hayashi 
  - Stock and Watson
+ - Hayashi 
  - [@Verbeek](https://twitter.com/marnoverbeek). A Guide to Modern Econometrics, in 5th edition in 2017. [TOC and preface](https://www.researchgate.net/publication/227488993_A_Guide_to_Modern_Econometrics).
 
 Open access:
@@ -58,7 +58,7 @@ Heavyweight:
 
  - [Hamilton](https://scholar.google.com/scholar?cluster=7489561659476003036&hl=en&as_sdt=0,5)  
  
- Other:
+Other:
  
  - [Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf)  
  - [Granger/Watson time series chapter in Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S1573441284020092) 
