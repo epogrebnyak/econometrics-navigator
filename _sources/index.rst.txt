@@ -25,18 +25,14 @@ Goals
 The Econometrics Navigator (EN) goal is to make quality instruction in 
 statictics and econometrics accessible.
 
-Let's lower the barrier for entry and prevent gate-keeping!
-
 Types of content
 ----------------
 
-We aim to provide you with:
-
-- open access textbooks and community knowledge (reddit, 
-  StackOverflow, Twitter threads),
-- minimal code examples in Python, R, gretl or Julia,
-- datasets and cases for quantative analysis, 
-- ideas on how to structure your learning paths.
+- Open access textbooks and community knowledge with personal touch 
+  (reddit, StackOverflow, Twitter threads).
+- Minimal code examples in Python, R, gretl or Julia to try things fast.
+- Datasets and cases for quantative analysis.
+- Ideas on how to structure the learning paths.
 
 1. Own articles
 ~~~~~~~~~~~~~~~
@@ -62,7 +58,7 @@ and bayesian texts. Whatever I could not document well, I did put in the
 The backstage workings of the Navigator are `History of econometrics <textbook/history.html>`__, 
 `Ways to review econometrics <textbook/ways-into-econometrics.html>`__. 
 
-Review of resources about mathematic statistics are still a `draft <textbook/statistics.html>`__.
+Review of resources about mathematic statistics is still a `draft <textbook/statistics.html>`__.
 
 3. Better teaching
 ~~~~~~~~~~~~~~~~~~
