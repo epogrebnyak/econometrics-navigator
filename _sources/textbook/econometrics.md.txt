@@ -16,9 +16,21 @@ Some well-known texts:
  - Dougherty
  - Hayashi 
  - Stock and Watson
- - Verbeek
+ - [@Verbeek](https://twitter.com/marnoverbeek). A Guide to Modern Econometrics, in 5th edition in 2017. [TOC and preface](https://www.researchgate.net/publication/227488993_A_Guide_to_Modern_Econometrics).
+
+Open access:
+
  - [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf) 
- - [Sargent-Hansen](http://assets.press.princeton.edu/chapters/c10141.pdf)
+ 
+<!--
+
+Not econometrics:
+
+- [Sargent-Hansen](http://assets.press.princeton.edu/chapters/c10141.pdf)
+  
+-->  
+
+
 
 Cross Section and Panel Data 
 ----------------------------
