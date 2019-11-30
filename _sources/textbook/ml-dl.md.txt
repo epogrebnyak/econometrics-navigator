@@ -35,3 +35,9 @@ Courses
 
 - [fast.ai](https://www.fast.ai/) 
 - [deeplearning.ai](https://www.deeplearning.ai/deep-learning-specialization)
+
+
+Weak link
+---------
+
+- [Puzzles of modern machine learning by Boaz Barak](https://windowsontheory.org/2019/11/15/puzzles-of-modern-machine-learning/)
