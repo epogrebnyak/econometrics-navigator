@@ -9,6 +9,7 @@
    bootstrap.md
    causation.md
    clt.md
+   derivatives.md
    max-likelihood.md
    mode.md
    ols.rst
@@ -31,4 +32,10 @@
 
     - replication, replicability 
     - `complexity bias <https://fs.blog/2018/01/complexity-bias/>`__
-    - `publishing and promotion <https://voxeu.org/article/publishing-and-promotion-economics-tyranny-top-five/>`__
+
+.. admonition:: Peer publication
+
+   You may want to consult 
+   `Library of Statistical Techniques (LOST) <https://lost-stats.github.io>`__
+   to see some of the concepts in action, mainly with R code. 
+

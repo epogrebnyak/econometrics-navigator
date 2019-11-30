@@ -28,3 +28,31 @@ Links
 
 4\. Very introductory courses are good for building student confidence and making simple things simple. They prevent gate-keeping (maybe a reason why they are attacked). See a thread by 
 [Rochelle Terman on teaching computational social science](https://twitter.com/RochelleTerman/status/1126642900006252544).
+
+
+Technical writing
+-----------------
+
+... is important, needs practice and has little substitute. Hard to learn/teach.
+
+Some links:
+
+- [Jeff Bezos 4-6 page memo banning PPT](https://www.anecdote.com/wp-content/uploads/2018/05/Bezos-email.jpg) and [Amazon writing tips](https://twitter.com/subbupl/status/1197523077552164864).
+
+
+
+Teaching at...?
+---------------
+
+Just to start tracking issues in academic careers, education system and economics
+profession.
+
+
+#### Publishing and promotion - tyranny of top 5
+
+[![](https://voxeu.org/sites/default/files/image/FromMay2014/moktanfig2.png)](https://voxeu.org/article/publishing-and-promotion-economics-tyranny-top-five)
+
+
+#### American colleges and equal opportunity
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let’s start with basics I’ve written about in many places, including all three of my books.<br><br>(1) Americans have *never* agreed on equal opportunity for education for all, let alone for higher ed.<br><br>The fact that the Pell Grant was created hardly implies consensus.</p>&mdash; Dr. Sara Goldrick-Rab (@saragoldrickrab) <a href="https://twitter.com/saragoldrickrab/status/1199797770799980546?ref_src=twsrc%5Etfw">November 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

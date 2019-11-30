@@ -24,8 +24,8 @@ Gretl and EViews have quite comprehensive manuals covering
 principal applications of the software. They both qualify as 
 textbooks in econometrics:
 
-- [gretl](http://gretl.sourceforge.net/gretl-help/gretl-guide.pdf)
-- [course based on gretl](https://www.le.ac.uk/users/dsgp1/COURSES/THIRDMET/MANUALS/ebook.pdf)
+- [gretl](http://gretl.sourceforge.net/gretl-help/gretl-guide.pdf) and [a course based on gretl](https://www.le.ac.uk/users/dsgp1/COURSES/THIRDMET/MANUALS/ebook.pdf)
+- [JASP](https://jasp-stats.org/wp-content/uploads/2019/11/The_JASP_Data_Library__version_2-1.pdf), as described [here](https://twitter.com/JASPStats/status/1197844560115712000)
 - [Eviews I](http://www.eviews.com/EViews8/EViews8/EViews%208%20Users%20Guide%20I.pdf)
 - [Eviews II](http://www.eviews.com/EViews8/EViews8/EViews%208%20Users%20Guide%20II.pdf)
 

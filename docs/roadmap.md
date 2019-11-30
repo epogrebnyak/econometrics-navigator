@@ -1,6 +1,17 @@
 Changelog
 =========
 
+**v.0.0.6 (late evening at the very, very end of November 2019)**:
+
+
+- Econometrics: rms by @f2harrell, @Verbeek
+- Blogs: @kaz_yos on clinical/biostat papers 
+- Topics: OLS baby dragons by @EpiEllie, @nickchk LOST, @ahmaurya comment on ANOVA, Tesla truck f'- (x)
+- 'Teaching at...?': @voxeu on top5 journals and @saragoldrickrab on equity in American education 
+- Prelim/math: Gilbert Strang lin alg lectures (HT @ryxcommar), neural-network math by A.C.C. - Coolen, matrix calculus by @jeremyphoward and Terence Parr (HT @iamtrask)
+- ML/DL: puzzles by Boaz Barak and textbook by @michael_nielsen
+- Software-as-a-textbook: @JASPStats manual
+
 **v.0.0.5 (November 2019)**:
 
 - new TOC and flatter stucture

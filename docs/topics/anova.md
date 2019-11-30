@@ -14,6 +14,11 @@ Quote:
 > *ANOVA can be seen as "syntactic sugar" for a special subgroup of linear regression models. ANOVA is regularly used by researchers who are not statisticians by training. They are now "institutionalized" and its hard to convert them back to using the more general representation* [suncoolsu](https://stats.stackexchange.com/users/1307/suncoolsu)
 
 
+Tweet:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I remember learning about ANOVA and thinking this is just linear regression with factors. Why does it even have its own name?! 😂</p>&mdash; Abhinav Maurya (@ahmaurya) <a href="https://twitter.com/ahmaurya/status/1142084765065068544?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote>
+
+
 Code examples
 -------------
 

@@ -14,11 +14,21 @@ Some well-known texts:
 
  - Greene 
  - Dougherty
- - Hayashi 
  - Stock and Watson
- - Verbeek
+ - Hayashi 
+ - [@Verbeek](https://twitter.com/marnoverbeek). A Guide to Modern Econometrics, in 5th edition in 2017. [TOC and preface](https://www.researchgate.net/publication/227488993_A_Guide_to_Modern_Econometrics).
+
+Open access:
+
  - [Hansen. Econometircs](https://www.ssc.wisc.edu/~bhansen/econometrics/Econometrics.pdf) 
- - [Sargent-Hansen](http://assets.press.princeton.edu/chapters/c10141.pdf)
+ 
+<!--
+
+Not econometrics:
+
+- [Sargent-Hansen](http://assets.press.princeton.edu/chapters/c10141.pdf)
+  
+-->  
 
 Cross Section and Panel Data 
 ----------------------------
@@ -46,7 +56,7 @@ Heavyweight:
 
  - [Hamilton](https://scholar.google.com/scholar?cluster=7489561659476003036&hl=en&as_sdt=0,5)  
  
- Other:
+Other:
  
  - [Diebold](https://www.sas.upenn.edu/~fdiebold/Teaching706/TimeSeriesEconometrics.pdf)  
  - [Granger/Watson time series chapter in Handbook of Econometrics](https://www.sciencedirect.com/science/article/pii/S1573441284020092) 
@@ -85,4 +95,15 @@ StackOverflow answer.
 
 - [Doing Bayesian Data Analysis in brms and the tidyverse](https://bookdown.org/ajkurz/DBDA_recoded/)
 
-- [Statistical Rethinking A Bayesian Course with Examples in R and Stan (& PyMC3 & brms & Julia too)]()
+- [Statistical Rethinking A Bayesian Course with Examples in R and Stan (& PyMC3 & brms & Julia too)](https://xcelab.net/rm/statistical-rethinking/)
+
+
+Non-economics
+-------------
+
+#### Biostatistics
+
+Regression modelling strategies with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis by FE Harrell:
+
+- [course website](http://biostat.mc.vanderbilt.edu/wiki/Main/RmS)
+- [free online course notes, >100 pages](http://hbiostat.org/doc/rms.pdf)

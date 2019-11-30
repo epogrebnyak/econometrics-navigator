@@ -5,6 +5,7 @@ This page is a draft.
 
 
 Some discussions about a good book: 
+
    - [Math Overflow: Statistics for Mathematicians](https://mathoverflow.net/questions/31655/statistics-for-mathematicians)
    - [Stack Exchange: What to learn after Casella/Berger](https://stats.stackexchange.com/questions/91863/what-to-learn-after-casella-berger)
 
