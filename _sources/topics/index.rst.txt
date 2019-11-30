@@ -32,7 +32,7 @@
     - replication, replicability 
     - `complexity bias <https://fs.blog/2018/01/complexity-bias/>`__
 
-.. admonition:: Peer publication:
+.. admonition:: Peer publication
 
 You may want to consult 
 [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/) 
