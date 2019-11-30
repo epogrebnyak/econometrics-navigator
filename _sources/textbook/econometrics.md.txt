@@ -91,7 +91,9 @@ StackOverflow answer.
 Non-economics
 -------------
 
-Biostatistics: Regression modelling strategies with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis by FE Harrell:
+#### Biostatistics
+
+Regression modelling strategies with Applications to Linear Models, Logistic and Ordinal Regression, and Survival Analysis by FE Harrell:
 
 - [course website](http://biostat.mc.vanderbilt.edu/wiki/Main/RmS)
 - [free online course notes, >100 pages](http://hbiostat.org/doc/rms.pdf)
