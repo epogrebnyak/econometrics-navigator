@@ -15,7 +15,7 @@ Books
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 
   by [Michael Nielsen](https://twitter.com/michael_nielsen)
 
-### Slightly overcomplicated extras
+### Slightly overcomplicated
 
 - [Foundations of Data Science](https://www.microsoft.com/en-us/research/publication/foundations-of-data-science/)
 - [Understanding Machine Learning: From Theory to Algorithms](https://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning/copy.html)

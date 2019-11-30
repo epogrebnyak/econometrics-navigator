@@ -93,3 +93,4 @@ Other
 
 - [140 unsorted formulas with a bit of Portugese](https://drive.google.com/file/d/0B0RLknmL54khQlhGUzFUWEtncTA/view), nice for a bulk review. Prepared by [Rubens Zimbres](https://github.com/RubensZimbres).
 - [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) repository from *fast.ai*.
+- [A Beginner's Guide to the Mathematics of Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) by A.C.C. Coolen, HT [@iamtrask](https://twitter.com/iamtrask/status/1165911962053677057)
