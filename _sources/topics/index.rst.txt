@@ -9,6 +9,7 @@
    bootstrap.md
    causation.md
    clt.md
+   derivative.md
    max-likelihood.md
    mode.md
    ols.rst
