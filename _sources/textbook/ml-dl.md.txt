@@ -11,9 +11,9 @@ Books
   
 ### DL
 
-
-- [Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/) 
-- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)  
+- [Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/) 
+  by [Michael Nielsen](https://twitter.com/michael_nielsen)
 
 ### Slightly overcomplicated extras
 
