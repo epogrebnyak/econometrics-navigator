@@ -3,7 +3,6 @@ Changelog
 
 #### v.0.0.6 (late evening at the very, very end of November 2019):
 
-
 - Econometrics: rms by @f2harrell, @Verbeek
 - Blogs: @kaz_yos on clinical/biostat papers 
 - Topics: OLS baby dragons by @EpiEllie, @nickchk LOST, @ahmaurya comment on ANOVA, Tesla truck f'- (x)
