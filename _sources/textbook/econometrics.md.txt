@@ -30,8 +30,6 @@ Not econometrics:
   
 -->  
 
-
-
 Cross Section and Panel Data 
 ----------------------------
 

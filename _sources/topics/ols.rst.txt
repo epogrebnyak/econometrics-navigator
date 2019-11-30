@@ -55,3 +55,7 @@ Implementations:
    examples <https://www.kaggle.com/nicapotato/in-depth-simple-linear-regression>`__
 -  check unsorted `links about OLS <ols_links.txt>`__ - but it is not
    better than googling on your own
+
+Baby dragon special:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The cutest thread you’ll ever read about multiple linear regression 😄👇🏼👇🏼 <a href="https://t.co/3lyil1IQV5">https://t.co/3lyil1IQV5</a></p>&mdash; Ellie Murray: sleeping, dont wake til Monday (@EpiEllie) <a href="https://twitter.com/EpiEllie/status/1197762932441931777?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

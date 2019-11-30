@@ -33,7 +33,7 @@ Links
 Technical writing
 -----------------
 
-... is important, needs practice and has little substitute.
+... is important, needs practice and has little substitute. Hard to learn/teach.
 
 Some links:
 
@@ -45,18 +45,14 @@ Teaching at...?
 ---------------
 
 Just to start tracking issues in academic careers, education system and economics
-profession:
+profession.
 
 
-#### 
-
-
-#### Publishing and promotion: tyranny of top 5
+#### Publishing and promotion - tyranny of top 5
 
 [![](https://voxeu.org/sites/default/files/image/FromMay2014/moktanfig2.png)](https://voxeu.org/article/publishing-and-promotion-economics-tyranny-top-five)
 
 
-#### American colleges
+#### American colleges and equal opportunity
 
-
-
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let’s start with basics I’ve written about in many places, including all three of my books.<br><br>(1) Americans have *never* agreed on equal opportunity for education for all, let alone for higher ed.<br><br>The fact that the Pell Grant was created hardly implies consensus.</p>&mdash; Dr. Sara Goldrick-Rab (@saragoldrickrab) <a href="https://twitter.com/saragoldrickrab/status/1199797770799980546?ref_src=twsrc%5Etfw">November 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
