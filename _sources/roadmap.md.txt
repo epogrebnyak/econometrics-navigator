@@ -3,13 +3,13 @@ Changelog
 
 #### v.0.0.6 (late evening at the very, very end of November 2019):
 
-- Econometrics: rms by @f2harrell, @Verbeek
-- Blogs: @kaz_yos on clinical/biostat papers 
-- Topics: OLS baby dragons by @EpiEllie, @nickchk LOST, @ahmaurya comment on ANOVA, Tesla truck f'- (x)
-- 'Teaching at...?': @voxeu on top5 journals and @saragoldrickrab on equity in American education 
-- Prelim/math: Gilbert Strang lin alg lectures (HT @ryxcommar), neural-network math by A.C.C. - Coolen, matrix calculus by @jeremyphoward and Terence Parr (HT @iamtrask)
-- ML/DL: puzzles by Boaz Barak and textbook by @michael_nielsen
-- Software-as-a-textbook: @JASPStats manual
+- Econometrics: [rms by @f2harrell](https://epogrebnyak.github.io/econometrics-navigator/textbook/econometrics.html#biostatistics), @Verbeek
+- [Blogs](https://epogrebnyak.github.io/econometrics-navigator/blogs.html): @kaz_yos on clinical/biostat papers 
+- Topics: [OLS baby dragons](https://epogrebnyak.github.io/econometrics-navigator/gh-pages/topics/ols.html) by @EpiEllie, @nickchk [LOST](https://epogrebnyak.github.io/econometrics-navigator/gh-pages/topics/index.html), @ahmaurya comment on [ANOVA](https://epogrebnyak.github.io/econometrics-navigator/gh-pages/topics/anova.html), Tesla truck [derivatives](https://epogrebnyak.github.io/econometrics-navigator/topics/derivatives.html)
+- ['Teaching at...?'](https://epogrebnyak.github.io/econometrics-navigator/how-to-teach.html#teaching-at): @voxeu on top5 journals and @saragoldrickrab on equity in American education 
+- [Math preliniaries](https://epogrebnyak.github.io/econometrics-navigator/textbook/preliminaries.html): Gilbert Strang lin alg lectures (HT @ryxcommar), neural-network math by A.C.C. - Coolen, matrix calculus by @jeremyphoward and Terence Parr (HT @iamtrask)
+- [ML/DL](https://epogrebnyak.github.io/econometrics-navigator/textbook/ml-dl.html): puzzles by Boaz Barak and textbook by @michael_nielsen
+- [Software-as-a-textbook](https://epogrebnyak.github.io/econometrics-navigator/textbook/ways-into-econometrics.html#econometric-software-manuals): @JASPStats manual
 
 #### v.0.0.5 (November 2019):
 
