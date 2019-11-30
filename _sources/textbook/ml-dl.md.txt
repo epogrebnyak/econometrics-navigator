@@ -13,7 +13,7 @@ Books
 
 
 - [Deep Learning. Ian Goodfellow and Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/) 
-  
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)  
 
 ### Slightly overcomplicated extras
 

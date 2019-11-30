@@ -36,7 +36,7 @@ Linear Algebra
 
 [VMLS]: http://vmls-book.stanford.edu
 
-- [Gilbert Strang lectures on linear algebra][GS] get sincere 
+- [Gilbert Strang lectures on linear algebra][GS] get vocal 
   [acclaim from the former students](https://twitter.com/ryxcommar/status/1199677021816799233),
   as a kind of course that helped students gain a lot of confidence 
   in the subject.
