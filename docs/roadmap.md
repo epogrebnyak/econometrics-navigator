@@ -1,6 +1,10 @@
 Changelog
 =========
 
+#### Next release draft
+
+- ['Teaching at...?'](https://epogrebnyak.github.io/econometrics-navigator/how-to-teach.html#teaching-at): @DinaPomeranz on seminar attitudes.
+
 #### v.0.0.6 (late evening at the very, very end of November 2019):
 
 - Econometrics: [rms by @f2harrell](https://epogrebnyak.github.io/econometrics-navigator/textbook/econometrics.html#biostatistics), @Verbeek
