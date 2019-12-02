@@ -11,6 +11,7 @@ They are regularly updated.
 
 - [Matt Bogard](http://econometricsense.blogspot.com/)
 - [Francis Diebold](https://fxdiebold.blogspot.com/)
+- [Andrew Gelman and coauthors](https://statmodeling.stat.columbia.edu/)
 - [Dave Giles](https://davegiles.blogspot.com/)
 - [Rob Hyndman](https://robjhyndman.com/)
 
