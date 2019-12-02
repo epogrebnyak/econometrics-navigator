@@ -4,11 +4,16 @@ This project workflow:
 
     `inv --list` - refresh available commands
     make changes in source files
-    `inv html` - builds html files locally from markdown source
+    `inv build` - builds html files locally from markdown source
     `inv show` - display local version of the web site in browser
     `inv push` - publish website to github pages
-    commit changes in source files in source repo with usual git commands
+    Commit changes in source files in source repo with usual git commands
 
+    `inv go` combines `inv build` and `inv push`        
+"""
+
+# Removing this part of docstring form help file
+"""
 This invoke file is based on tasks.py from:
 
     https://github.com/mini-kep/parser-rosstat-kep/blob/dev/tasks.py
@@ -20,7 +25,6 @@ Original advice about Windows workaround for invoke:
 Intended to adopt best practice:
 
     https://github.com/pyinvoke/invocations
-
 """
 import sys
 import os
@@ -63,7 +67,7 @@ def clean(ctx):
 
 
 @task
-def html(ctx):
+def build(ctx):
     """Build html documentation with `sphinx-build`.
        Same as `sphinx-build -b html docs gh-pages -c .`,
        run at project root."""
@@ -90,11 +94,16 @@ def push(ctx, message="Deploy to gh-pages"):
     """Push site content to Github Pages. Use `html` command to build content."""
     commands = [f"cd {GH_PAGES_FOLDER}",
                 "git add --all",
-                # git commit -m "Deploy to gh-pages"
                 "git commit -m%s" % quote(message),
-                "git push origin gh-pages",  # remote must be set
+                "git push origin gh-pages", 
                 "cd .."]
     run_all(ctx, commands)
+
+
+@task
+def go(ctx):
+    build(ctx)
+    push(ctx)
 
 
 @task
@@ -112,7 +121,7 @@ def help(ctx):
 
 
 ns = Collection()
-for t in [clean, html, show, push, pdf, help]:
+for t in [clean, build, show, push, pdf, help, go]:
     ns.add_task(t)
 
 
