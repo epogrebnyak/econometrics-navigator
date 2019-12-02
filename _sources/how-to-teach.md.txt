@@ -56,3 +56,7 @@ profession.
 #### American colleges and equal opportunity
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let’s start with basics I’ve written about in many places, including all three of my books.<br><br>(1) Americans have *never* agreed on equal opportunity for education for all, let alone for higher ed.<br><br>The fact that the Pell Grant was created hardly implies consensus.</p>&mdash; Dr. Sara Goldrick-Rab (@saragoldrickrab) <a href="https://twitter.com/saragoldrickrab/status/1199797770799980546?ref_src=twsrc%5Etfw">November 27, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+#### Seminar attitudes
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">3 types of seminar comments/attitudes I have observed in economics:<br><br>*How can we improve the world?<br>*What can we learn?/intellectual curiosity <br>*How can I show I&#39;m smarter than you?<br><br>Let&#39;s have less of the last one.<br><br>❤</p>&mdash; Dina D. Pomeranz (@DinaPomeranz) <a href="https://twitter.com/DinaPomeranz/status/1184603549419950081?ref_src=twsrc%5Etfw">October 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

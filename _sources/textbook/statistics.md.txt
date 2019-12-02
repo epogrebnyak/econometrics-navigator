@@ -129,6 +129,16 @@ Papers
 International Journal of Mathematical Education. January 2015. Kanadpriya Basu.](https://www.researchgate.net/publication/271856948_A_short_history_of_probability_theory_and_its_applications)
 
 
+Video
+-----
+
+Placeholder:
+
+- [Andrew Gelman - Theoretical Statistics is the Theory of Applied Statistics: How to Think About What We Do](https://www.youtube.com/watch?v=cuE9eHSbjNI)
+- [Andrew Gelman - Solve All Your Statistics Problems Using P-Values](https://www.youtube.com/watch?v=ZmbrsbYwRWw)
+- [Andrew Gelman - Barcelona Data Science Meeting](https://www.youtube.com/watch?v=K7e7IHdU1Q4)
+- [Andrew Gelman - Crimes against data, Professor Andrew Gelman](https://www.youtube.com/watch?v=KS3yPw91iC0)
+
 In Russian
 ----------
 

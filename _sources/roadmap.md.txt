@@ -1,6 +1,14 @@
 Changelog
 =========
 
+#### Next release plan
+
+- DS for economists: <https://donskerclass.github.io/Forecasting.html>,
+  [Data Science for Economists](https://github.com/tyleransom/DScourseS18).
+  maybe there should be a review of this type of classes trend. 
+- [Blogs](https://epogrebnyak.github.io/econometrics-navigator/blogs.html): @StatModeling[statmodeling](https://statmodeling.stat.columbia.edu/) blog and [videos](https://epogrebnyak.github.io/econometrics-navigator/textbook/statistics.html#videos)
+- ['Teaching at...?'](https://epogrebnyak.github.io/econometrics-navigator/how-to-teach.html#teaching-at): @DinaPomeranz on seminar attitudes.
+
 #### v.0.0.6 (late evening at the very, very end of November 2019):
 
 - Econometrics: [rms by @f2harrell](https://epogrebnyak.github.io/econometrics-navigator/textbook/econometrics.html#biostatistics), @Verbeek
@@ -65,7 +73,7 @@ Roadmap
 
 ### Data science textbooks
 
-- [Data Science fo Economists](https://github.com/tyleransom/DScourseS18)
+- [Data Science for Economists](https://github.com/tyleransom/DScourseS18)
 
 ### Articles and code
 
