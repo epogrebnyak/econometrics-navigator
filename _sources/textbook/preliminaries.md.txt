@@ -75,10 +75,19 @@ going rather quickly from one-arg function derivatives to deep learning.
 Probability and statistics
 --------------------------
 
-- [Probability and Statistics Cookbook (PSC)][PSC]
+- [Probability and Statistics Cookbook (PSC)][PSC], concise reference
 
-[PSC]: http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pd
+[PSC]: http://pages.cs.wisc.edu/~tdw/files/cookbook-en.pdf
 
+
+- [Introduction to Probability](http://pi.math.cornell.edu/~web3040/amsbook.mac-probability.pdf) by Charles M. Grinstead and J. Laurie Snell
+
+- [An Introduction to Probability Theory and its Applications (Volume 1)](https://archive.org/details/AnIntroductionToProbabilityTheoryAndItsApplicationsVolume1) by William Feller
+
+
+See also:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">5 must-haves for any <a href="https://twitter.com/hashtag/Probability?src=hash&amp;ref_src=twsrc%5Etfw">#Probability</a> library:<br><br>Technical: Feller-Volume 1<br>Classic: Kolmogorov-Foundations of Prob<br>Real world: Taleb-Antifragile <a href="https://twitter.com/nntaleb?ref_src=twsrc%5Etfw">@nntaleb</a><br>Application: Grosjean-Exhibit CAA (alt. Jacobson-AAP)<br>Bio: Thorp-Man for all Mkts<br><br>What did I miss? RT/reply w your 5</p>&mdash; Harry Crane (@HarryDCrane) <a href="https://twitter.com/HarryDCrane/status/1215680156913762304?ref_src=twsrc%5Etfw">January 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Numerical computing
 --------------------
