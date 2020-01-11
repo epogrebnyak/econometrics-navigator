@@ -53,6 +53,10 @@ https://www.maa.org/press/books/when-life-is-linear-from-computer-graphics-to-br
 
 -->
 
+See also: 
+
+- [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) repository from *fast.ai*.
+
 
 Calculus
 --------
@@ -97,9 +101,15 @@ Numerical computing
 [Sci]: http://www.scipy-lectures.org
 
 
+Machine learning-related
+------------------------
+
+- [Mathematics for Machine Learning](https://mml-book.github.io/) by 
+Marc Peter Deisenroth, A Aldo Faisal, and Cheng Soon Ong
+- [A Beginner's Guide to the Mathematics of Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) by A.C.C. Coolen, HT [@iamtrask](https://twitter.com/iamtrask/status/1165911962053677057)
+
+
 Other
 -----
 
 - [140 unsorted formulas with a bit of Portugese](https://drive.google.com/file/d/0B0RLknmL54khQlhGUzFUWEtncTA/view), nice for a bulk review. Prepared by [Rubens Zimbres](https://github.com/RubensZimbres).
-- [Computational Linear Algebra](https://github.com/fastai/numerical-linear-algebra) repository from *fast.ai*.
-- [A Beginner's Guide to the Mathematics of Neural Networks](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.3556&rep=rep1&type=pdf) by A.C.C. Coolen, HT [@iamtrask](https://twitter.com/iamtrask/status/1165911962053677057)

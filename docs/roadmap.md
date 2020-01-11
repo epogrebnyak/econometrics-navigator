@@ -6,15 +6,19 @@ Changelog
 - DS for economists: <https://donskerclass.github.io/Forecasting.html>,
   [Data Science for Economists](https://github.com/tyleransom/DScourseS18).
   maybe there should be a review of this type of classes trend. 
+- Antiexamples (draft)  
 
 [blogs]: https://trics.me/blogs.html
 [textbook]: https://trics.me/textbook/
+[tweets]: https://trics.me/tweets.html
 
-#### v.0.0.7 
+#### v.0.0.7 (January 2020)
 
-- [Textbooks][textbook]: @HarryDCrane on on [Probability and statistics books](https://trics.me/textbook/preliminaries.html#probability-and-statistics)
+- [Textbooks][textbook]: @HarryDCrane on [Probability and statistics books](https://trics.me/textbook/preliminaries.html#probability-and-statistics), mml-book by @mpd37, @AnalogAldo, @ChengSoonOng.
 - [Blogs][blogs]: @StatModeling [statmodeling](https://statmodeling.stat.columbia.edu/) blog and [videos](https://trics.me/textbook/statistics.html#video)
-- ['Teaching at...?'](https://epogrebnyak.github.io/econometrics-navigator/how-to-teach.html#teaching-at): @DinaPomeranz on economics seminar attitudes.
+- ['Teaching at...?'](https://epogrebnyak.github.io/econometrics-navigator/how-to-teach.html#teaching-at): @DinaPomeranz on seminar attitudes
+- [Timeless tweets][tweets] by @TedPetrou, @FrnkNlsn, @bencasselman, @JazzArtemis, @stephenaguilar and others.
+
 
 #### v.0.0.6 (late evening at the very, very end of November 2019):
 
