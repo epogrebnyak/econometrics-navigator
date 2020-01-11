@@ -127,3 +127,6 @@ https://peterroelants.github.io/posts/linear-regression-four-ways/
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Also, in case it&#39;s useful, here is an entire overview of undergrad econometrics (no matrix algebra) in 3 pages: <a href="https://t.co/kQYrn92v7w">https://t.co/kQYrn92v7w</a> <a href="https://t.co/UBe7OZJTJh">pic.twitter.com/UBe7OZJTJh</a></p>&mdash; Tyler Ransom (@tyleransom) <a href="https://twitter.com/tyleransom/status/1085242403643183105?ref_src=twsrc%5Etfw">January 15, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
+## Microeconometrics refresher wanted
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Christmas wish: an econ online course that teaches new developments of estimation in empirical micro, in an applied way, for people who have already completed their PhD but want to keep up with latest advances. E.g. one lecture a month, with exercises. <a href="https://twitter.com/hashtag/EconTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#EconTwitter</a></p>&mdash; Dina D. Pomeranz (@DinaPomeranz) <a href="https://twitter.com/DinaPomeranz/status/1210174878273417217?ref_src=twsrc%5Etfw">December 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

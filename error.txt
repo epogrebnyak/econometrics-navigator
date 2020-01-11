@@ -1,2 +1,0 @@
-d:\anaconda3\lib\site-packages\m2r.py:652: RemovedInSphinx30Warning: app.add_source_parser() does not support suffix argument. Use app.add_source_suffix() instead.
-  app.add_source_parser('.md', M2RParser)
