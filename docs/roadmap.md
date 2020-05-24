@@ -1,16 +1,17 @@
 Changelog
 =========
 
+[blogs]: https://trics.me/blogs.html
+[textbook]: https://trics.me/textbook/
+[tweets]: https://trics.me/tweets.html
+
 ### Next release: 
 
 - DS for economists: <https://donskerclass.github.io/Forecasting.html>,
   [Data Science for Economists](https://github.com/tyleransom/DScourseS18).
-  maybe there should be a review of this type of classes trend. 
-- Antiexamples (draft)  
+- [MLE update](https://trics.me/topics/max-likelihood.html) with Julia example by @johnmyleswhite
 
-[blogs]: https://trics.me/blogs.html
-[textbook]: https://trics.me/textbook/
-[tweets]: https://trics.me/tweets.html
+#### v.0.0.7 (January 2020)
 
 #### v.0.0.7 (January 2020)
 
